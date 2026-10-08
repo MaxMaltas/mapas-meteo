@@ -1,0 +1,42 @@
+{
+  "phase": "static_real_dem_relief",
+  "status": "generated_mainland_only_pending_after_effects_reload",
+  "date": "2026-10-06",
+  "source": {
+    "dataset": "NOAA NCEI ETOPO 2022 surface elevation",
+    "resolution": "60 arc-second sampled with stride 2",
+    "west_csv_sha256": "672d8701928a37490d85ba5312c7a9862cea2c11c4b33e83fce02fdec1d3d6dc",
+    "east_csv_sha256": "905bb273929b6d4d4523ee40002f92794d276e4aaddb52967cee6c8c18cc20e1"
+  },
+  "canvas_size": [
+    1920,
+    1080
+  ],
+  "hillshade": {
+    "light_direction": "northwest",
+    "strength": 3.2,
+    "neutral_gray": 128,
+    "preview_soft_light_opacity": 28
+  },
+  "registration": {
+    "mainland_control_points": 50,
+    "province_metrics": {
+      "count": 47.0,
+      "mean_initial_distance": 18.450799743927053,
+      "maximum_initial_distance": 45.975024751040074
+    },
+    "scope": "mainland_only",
+    "balearic_islands": 0,
+    "canary_islands": 0
+  },
+  "outputs": {
+    "temperature_template/assets/static/relieve_dem.png": "976d3d07ec0353f694f4392f861d379b704295d673eb3d16e5874c9238bfef4c",
+    "temperature_template/previews/relieve_dem_preview.png": "fa77bf90b014e721e5080e1bd7e99176c62e2b492e8e880166c60201210b6d91"
+  },
+  "after_effects": {
+    "project_modified_by_this_run": false,
+    "linked_footage_path_unchanged": true,
+    "manual_user_adjustments_preserved": true,
+    "action_if_project_is_open": "reload_relieve_dem_footage"
+  }
+}

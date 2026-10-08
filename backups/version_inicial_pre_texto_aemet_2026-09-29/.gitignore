@@ -1,0 +1,8 @@
+.env
+api.txt
+__pycache__/
+*.py[cod]
+data/raw/
+data/generated/
+rmenders/
+(Material de archivo)

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mapa diario de alertas"
+  short_description: "Genera el mapa 3D diario de alertas AEMET"
+  default_prompt: "Usa $generate-daily-alert-map para descargar las alertas de hoy y crear la imagen final."

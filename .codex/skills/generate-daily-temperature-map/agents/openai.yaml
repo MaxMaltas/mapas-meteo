@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mapa termico diario"
+  short_description: "Genera el mapa termico 3D diario de AEMET"
+  default_prompt: "Usa $generate-daily-temperature-map para descargar los mapas de hoy y crear la imagen termica final."

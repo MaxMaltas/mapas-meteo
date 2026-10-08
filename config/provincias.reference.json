@@ -1,0 +1,516 @@
+{
+  "_description": "Referencia de comunidades autónomas y provincias de España. 'id' es el código INE de 5 dígitos del municipio capital, en el mismo formato que 'municipalities' de meteo.json.",
+  "comunidades": [
+    {
+      "name": "Andalucía",
+      "provincias": [
+        {
+          "code": "04",
+          "name": "Almería",
+          "capital": {
+            "id": "04013",
+            "name": "Almería"
+          }
+        },
+        {
+          "code": "11",
+          "name": "Cádiz",
+          "capital": {
+            "id": "11012",
+            "name": "Cádiz"
+          }
+        },
+        {
+          "code": "14",
+          "name": "Córdoba",
+          "capital": {
+            "id": "14021",
+            "name": "Córdoba"
+          }
+        },
+        {
+          "code": "18",
+          "name": "Granada",
+          "capital": {
+            "id": "18087",
+            "name": "Granada"
+          }
+        },
+        {
+          "code": "21",
+          "name": "Huelva",
+          "capital": {
+            "id": "21041",
+            "name": "Huelva"
+          }
+        },
+        {
+          "code": "23",
+          "name": "Jaén",
+          "capital": {
+            "id": "23050",
+            "name": "Jaén"
+          }
+        },
+        {
+          "code": "29",
+          "name": "Málaga",
+          "capital": {
+            "id": "29067",
+            "name": "Málaga"
+          }
+        },
+        {
+          "code": "41",
+          "name": "Sevilla",
+          "capital": {
+            "id": "41091",
+            "name": "Sevilla"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Aragón",
+      "provincias": [
+        {
+          "code": "22",
+          "name": "Huesca",
+          "capital": {
+            "id": "22125",
+            "name": "Huesca"
+          }
+        },
+        {
+          "code": "44",
+          "name": "Teruel",
+          "capital": {
+            "id": "44216",
+            "name": "Teruel"
+          }
+        },
+        {
+          "code": "50",
+          "name": "Zaragoza",
+          "capital": {
+            "id": "50297",
+            "name": "Zaragoza"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Principado de Asturias",
+      "provincias": [
+        {
+          "code": "33",
+          "name": "Asturias",
+          "capital": {
+            "id": "33044",
+            "name": "Oviedo"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Illes Balears",
+      "provincias": [
+        {
+          "code": "07",
+          "name": "Illes Balears",
+          "capital": {
+            "id": "07040",
+            "name": "Palma de Mallorca"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Canarias",
+      "provincias": [
+        {
+          "code": "35",
+          "name": "Las Palmas",
+          "capital": {
+            "id": "35016",
+            "name": "Las Palmas de Gran Canaria"
+          }
+        },
+        {
+          "code": "38",
+          "name": "Santa Cruz de Tenerife",
+          "capital": {
+            "id": "38038",
+            "name": "Santa Cruz de Tenerife"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cantabria",
+      "provincias": [
+        {
+          "code": "39",
+          "name": "Cantabria",
+          "capital": {
+            "id": "39075",
+            "name": "Santander"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Castilla y León",
+      "provincias": [
+        {
+          "code": "05",
+          "name": "Ávila",
+          "capital": {
+            "id": "05019",
+            "name": "Ávila"
+          }
+        },
+        {
+          "code": "09",
+          "name": "Burgos",
+          "capital": {
+            "id": "09059",
+            "name": "Burgos"
+          }
+        },
+        {
+          "code": "24",
+          "name": "León",
+          "capital": {
+            "id": "24089",
+            "name": "León"
+          }
+        },
+        {
+          "code": "34",
+          "name": "Palencia",
+          "capital": {
+            "id": "34120",
+            "name": "Palencia"
+          }
+        },
+        {
+          "code": "37",
+          "name": "Salamanca",
+          "capital": {
+            "id": "37274",
+            "name": "Salamanca"
+          }
+        },
+        {
+          "code": "40",
+          "name": "Segovia",
+          "capital": {
+            "id": "40194",
+            "name": "Segovia"
+          }
+        },
+        {
+          "code": "42",
+          "name": "Soria",
+          "capital": {
+            "id": "42173",
+            "name": "Soria"
+          }
+        },
+        {
+          "code": "47",
+          "name": "Valladolid",
+          "capital": {
+            "id": "47186",
+            "name": "Valladolid"
+          }
+        },
+        {
+          "code": "49",
+          "name": "Zamora",
+          "capital": {
+            "id": "49275",
+            "name": "Zamora"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Castilla-La Mancha",
+      "provincias": [
+        {
+          "code": "02",
+          "name": "Albacete",
+          "capital": {
+            "id": "02003",
+            "name": "Albacete"
+          }
+        },
+        {
+          "code": "13",
+          "name": "Ciudad Real",
+          "capital": {
+            "id": "13034",
+            "name": "Ciudad Real"
+          }
+        },
+        {
+          "code": "16",
+          "name": "Cuenca",
+          "capital": {
+            "id": "16078",
+            "name": "Cuenca"
+          }
+        },
+        {
+          "code": "19",
+          "name": "Guadalajara",
+          "capital": {
+            "id": "19130",
+            "name": "Guadalajara"
+          }
+        },
+        {
+          "code": "45",
+          "name": "Toledo",
+          "capital": {
+            "id": "45168",
+            "name": "Toledo"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cataluña",
+      "provincias": [
+        {
+          "code": "08",
+          "name": "Barcelona",
+          "capital": {
+            "id": "08019",
+            "name": "Barcelona"
+          }
+        },
+        {
+          "code": "17",
+          "name": "Girona",
+          "capital": {
+            "id": "17079",
+            "name": "Girona"
+          }
+        },
+        {
+          "code": "25",
+          "name": "Lleida",
+          "capital": {
+            "id": "25120",
+            "name": "Lleida"
+          }
+        },
+        {
+          "code": "43",
+          "name": "Tarragona",
+          "capital": {
+            "id": "43148",
+            "name": "Tarragona"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Comunitat Valenciana",
+      "provincias": [
+        {
+          "code": "03",
+          "name": "Alicante/Alacant",
+          "capital": {
+            "id": "03014",
+            "name": "Alicante/Alacant"
+          }
+        },
+        {
+          "code": "12",
+          "name": "Castellón/Castelló",
+          "capital": {
+            "id": "12040",
+            "name": "Castelló de la Plana"
+          }
+        },
+        {
+          "code": "46",
+          "name": "Valencia/València",
+          "capital": {
+            "id": "46250",
+            "name": "Valencia"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Extremadura",
+      "provincias": [
+        {
+          "code": "06",
+          "name": "Badajoz",
+          "capital": {
+            "id": "06015",
+            "name": "Badajoz"
+          }
+        },
+        {
+          "code": "10",
+          "name": "Cáceres",
+          "capital": {
+            "id": "10037",
+            "name": "Cáceres"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Galicia",
+      "provincias": [
+        {
+          "code": "15",
+          "name": "A Coruña",
+          "capital": {
+            "id": "15030",
+            "name": "A Coruña"
+          }
+        },
+        {
+          "code": "27",
+          "name": "Lugo",
+          "capital": {
+            "id": "27028",
+            "name": "Lugo"
+          }
+        },
+        {
+          "code": "32",
+          "name": "Ourense",
+          "capital": {
+            "id": "32054",
+            "name": "Ourense"
+          }
+        },
+        {
+          "code": "36",
+          "name": "Pontevedra",
+          "capital": {
+            "id": "36038",
+            "name": "Pontevedra"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Comunidad de Madrid",
+      "provincias": [
+        {
+          "code": "28",
+          "name": "Madrid",
+          "capital": {
+            "id": "28079",
+            "name": "Madrid"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Región de Murcia",
+      "provincias": [
+        {
+          "code": "30",
+          "name": "Murcia",
+          "capital": {
+            "id": "30030",
+            "name": "Murcia"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Comunidad Foral de Navarra",
+      "provincias": [
+        {
+          "code": "31",
+          "name": "Navarra",
+          "capital": {
+            "id": "31201",
+            "name": "Pamplona/Iruña"
+          }
+        }
+      ]
+    },
+    {
+      "name": "País Vasco",
+      "provincias": [
+        {
+          "code": "01",
+          "name": "Araba/Álava",
+          "capital": {
+            "id": "01059",
+            "name": "Vitoria-Gasteiz"
+          }
+        },
+        {
+          "code": "20",
+          "name": "Gipuzkoa",
+          "capital": {
+            "id": "20069",
+            "name": "Donostia/San Sebastián"
+          }
+        },
+        {
+          "code": "48",
+          "name": "Bizkaia",
+          "capital": {
+            "id": "48020",
+            "name": "Bilbao"
+          }
+        }
+      ]
+    },
+    {
+      "name": "La Rioja",
+      "provincias": [
+        {
+          "code": "26",
+          "name": "La Rioja",
+          "capital": {
+            "id": "26089",
+            "name": "Logroño"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ceuta",
+      "provincias": [
+        {
+          "code": "51",
+          "name": "Ceuta",
+          "capital": {
+            "id": "51001",
+            "name": "Ceuta"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Melilla",
+      "provincias": [
+        {
+          "code": "52",
+          "name": "Melilla",
+          "capital": {
+            "id": "52001",
+            "name": "Melilla"
+          }
+        }
+      ]
+    }
+  ]
+}

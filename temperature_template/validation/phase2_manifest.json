@@ -1,0 +1,65 @@
+{
+  "phase": 2,
+  "status": "complete",
+  "base": "C:\\Users\\Aruba IA\\Documents\\APPS\\Meteo\\(Material de archivo)\\bg\\TEMPERATURAS.png",
+  "base_sha256": "A0BC3D0C5D81DCD735EA8FC3AE3ADBB72F72443F9B1EDAB9700C3C5394443B6A",
+  "reference_used_for_segmentation": "C:\\Users\\Aruba IA\\Documents\\APPS\\Meteo\\data\\generated\\2026-10-06\\temperaturas_final.png",
+  "reference_role": "localizar las caras superiores; no aporta píxeles a los activos",
+  "size": [
+    1672,
+    941
+  ],
+  "difference_threshold": 24,
+  "pixel_counts": {
+    "surface": 293340,
+    "borders": 102495,
+    "sides_region": 218204
+  },
+  "outputs": {
+    "fondo_titulo.png": {
+      "path": "temperature_template/assets/static/fondo_titulo.png",
+      "sha256": "A0BC3D0C5D81DCD735EA8FC3AE3ADBB72F72443F9B1EDAB9700C3C5394443B6A"
+    },
+    "mascara_superficie.png": {
+      "path": "temperature_template/assets/static/mascara_superficie.png",
+      "sha256": "A692235BF3BE42945732623FB57B46ADFCF0AB78139E491D79E2D6B7FF39690B"
+    },
+    "superficie_original.png": {
+      "path": "temperature_template/assets/static/superficie_original.png",
+      "sha256": "026796DDFF89CFA1FF5D43E74EDFE4B41AFD6CD7846E2F04E94FFF442BD3A86B"
+    },
+    "bordes_brillos.png": {
+      "path": "temperature_template/assets/static/bordes_brillos.png",
+      "sha256": "35E02C2C1F70585603F352C1691FD78CB4EA41FDBB18FB7F2ADA4A10CF565619"
+    },
+    "laterales_sombras.png": {
+      "path": "temperature_template/assets/static/laterales_sombras.png",
+      "sha256": "0BC4EDADD765087677C93C4C3CF760C547C4FD8B6775241660F155DA81B5D77A"
+    },
+    "relieve.png": {
+      "path": "temperature_template/assets/static/relieve.png",
+      "sha256": "011A9D13BFD1444286CD09B0E5364F23B83F27948D21115908630D88B13C7699"
+    },
+    "diferencia_referencia.png": {
+      "path": "temperature_template/assets/static/diferencia_referencia.png",
+      "sha256": "05C2EF6DD3ED78454AFD9BA05BD0492CAF874F77EF5470A5068694FD2C99BD98"
+    },
+    "separacion_preview.png": {
+      "path": "temperature_template/assets/static/separacion_preview.png",
+      "sha256": "12F314E23D7D6967F260AFA1B2CADE7A8FB55A6390E3B9F92783F84ABB228631"
+    },
+    "prueba_color_plano.png": {
+      "path": "temperature_template/assets/static/prueba_color_plano.png",
+      "sha256": "DE30BB2F282432D06E6D18F457D4561395A3FA301B126EE14D0A9883F6603C69"
+    }
+  },
+  "review_required": [
+    "contorno de Galicia y costa cantábrica",
+    "Pirineos y frontera con Francia",
+    "costa mediterránea y Andalucía",
+    "Baleares",
+    "Canarias",
+    "Ceuta y Melilla",
+    "líneas internas detectadas como bordes cian"
+  ]
+}

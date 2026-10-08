@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "source_ai_sha256": "d402baa37b73e34f9870f8b308eea3f3baca4d11ac1d19dfd6817007d22a5d12",
+  "source_cap": "data/raw/2026-10-01/avisos_cap.data.tar",
+  "criterion": "Two CAP polygon parts matched to two distinct Illustrator forms by geographic position, relative displacement and area; this is a zone-code grouping, not a destructive Illustrator edit.",
+  "matched_split_zones": [
+    {"zone_code": "611101", "form_ids": ["Fm57", "Fm58"]},
+    {"zone_code": "611402", "form_ids": ["Fm61", "Fm214"]},
+    {"zone_code": "614103", "form_ids": ["Fm201", "Fm209"]},
+    {"zone_code": "645301", "form_ids": ["Fm223", "Fm224"]},
+    {"zone_code": "659101", "form_ids": ["Fm235", "Fm236"]},
+    {"zone_code": "663903", "form_ids": ["Fm89", "Fm217"]},
+    {"zone_code": "670503", "form_ids": ["Fm95", "Fm96"]},
+    {"zone_code": "673702", "form_ids": ["Fm106", "Fm210"]},
+    {"zone_code": "674701", "form_ids": ["Fm202", "Fm220"]},
+    {"zone_code": "680202", "form_ids": ["Fm181", "Fm216"]},
+    {"zone_code": "681301", "form_ids": ["Fm115", "Fm211"]},
+    {"zone_code": "694304", "form_ids": ["Fm51", "Fm215"]},
+    {"zone_code": "722801", "form_ids": ["Fm148", "Fm222"]},
+    {"zone_code": "733003", "form_ids": ["Fm183", "Fm213"]},
+    {"zone_code": "743102", "form_ids": ["Fm204", "Fm219"]},
+    {"zone_code": "754802", "form_ids": ["Fm161", "Fm218"]},
+    {"zone_code": "774601", "form_ids": ["Fm188", "Fm189"]}
+  ],
+  "conflicts": [
+    {
+      "zone_code": "674901",
+      "reason": "Sanabria: el fragmento pequeño coincide con Fm221, pero el fragmento principal todavía compite entre Fm111 y Fm145; no asignar sin revisión visual.",
+      "candidate_form_ids": ["Fm111", "Fm145", "Fm221"]
+    },
+    {"zone_code": "690803", "reason": "Prelitoral de Barcelona: no se distingue una forma propia en el área correspondiente."},
+    {"zone_code": "690804", "reason": "Litoral de Barcelona: no se distingue una forma propia en el área correspondiente."},
+    {"zone_code": "691702", "reason": "Prelitoral de Girona: no se distingue una forma propia en el área correspondiente."},
+    {"zone_code": "691703", "reason": "Ampurdán: no se distingue una forma propia en el área correspondiente."},
+    {"zone_code": "691704", "reason": "Litoral sur de Girona: no se distingue una forma propia en el área correspondiente."}
+  ]
+}

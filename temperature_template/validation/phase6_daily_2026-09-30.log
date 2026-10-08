@@ -1,0 +1,10 @@
+﻿[2026-10-07 05:14:13] Inicio. Fase=Prepare; Fecha=2026-09-30; Proyecto=C:\Users\Aruba IA\Documents\APPS\Meteo\temperature_template\validation\after_effects_tests\Mapa_Temperaturas_validacion_2026-09-30.aep
+[2026-10-07 05:14:14] Generando textura termica registrada para 2026-09-30.
+[2026-10-07 05:14:14] ERROR: No se encuentra la propiedad 'Count' en este objeto. Compruebe que existe.
+[2026-10-07 05:14:33] Inicio. Fase=Prepare; Fecha=2026-09-30; Proyecto=C:\Users\Aruba IA\Documents\APPS\Meteo\temperature_template\validation\after_effects_tests\Mapa_Temperaturas_validacion_2026-09-30.aep
+[2026-10-07 05:14:33] Generando textura termica registrada para 2026-09-30.
+[2026-10-07 05:15:04] Textura validada y solicitud de reemplazo preparada.
+[2026-10-07 05:15:04] Flujo de plantilla termica completado.
+[2026-10-07 05:15:18] Inicio. Fase=Apply; Fecha=2026-09-30; Proyecto=C:\Users\Aruba IA\Documents\APPS\Meteo\temperature_template\validation\after_effects_tests\Mapa_Temperaturas_validacion_2026-09-30.aep
+[2026-10-07 05:15:18] Enviando el reemplazo diario a After Effects.
+[2026-10-07 05:15:18] Flujo de plantilla termica completado.

@@ -1,0 +1,112 @@
+{
+  "phase": "daily_temperature_registration",
+  "status": "prototype_pending_visual_review",
+  "date": "2026-10-06",
+  "canvas_size": [
+    1920,
+    1080
+  ],
+  "inputs": {
+    "data/raw/2026-10-06/temperaturas_maximas.png": "FCE32CDCC2F9B5FFE1D78C93A7FF790BD3F376C9CBD17422524A411F8966D3A0",
+    "data/raw/2026-10-06/temperaturas_maximas_canarias.png": "7746E02BB828947F5A9C8A17A4818F592E9748551C950014FFDB87A4BCF5482D",
+    "temperature_template/assets/vector_master/mascara_temperatura.png": "90407E86FCE9D5D16A0E247771836E83A7FC4D9BEE82EF62D222110F4FF17DD9",
+    "temperature_template/assets/vector_master/provincias.png": "4EF058DDB5979436E5225A5C25433661EC0D6BA8F96D61F5B0DC432870092AEC",
+    "temperature_template/assets/vector_master/comunidades.png": "717A4A407E2FEA9D81BE7E6556C1D3774D032D7F3E78818124FE679903FDFE0E"
+  },
+  "palette": {
+    "peninsula_colours": 31,
+    "canary_colours": 31,
+    "resampling": "nearest",
+    "colour_grading": false,
+    "output_unique_colours": 15,
+    "invented_colours": 0
+  },
+  "coverage": {
+    "land_pixels": 579935,
+    "covered_pixels": 579791,
+    "missing_pixels": 144,
+    "coverage_percent": 99.97516963107934,
+    "missing_bbox": [
+      465,
+      74,
+      1543,
+      849
+    ]
+  },
+  "registration": {
+    "mainland": {
+      "method": "province_centroid_controlled_continuous_warp",
+      "source_anchors": {
+        "cabo_fisterra": [
+          73,
+          108
+        ],
+        "cabo_de_creus": [
+          500,
+          128
+        ],
+        "punta_de_tarifa": [
+          188,
+          431
+        ]
+      },
+      "destination_anchors": {
+        "cabo_fisterra": [
+          466,
+          193
+        ],
+        "cabo_de_creus": [
+          1551,
+          305
+        ],
+        "punta_de_tarifa": [
+          710,
+          1004
+        ]
+      },
+      "forward_affine": [
+        2.55671593,
+        -0.33588518,
+        315.63533646,
+        0.1480072,
+        2.44004632,
+        -81.32952769
+      ],
+      "elastic_control_points": 50,
+      "province_anchor_metrics": {
+        "count": 47.0,
+        "mean_initial_distance": 18.450799743927053,
+        "maximum_initial_distance": 45.975024751040074
+      },
+      "elastic_method": "inverse_distance_weighted_continuous_warp",
+      "control_grid_step_pixels": 8,
+      "boundary_gap_search_radius_source_pixels": 3,
+      "destination_box": [
+        465,
+        74,
+        1552,
+        1004
+      ]
+    },
+    "balearic_islands": 4,
+    "canary_islands": 7,
+    "island_strategy": "independent_nearest_neighbour"
+  },
+  "outputs": {
+    "temperatura_rellenada.png": {
+      "path": "temperature_template/assets/daily/2026-10-06/temperatura_rellenada.png",
+      "sha256": "BF9333E2B0607BB11FB44497F2865641BEA212A7BB42D6F2F5E587F023A66DE4",
+      "mode": "RGBA"
+    },
+    "temperatura_con_limites.png": {
+      "path": "temperature_template/assets/daily/2026-10-06/temperatura_con_limites.png",
+      "sha256": "B0BBFE6092BB9DE0C6F0619C99797B4E9A77BAFDC7F501F1ECD6C0F31223BA7A",
+      "mode": "RGBA"
+    },
+    "preview_registro.png": {
+      "path": "temperature_template/assets/daily/2026-10-06/preview_registro.png",
+      "sha256": "FBE221E88B854507EAE90C769E4EA33255ACE519B0125360A4C621181E878E87",
+      "mode": "RGB"
+    }
+  }
+}

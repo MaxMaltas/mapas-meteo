@@ -1,0 +1,3677 @@
+[
+  {
+    "code": "610401",
+    "name": "Valle del Almanzora y Los Vélez",
+    "part": 0,
+    "face": 166,
+    "iou": 0.732,
+    "top": [
+      {
+        "face": 166,
+        "iou": 0.732
+      },
+      {
+        "face": 167,
+        "iou": 0.03
+      },
+      {
+        "face": 136,
+        "iou": 0.03
+      }
+    ]
+  },
+  {
+    "code": "610402",
+    "name": "Nacimiento y Campo de Tabernas",
+    "part": 0,
+    "face": 172,
+    "iou": 0.252,
+    "top": [
+      {
+        "face": 172,
+        "iou": 0.252
+      },
+      {
+        "face": 166,
+        "iou": 0.168
+      },
+      {
+        "face": 168,
+        "iou": 0.036
+      }
+    ]
+  },
+  {
+    "code": "610403",
+    "name": "Poniente y Almería Capital",
+    "part": 0,
+    "face": 169,
+    "iou": 0.373,
+    "top": [
+      {
+        "face": 169,
+        "iou": 0.373
+      },
+      {
+        "face": 172,
+        "iou": 0.363
+      },
+      {
+        "face": 168,
+        "iou": 0.017
+      }
+    ]
+  },
+  {
+    "code": "610404",
+    "name": "Levante almeriense",
+    "part": 0,
+    "face": 168,
+    "iou": 0.401,
+    "top": [
+      {
+        "face": 168,
+        "iou": 0.401
+      },
+      {
+        "face": 172,
+        "iou": 0.135
+      },
+      {
+        "face": 167,
+        "iou": 0.045
+      }
+    ]
+  },
+  {
+    "code": "611101",
+    "name": "Grazalema",
+    "part": 0,
+    "face": 143,
+    "iou": 0.318,
+    "top": [
+      {
+        "face": 143,
+        "iou": 0.318
+      },
+      {
+        "face": 196,
+        "iou": 0.233
+      },
+      {
+        "face": 145,
+        "iou": 0.061
+      }
+    ]
+  },
+  {
+    "code": "611101",
+    "name": "Grazalema",
+    "part": 1,
+    "face": 197,
+    "iou": 0.164,
+    "top": [
+      {
+        "face": 197,
+        "iou": 0.164
+      },
+      {
+        "face": 196,
+        "iou": 0.08
+      },
+      {
+        "face": 179,
+        "iou": 0.057
+      }
+    ]
+  },
+  {
+    "code": "611102",
+    "name": "Campiña gaditana",
+    "part": 0,
+    "face": 142,
+    "iou": 0.585,
+    "top": [
+      {
+        "face": 142,
+        "iou": 0.585
+      },
+      {
+        "face": 196,
+        "iou": 0.102
+      },
+      {
+        "face": 143,
+        "iou": 0.101
+      }
+    ]
+  },
+  {
+    "code": "611103",
+    "name": "Litoral gaditano",
+    "part": 0,
+    "face": 141,
+    "iou": 0.241,
+    "top": [
+      {
+        "face": 141,
+        "iou": 0.241
+      },
+      {
+        "face": 142,
+        "iou": 0.2
+      },
+      {
+        "face": 180,
+        "iou": 0.082
+      }
+    ]
+  },
+  {
+    "code": "611104",
+    "name": "Estrecho",
+    "part": 0,
+    "face": 180,
+    "iou": 0.39,
+    "top": [
+      {
+        "face": 180,
+        "iou": 0.39
+      },
+      {
+        "face": 197,
+        "iou": 0.15
+      },
+      {
+        "face": 179,
+        "iou": 0.049
+      }
+    ]
+  },
+  {
+    "code": "611401",
+    "name": "Sierra y Pedroches",
+    "part": 0,
+    "face": 122,
+    "iou": 0.797,
+    "top": [
+      {
+        "face": 122,
+        "iou": 0.797
+      },
+      {
+        "face": 133,
+        "iou": 0.07
+      },
+      {
+        "face": 121,
+        "iou": 0.021
+      }
+    ]
+  },
+  {
+    "code": "611402",
+    "name": "Campiña cordobesa",
+    "part": 0,
+    "face": 133,
+    "iou": 0.727,
+    "top": [
+      {
+        "face": 133,
+        "iou": 0.727
+      },
+      {
+        "face": 148,
+        "iou": 0.059
+      },
+      {
+        "face": 122,
+        "iou": 0.022
+      }
+    ]
+  },
+  {
+    "code": "611402",
+    "name": "Campiña cordobesa",
+    "part": 1,
+    "face": 146,
+    "iou": 0.464,
+    "top": [
+      {
+        "face": 146,
+        "iou": 0.464
+      },
+      {
+        "face": 147,
+        "iou": 0.107
+      },
+      {
+        "face": 133,
+        "iou": 0.033
+      }
+    ]
+  },
+  {
+    "code": "611403",
+    "name": "Subbética cordobesa",
+    "part": 0,
+    "face": 148,
+    "iou": 0.723,
+    "top": [
+      {
+        "face": 148,
+        "iou": 0.723
+      },
+      {
+        "face": 150,
+        "iou": 0.064
+      },
+      {
+        "face": 149,
+        "iou": 0.033
+      }
+    ]
+  },
+  {
+    "code": "611801",
+    "name": "Cuenca del Genil",
+    "part": 0,
+    "face": 151,
+    "iou": 0.644,
+    "top": [
+      {
+        "face": 151,
+        "iou": 0.644
+      },
+      {
+        "face": 136,
+        "iou": 0.101
+      },
+      {
+        "face": 150,
+        "iou": 0.021
+      }
+    ]
+  },
+  {
+    "code": "611802",
+    "name": "Guadix y Baza",
+    "part": 0,
+    "face": 136,
+    "iou": 0.707,
+    "top": [
+      {
+        "face": 136,
+        "iou": 0.707
+      },
+      {
+        "face": 166,
+        "iou": 0.036
+      },
+      {
+        "face": 134,
+        "iou": 0.032
+      }
+    ]
+  },
+  {
+    "code": "611803",
+    "name": "Nevada y Alpujarras",
+    "part": 0,
+    "face": 171,
+    "iou": 0.318,
+    "top": [
+      {
+        "face": 171,
+        "iou": 0.318
+      },
+      {
+        "face": 151,
+        "iou": 0.106
+      },
+      {
+        "face": 136,
+        "iou": 0.048
+      }
+    ]
+  },
+  {
+    "code": "611804",
+    "name": "Costa granadina",
+    "part": 0,
+    "face": 170,
+    "iou": 0.159,
+    "top": [
+      {
+        "face": 171,
+        "iou": 0.468
+      },
+      {
+        "face": 170,
+        "iou": 0.159
+      },
+      {
+        "face": 169,
+        "iou": 0.041
+      }
+    ]
+  },
+  {
+    "code": "612101",
+    "name": "Aracena",
+    "part": 0,
+    "face": 129,
+    "iou": 0.819,
+    "top": [
+      {
+        "face": 129,
+        "iou": 0.819
+      },
+      {
+        "face": 131,
+        "iou": 0.041
+      },
+      {
+        "face": 130,
+        "iou": 0.014
+      }
+    ]
+  },
+  {
+    "code": "612102",
+    "name": "Andévalo y Condado",
+    "part": 0,
+    "face": 138,
+    "iou": 0.659,
+    "top": [
+      {
+        "face": 138,
+        "iou": 0.659
+      },
+      {
+        "face": 129,
+        "iou": 0.062
+      },
+      {
+        "face": 139,
+        "iou": 0.048
+      }
+    ]
+  },
+  {
+    "code": "612103",
+    "name": "Litoral de Huelva",
+    "part": 0,
+    "face": 140,
+    "iou": 0.374,
+    "top": [
+      {
+        "face": 140,
+        "iou": 0.374
+      },
+      {
+        "face": 138,
+        "iou": 0.136
+      },
+      {
+        "face": 139,
+        "iou": 0.035
+      }
+    ]
+  },
+  {
+    "code": "612301",
+    "name": "Morena y Condado",
+    "part": 0,
+    "face": 132,
+    "iou": 0.767,
+    "top": [
+      {
+        "face": 132,
+        "iou": 0.767
+      },
+      {
+        "face": 121,
+        "iou": 0.039
+      },
+      {
+        "face": 120,
+        "iou": 0.026
+      }
+    ]
+  },
+  {
+    "code": "612302",
+    "name": "Cazorla y Segura",
+    "part": 0,
+    "face": 134,
+    "iou": 0.783,
+    "top": [
+      {
+        "face": 134,
+        "iou": 0.783
+      },
+      {
+        "face": 132,
+        "iou": 0.051
+      },
+      {
+        "face": 135,
+        "iou": 0.024
+      }
+    ]
+  },
+  {
+    "code": "612303",
+    "name": "Valle del Guadalquivir de Jaén",
+    "part": 0,
+    "face": 149,
+    "iou": 0.684,
+    "top": [
+      {
+        "face": 149,
+        "iou": 0.684
+      },
+      {
+        "face": 150,
+        "iou": 0.084
+      },
+      {
+        "face": 132,
+        "iou": 0.076
+      }
+    ]
+  },
+  {
+    "code": "612304",
+    "name": "Capital y Montes de Jaén",
+    "part": 0,
+    "face": 150,
+    "iou": 0.584,
+    "top": [
+      {
+        "face": 150,
+        "iou": 0.584
+      },
+      {
+        "face": 149,
+        "iou": 0.062
+      },
+      {
+        "face": 134,
+        "iou": 0.047
+      }
+    ]
+  },
+  {
+    "code": "612901",
+    "name": "Antequera",
+    "part": 0,
+    "face": 145,
+    "iou": 0.62,
+    "top": [
+      {
+        "face": 145,
+        "iou": 0.62
+      },
+      {
+        "face": 148,
+        "iou": 0.052
+      },
+      {
+        "face": 151,
+        "iou": 0.043
+      }
+    ]
+  },
+  {
+    "code": "612902",
+    "name": "Ronda",
+    "part": 0,
+    "face": 196,
+    "iou": 0.353,
+    "top": [
+      {
+        "face": 196,
+        "iou": 0.353
+      },
+      {
+        "face": 179,
+        "iou": 0.13
+      },
+      {
+        "face": 145,
+        "iou": 0.09
+      }
+    ]
+  },
+  {
+    "code": "612903",
+    "name": "Sol y Guadalhorce",
+    "part": 0,
+    "face": 179,
+    "iou": 0.574,
+    "top": [
+      {
+        "face": 179,
+        "iou": 0.574
+      },
+      {
+        "face": 178,
+        "iou": 0.088
+      },
+      {
+        "face": 145,
+        "iou": 0.048
+      }
+    ]
+  },
+  {
+    "code": "612904",
+    "name": "Axarquía",
+    "part": 0,
+    "face": 178,
+    "iou": 0.451,
+    "top": [
+      {
+        "face": 178,
+        "iou": 0.451
+      },
+      {
+        "face": 151,
+        "iou": 0.052
+      },
+      {
+        "face": 170,
+        "iou": 0.043
+      }
+    ]
+  },
+  {
+    "code": "614101",
+    "name": "Sierra norte de Sevilla",
+    "part": 0,
+    "face": 131,
+    "iou": 0.645,
+    "top": [
+      {
+        "face": 131,
+        "iou": 0.645
+      },
+      {
+        "face": 122,
+        "iou": 0.041
+      },
+      {
+        "face": 130,
+        "iou": 0.029
+      }
+    ]
+  },
+  {
+    "code": "614102",
+    "name": "Campiña sevillana",
+    "part": 0,
+    "face": 139,
+    "iou": 0.735,
+    "top": [
+      {
+        "face": 139,
+        "iou": 0.735
+      },
+      {
+        "face": 131,
+        "iou": 0.084
+      },
+      {
+        "face": 144,
+        "iou": 0.039
+      }
+    ]
+  },
+  {
+    "code": "614103",
+    "name": "Sierra sur de Sevilla",
+    "part": 0,
+    "face": 144,
+    "iou": 0.582,
+    "top": [
+      {
+        "face": 144,
+        "iou": 0.582
+      },
+      {
+        "face": 145,
+        "iou": 0.073
+      },
+      {
+        "face": 148,
+        "iou": 0.045
+      }
+    ]
+  },
+  {
+    "code": "614103",
+    "name": "Sierra sur de Sevilla",
+    "part": 1,
+    "face": 103,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 143,
+        "iou": 0.051
+      },
+      {
+        "face": 144,
+        "iou": 0.021
+      },
+      {
+        "face": 139,
+        "iou": 0.006
+      }
+    ]
+  },
+  {
+    "code": "622201",
+    "name": "Pirineo oscense",
+    "part": 0,
+    "face": 1,
+    "iou": 0.734,
+    "top": [
+      {
+        "face": 1,
+        "iou": 0.734
+      },
+      {
+        "face": 2,
+        "iou": 0.025
+      },
+      {
+        "face": 36,
+        "iou": 0.022
+      }
+    ]
+  },
+  {
+    "code": "622202",
+    "name": "Centro de Huesca",
+    "part": 0,
+    "face": 65,
+    "iou": 0.659,
+    "top": [
+      {
+        "face": 65,
+        "iou": 0.659
+      },
+      {
+        "face": 1,
+        "iou": 0.113
+      },
+      {
+        "face": 34,
+        "iou": 0.086
+      }
+    ]
+  },
+  {
+    "code": "622203",
+    "name": "Sur de Huesca",
+    "part": 0,
+    "face": 21,
+    "iou": 0.802,
+    "top": [
+      {
+        "face": 21,
+        "iou": 0.802
+      },
+      {
+        "face": 65,
+        "iou": 0.084
+      },
+      {
+        "face": 20,
+        "iou": 0.027
+      }
+    ]
+  },
+  {
+    "code": "624401",
+    "name": "Albarracín y Jiloca",
+    "part": 0,
+    "face": 67,
+    "iou": 0.675,
+    "top": [
+      {
+        "face": 67,
+        "iou": 0.675
+      },
+      {
+        "face": 61,
+        "iou": 0.108
+      },
+      {
+        "face": 32,
+        "iou": 0.057
+      }
+    ]
+  },
+  {
+    "code": "624402",
+    "name": "Gúdar y Maestrazgo",
+    "part": 0,
+    "face": 66,
+    "iou": 0.644,
+    "top": [
+      {
+        "face": 66,
+        "iou": 0.644
+      },
+      {
+        "face": 67,
+        "iou": 0.092
+      },
+      {
+        "face": 16,
+        "iou": 0.042
+      }
+    ]
+  },
+  {
+    "code": "624403",
+    "name": "Bajo Aragón de Teruel",
+    "part": 0,
+    "face": 16,
+    "iou": 0.812,
+    "top": [
+      {
+        "face": 16,
+        "iou": 0.812
+      },
+      {
+        "face": 20,
+        "iou": 0.05
+      },
+      {
+        "face": 66,
+        "iou": 0.031
+      }
+    ]
+  },
+  {
+    "code": "625001",
+    "name": "Cinco Villas de Zaragoza",
+    "part": 0,
+    "face": 34,
+    "iou": 0.576,
+    "top": [
+      {
+        "face": 34,
+        "iou": 0.576
+      },
+      {
+        "face": 35,
+        "iou": 0.117
+      },
+      {
+        "face": 31,
+        "iou": 0.057
+      }
+    ]
+  },
+  {
+    "code": "625002",
+    "name": "Ibérica zaragozana",
+    "part": 0,
+    "face": 32,
+    "iou": 0.73,
+    "top": [
+      {
+        "face": 32,
+        "iou": 0.73
+      },
+      {
+        "face": 55,
+        "iou": 0.052
+      },
+      {
+        "face": 33,
+        "iou": 0.049
+      }
+    ]
+  },
+  {
+    "code": "625003",
+    "name": "Ribera del Ebro de Zaragoza",
+    "part": 0,
+    "face": 20,
+    "iou": 0.787,
+    "top": [
+      {
+        "face": 20,
+        "iou": 0.787
+      },
+      {
+        "face": 21,
+        "iou": 0.054
+      },
+      {
+        "face": 34,
+        "iou": 0.047
+      }
+    ]
+  },
+  {
+    "code": "633301",
+    "name": "Litoral occidental asturiano",
+    "part": 0,
+    "face": 84,
+    "iou": 0.236,
+    "top": [
+      {
+        "face": 84,
+        "iou": 0.236
+      },
+      {
+        "face": 83,
+        "iou": 0.075
+      },
+      {
+        "face": 98,
+        "iou": 0.005
+      }
+    ]
+  },
+  {
+    "code": "633302",
+    "name": "Litoral oriental asturiano",
+    "part": 0,
+    "face": 47,
+    "iou": 0.228,
+    "top": [
+      {
+        "face": 47,
+        "iou": 0.228
+      },
+      {
+        "face": 83,
+        "iou": 0.03
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "633303",
+    "name": "Suroccidental asturiana",
+    "part": 0,
+    "face": 76,
+    "iou": 0.088,
+    "top": [
+      {
+        "face": 84,
+        "iou": 0.226
+      },
+      {
+        "face": 98,
+        "iou": 0.225
+      },
+      {
+        "face": 77,
+        "iou": 0.169
+      }
+    ]
+  },
+  {
+    "code": "633304",
+    "name": "Central y Valles Mineros",
+    "part": 0,
+    "face": 83,
+    "iou": 0.349,
+    "top": [
+      {
+        "face": 83,
+        "iou": 0.349
+      },
+      {
+        "face": 80,
+        "iou": 0.199
+      },
+      {
+        "face": 76,
+        "iou": 0.151
+      }
+    ]
+  },
+  {
+    "code": "633305",
+    "name": "Cordillera y Picos de Europa",
+    "part": 0,
+    "face": 80,
+    "iou": 0.388,
+    "top": [
+      {
+        "face": 80,
+        "iou": 0.388
+      },
+      {
+        "face": 76,
+        "iou": 0.195
+      },
+      {
+        "face": 47,
+        "iou": 0.178
+      }
+    ]
+  },
+  {
+    "code": "663901",
+    "name": "Litoral cántabro",
+    "part": 0,
+    "face": 52,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 46,
+        "iou": 0.07
+      },
+      {
+        "face": 47,
+        "iou": 0.049
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "663902",
+    "name": "Liébana",
+    "part": 0,
+    "face": 75,
+    "iou": 0.23,
+    "top": [
+      {
+        "face": 75,
+        "iou": 0.23
+      },
+      {
+        "face": 73,
+        "iou": 0.032
+      },
+      {
+        "face": 47,
+        "iou": 0.029
+      }
+    ]
+  },
+  {
+    "code": "663903",
+    "name": "Centro y valle de Villaverde",
+    "part": 0,
+    "face": 46,
+    "iou": 0.341,
+    "top": [
+      {
+        "face": 46,
+        "iou": 0.341
+      },
+      {
+        "face": 45,
+        "iou": 0.191
+      },
+      {
+        "face": 73,
+        "iou": 0.127
+      }
+    ]
+  },
+  {
+    "code": "663903",
+    "name": "Centro y valle de Villaverde",
+    "part": 1,
+    "face": 45,
+    "iou": 0.017,
+    "top": [
+      {
+        "face": 46,
+        "iou": 0.019
+      },
+      {
+        "face": 45,
+        "iou": 0.017
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "663904",
+    "name": "Cantabria del Ebro",
+    "part": 0,
+    "face": 72,
+    "iou": 0.159,
+    "top": [
+      {
+        "face": 72,
+        "iou": 0.159
+      },
+      {
+        "face": 69,
+        "iou": 0.133
+      },
+      {
+        "face": 45,
+        "iou": 0.113
+      }
+    ]
+  },
+  {
+    "code": "670501",
+    "name": "Meseta de Ávila",
+    "part": 0,
+    "face": 62,
+    "iou": 0.324,
+    "top": [
+      {
+        "face": 62,
+        "iou": 0.324
+      },
+      {
+        "face": 64,
+        "iou": 0.076
+      },
+      {
+        "face": 79,
+        "iou": 0.019
+      }
+    ]
+  },
+  {
+    "code": "670502",
+    "name": "Sistema Central de Ávila",
+    "part": 0,
+    "face": 63,
+    "iou": 0.432,
+    "top": [
+      {
+        "face": 63,
+        "iou": 0.432
+      },
+      {
+        "face": 62,
+        "iou": 0.105
+      },
+      {
+        "face": 103,
+        "iou": 0.087
+      }
+    ]
+  },
+  {
+    "code": "670503",
+    "name": "Sur de Ávila",
+    "part": 0,
+    "face": 49,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 63,
+        "iou": 0.095
+      },
+      {
+        "face": 196,
+        "iou": 0.0
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "670503",
+    "name": "Sur de Ávila",
+    "part": 1,
+    "face": 106,
+    "iou": 0.012,
+    "top": [
+      {
+        "face": 63,
+        "iou": 0.195
+      },
+      {
+        "face": 107,
+        "iou": 0.179
+      },
+      {
+        "face": 102,
+        "iou": 0.014
+      }
+    ]
+  },
+  {
+    "code": "670901",
+    "name": "Cordillera Cantábrica de Burgos",
+    "part": 0,
+    "face": 69,
+    "iou": 0.341,
+    "top": [
+      {
+        "face": 69,
+        "iou": 0.341
+      },
+      {
+        "face": 45,
+        "iou": 0.162
+      },
+      {
+        "face": 72,
+        "iou": 0.084
+      }
+    ]
+  },
+  {
+    "code": "670902",
+    "name": "Norte de Burgos",
+    "part": 0,
+    "face": 48,
+    "iou": 0.337,
+    "top": [
+      {
+        "face": 48,
+        "iou": 0.337
+      },
+      {
+        "face": 45,
+        "iou": 0.177
+      },
+      {
+        "face": 68,
+        "iou": 0.149
+      }
+    ]
+  },
+  {
+    "code": "670903",
+    "name": "Condado de Treviño",
+    "part": 0,
+    "face": 41,
+    "iou": 0.171,
+    "top": [
+      {
+        "face": 41,
+        "iou": 0.171
+      },
+      {
+        "face": 52,
+        "iou": 0.128
+      },
+      {
+        "face": 48,
+        "iou": 0.004
+      }
+    ]
+  },
+  {
+    "code": "670904",
+    "name": "Meseta de Burgos",
+    "part": 0,
+    "face": 54,
+    "iou": 0.461,
+    "top": [
+      {
+        "face": 54,
+        "iou": 0.461
+      },
+      {
+        "face": 71,
+        "iou": 0.228
+      },
+      {
+        "face": 70,
+        "iou": 0.08
+      }
+    ]
+  },
+  {
+    "code": "670905",
+    "name": "Ibérica de Burgos",
+    "part": 0,
+    "face": 53,
+    "iou": 0.283,
+    "top": [
+      {
+        "face": 53,
+        "iou": 0.283
+      },
+      {
+        "face": 54,
+        "iou": 0.223
+      },
+      {
+        "face": 48,
+        "iou": 0.014
+      }
+    ]
+  },
+  {
+    "code": "672401",
+    "name": "Cordillera Cantábrica de León",
+    "part": 0,
+    "face": 74,
+    "iou": 0.28,
+    "top": [
+      {
+        "face": 74,
+        "iou": 0.28
+      },
+      {
+        "face": 75,
+        "iou": 0.166
+      },
+      {
+        "face": 99,
+        "iou": 0.152
+      }
+    ]
+  },
+  {
+    "code": "672402",
+    "name": "Bierzo de León",
+    "part": 0,
+    "face": 77,
+    "iou": 0.289,
+    "top": [
+      {
+        "face": 77,
+        "iou": 0.289
+      },
+      {
+        "face": 100,
+        "iou": 0.186
+      },
+      {
+        "face": 99,
+        "iou": 0.128
+      }
+    ]
+  },
+  {
+    "code": "672403",
+    "name": "Meseta de León",
+    "part": 0,
+    "face": 78,
+    "iou": 0.347,
+    "top": [
+      {
+        "face": 78,
+        "iou": 0.347
+      },
+      {
+        "face": 74,
+        "iou": 0.262
+      },
+      {
+        "face": 99,
+        "iou": 0.076
+      }
+    ]
+  },
+  {
+    "code": "673401",
+    "name": "Cordillera Cantábrica de Palencia",
+    "part": 0,
+    "face": 73,
+    "iou": 0.076,
+    "top": [
+      {
+        "face": 74,
+        "iou": 0.179
+      },
+      {
+        "face": 72,
+        "iou": 0.102
+      },
+      {
+        "face": 73,
+        "iou": 0.076
+      }
+    ]
+  },
+  {
+    "code": "673402",
+    "name": "Meseta de Palencia",
+    "part": 0,
+    "face": 71,
+    "iou": 0.386,
+    "top": [
+      {
+        "face": 71,
+        "iou": 0.386
+      },
+      {
+        "face": 72,
+        "iou": 0.141
+      },
+      {
+        "face": 78,
+        "iou": 0.115
+      }
+    ]
+  },
+  {
+    "code": "673701",
+    "name": "Meseta de Salamanca",
+    "part": 0,
+    "face": 64,
+    "iou": 0.544,
+    "top": [
+      {
+        "face": 64,
+        "iou": 0.544
+      },
+      {
+        "face": 81,
+        "iou": 0.032
+      },
+      {
+        "face": 128,
+        "iou": 0.032
+      }
+    ]
+  },
+  {
+    "code": "673702",
+    "name": "Sistema Central de Salamanca",
+    "part": 0,
+    "face": 174,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 128,
+        "iou": 0.25
+      },
+      {
+        "face": 64,
+        "iou": 0.079
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "673702",
+    "name": "Sistema Central de Salamanca",
+    "part": 1,
+    "face": 104,
+    "iou": 0.443,
+    "top": [
+      {
+        "face": 104,
+        "iou": 0.443
+      },
+      {
+        "face": 128,
+        "iou": 0.008
+      },
+      {
+        "face": 102,
+        "iou": 0.005
+      }
+    ]
+  },
+  {
+    "code": "673703",
+    "name": "Sur de Salamanca",
+    "part": 0,
+    "face": 128,
+    "iou": 0.404,
+    "top": [
+      {
+        "face": 128,
+        "iou": 0.404
+      },
+      {
+        "face": 104,
+        "iou": 0.078
+      },
+      {
+        "face": 102,
+        "iou": 0.046
+      }
+    ]
+  },
+  {
+    "code": "674001",
+    "name": "Meseta de Segovia",
+    "part": 0,
+    "face": 56,
+    "iou": 0.381,
+    "top": [
+      {
+        "face": 56,
+        "iou": 0.381
+      },
+      {
+        "face": 79,
+        "iou": 0.139
+      },
+      {
+        "face": 62,
+        "iou": 0.116
+      }
+    ]
+  },
+  {
+    "code": "674002",
+    "name": "Sistema Central de Segovia",
+    "part": 0,
+    "face": 59,
+    "iou": 0.095,
+    "top": [
+      {
+        "face": 56,
+        "iou": 0.375
+      },
+      {
+        "face": 59,
+        "iou": 0.095
+      },
+      {
+        "face": 63,
+        "iou": 0.039
+      }
+    ]
+  },
+  {
+    "code": "674201",
+    "name": "Ibérica de Soria",
+    "part": 0,
+    "face": 33,
+    "iou": 0.506,
+    "top": [
+      {
+        "face": 33,
+        "iou": 0.506
+      },
+      {
+        "face": 30,
+        "iou": 0.172
+      },
+      {
+        "face": 53,
+        "iou": 0.14
+      }
+    ]
+  },
+  {
+    "code": "674202",
+    "name": "Meseta de Soria",
+    "part": 0,
+    "face": 55,
+    "iou": 0.58,
+    "top": [
+      {
+        "face": 55,
+        "iou": 0.58
+      },
+      {
+        "face": 33,
+        "iou": 0.074
+      },
+      {
+        "face": 54,
+        "iou": 0.063
+      }
+    ]
+  },
+  {
+    "code": "674203",
+    "name": "Sistema Central de Soria",
+    "part": 0,
+    "face": 60,
+    "iou": 0.474,
+    "top": [
+      {
+        "face": 60,
+        "iou": 0.474
+      },
+      {
+        "face": 55,
+        "iou": 0.141
+      },
+      {
+        "face": 56,
+        "iou": 0.032
+      }
+    ]
+  },
+  {
+    "code": "674701",
+    "name": "Meseta de Valladolid",
+    "part": 0,
+    "face": 79,
+    "iou": 0.455,
+    "top": [
+      {
+        "face": 79,
+        "iou": 0.455
+      },
+      {
+        "face": 81,
+        "iou": 0.152
+      },
+      {
+        "face": 78,
+        "iou": 0.105
+      }
+    ]
+  },
+  {
+    "code": "674701",
+    "name": "Meseta de Valladolid",
+    "part": 1,
+    "face": 101,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 78,
+        "iou": 0.01
+      },
+      {
+        "face": 81,
+        "iou": 0.009
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "674901",
+    "name": "Sanabria",
+    "part": 0,
+    "face": 85,
+    "iou": 0.322,
+    "top": [
+      {
+        "face": 85,
+        "iou": 0.322
+      },
+      {
+        "face": 82,
+        "iou": 0.089
+      },
+      {
+        "face": 86,
+        "iou": 0.065
+      }
+    ]
+  },
+  {
+    "code": "674901",
+    "name": "Sanabria",
+    "part": 1,
+    "face": 82,
+    "iou": 0.027,
+    "top": [
+      {
+        "face": 82,
+        "iou": 0.027
+      },
+      {
+        "face": 196,
+        "iou": 0.0
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "674902",
+    "name": "Meseta de Zamora",
+    "part": 0,
+    "face": 81,
+    "iou": 0.554,
+    "top": [
+      {
+        "face": 81,
+        "iou": 0.554
+      },
+      {
+        "face": 82,
+        "iou": 0.092
+      },
+      {
+        "face": 85,
+        "iou": 0.023
+      }
+    ]
+  },
+  {
+    "code": "680201",
+    "name": "La Mancha albaceteña",
+    "part": 0,
+    "face": 162,
+    "iou": 0.772,
+    "top": [
+      {
+        "face": 162,
+        "iou": 0.772
+      },
+      {
+        "face": 112,
+        "iou": 0.046
+      },
+      {
+        "face": 163,
+        "iou": 0.031
+      }
+    ]
+  },
+  {
+    "code": "680202",
+    "name": "Alcaraz y Segura",
+    "part": 0,
+    "face": 135,
+    "iou": 0.763,
+    "top": [
+      {
+        "face": 135,
+        "iou": 0.763
+      },
+      {
+        "face": 162,
+        "iou": 0.047
+      },
+      {
+        "face": 134,
+        "iou": 0.032
+      }
+    ]
+  },
+  {
+    "code": "680202",
+    "name": "Alcaraz y Segura",
+    "part": 1,
+    "face": 147,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 162,
+        "iou": 0.007
+      },
+      {
+        "face": 196,
+        "iou": 0.0
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "680203",
+    "name": "Hellín y Almansa",
+    "part": 0,
+    "face": 163,
+    "iou": 0.582,
+    "top": [
+      {
+        "face": 163,
+        "iou": 0.582
+      },
+      {
+        "face": 158,
+        "iou": 0.061
+      },
+      {
+        "face": 162,
+        "iou": 0.059
+      }
+    ]
+  },
+  {
+    "code": "681301",
+    "name": "Montes del norte y Anchuras",
+    "part": 0,
+    "face": 119,
+    "iou": 0.622,
+    "top": [
+      {
+        "face": 119,
+        "iou": 0.622
+      },
+      {
+        "face": 109,
+        "iou": 0.105
+      },
+      {
+        "face": 117,
+        "iou": 0.039
+      }
+    ]
+  },
+  {
+    "code": "681301",
+    "name": "Montes del norte y Anchuras",
+    "part": 1,
+    "face": 118,
+    "iou": 0.175,
+    "top": [
+      {
+        "face": 118,
+        "iou": 0.175
+      },
+      {
+        "face": 109,
+        "iou": 0.074
+      },
+      {
+        "face": 116,
+        "iou": 0.011
+      }
+    ]
+  },
+  {
+    "code": "681302",
+    "name": "La Mancha de Ciudad Real",
+    "part": 0,
+    "face": 120,
+    "iou": 0.798,
+    "top": [
+      {
+        "face": 120,
+        "iou": 0.798
+      },
+      {
+        "face": 110,
+        "iou": 0.055
+      },
+      {
+        "face": 119,
+        "iou": 0.022
+      }
+    ]
+  },
+  {
+    "code": "681303",
+    "name": "Valle del Guadiana",
+    "part": 0,
+    "face": 124,
+    "iou": 0.638,
+    "top": [
+      {
+        "face": 124,
+        "iou": 0.638
+      },
+      {
+        "face": 117,
+        "iou": 0.074
+      },
+      {
+        "face": 121,
+        "iou": 0.063
+      }
+    ]
+  },
+  {
+    "code": "681304",
+    "name": "Sierras de Alcudia y Madrona",
+    "part": 0,
+    "face": 121,
+    "iou": 0.681,
+    "top": [
+      {
+        "face": 121,
+        "iou": 0.681
+      },
+      {
+        "face": 124,
+        "iou": 0.091
+      },
+      {
+        "face": 117,
+        "iou": 0.032
+      }
+    ]
+  },
+  {
+    "code": "681601",
+    "name": "Alcarria conquense",
+    "part": 0,
+    "face": 127,
+    "iou": 0.306,
+    "top": [
+      {
+        "face": 127,
+        "iou": 0.306
+      },
+      {
+        "face": 111,
+        "iou": 0.189
+      },
+      {
+        "face": 105,
+        "iou": 0.026
+      }
+    ]
+  },
+  {
+    "code": "681602",
+    "name": "Serranía de Cuenca",
+    "part": 0,
+    "face": 126,
+    "iou": 0.703,
+    "top": [
+      {
+        "face": 126,
+        "iou": 0.703
+      },
+      {
+        "face": 127,
+        "iou": 0.128
+      },
+      {
+        "face": 111,
+        "iou": 0.043
+      }
+    ]
+  },
+  {
+    "code": "681603",
+    "name": "La Mancha conquense",
+    "part": 0,
+    "face": 112,
+    "iou": 0.766,
+    "top": [
+      {
+        "face": 112,
+        "iou": 0.766
+      },
+      {
+        "face": 110,
+        "iou": 0.05
+      },
+      {
+        "face": 127,
+        "iou": 0.048
+      }
+    ]
+  },
+  {
+    "code": "681901",
+    "name": "Serranía de Guadalajara",
+    "part": 0,
+    "face": 57,
+    "iou": 0.547,
+    "top": [
+      {
+        "face": 57,
+        "iou": 0.547
+      },
+      {
+        "face": 60,
+        "iou": 0.153
+      },
+      {
+        "face": 59,
+        "iou": 0.055
+      }
+    ]
+  },
+  {
+    "code": "681902",
+    "name": "Parameras de Molina",
+    "part": 0,
+    "face": 61,
+    "iou": 0.575,
+    "top": [
+      {
+        "face": 61,
+        "iou": 0.575
+      },
+      {
+        "face": 60,
+        "iou": 0.072
+      },
+      {
+        "face": 57,
+        "iou": 0.037
+      }
+    ]
+  },
+  {
+    "code": "681903",
+    "name": "Alcarria de Guadalajara",
+    "part": 0,
+    "face": 111,
+    "iou": 0.6,
+    "top": [
+      {
+        "face": 111,
+        "iou": 0.6
+      },
+      {
+        "face": 57,
+        "iou": 0.096
+      },
+      {
+        "face": 58,
+        "iou": 0.065
+      }
+    ]
+  },
+  {
+    "code": "684501",
+    "name": "Sierra de San Vicente",
+    "part": 0,
+    "face": 107,
+    "iou": 0.467,
+    "top": [
+      {
+        "face": 107,
+        "iou": 0.467
+      },
+      {
+        "face": 106,
+        "iou": 0.083
+      },
+      {
+        "face": 63,
+        "iou": 0.032
+      }
+    ]
+  },
+  {
+    "code": "684502",
+    "name": "Valle del Tajo",
+    "part": 0,
+    "face": 108,
+    "iou": 0.632,
+    "top": [
+      {
+        "face": 108,
+        "iou": 0.632
+      },
+      {
+        "face": 106,
+        "iou": 0.114
+      },
+      {
+        "face": 105,
+        "iou": 0.076
+      }
+    ]
+  },
+  {
+    "code": "684503",
+    "name": "Montes de Toledo",
+    "part": 0,
+    "face": 109,
+    "iou": 0.491,
+    "top": [
+      {
+        "face": 109,
+        "iou": 0.491
+      },
+      {
+        "face": 108,
+        "iou": 0.123
+      },
+      {
+        "face": 119,
+        "iou": 0.06
+      }
+    ]
+  },
+  {
+    "code": "684504",
+    "name": "La Mancha toledana",
+    "part": 0,
+    "face": 110,
+    "iou": 0.648,
+    "top": [
+      {
+        "face": 110,
+        "iou": 0.648
+      },
+      {
+        "face": 105,
+        "iou": 0.088
+      },
+      {
+        "face": 109,
+        "iou": 0.087
+      }
+    ]
+  },
+  {
+    "code": "690801",
+    "name": "Prepirineo de Barcelona",
+    "part": 0,
+    "face": 15,
+    "iou": 0.506,
+    "top": [
+      {
+        "face": 15,
+        "iou": 0.506
+      },
+      {
+        "face": 3,
+        "iou": 0.15
+      },
+      {
+        "face": 5,
+        "iou": 0.079
+      }
+    ]
+  },
+  {
+    "code": "690802",
+    "name": "Depresión central de Barcelona",
+    "part": 0,
+    "face": 14,
+    "iou": 0.573,
+    "top": [
+      {
+        "face": 14,
+        "iou": 0.573
+      },
+      {
+        "face": 12,
+        "iou": 0.159
+      },
+      {
+        "face": 15,
+        "iou": 0.133
+      }
+    ]
+  },
+  {
+    "code": "690803",
+    "name": "Prelitoral de Barcelona",
+    "part": 0,
+    "face": 12,
+    "iou": 0.615,
+    "top": [
+      {
+        "face": 12,
+        "iou": 0.615
+      },
+      {
+        "face": 7,
+        "iou": 0.232
+      },
+      {
+        "face": 6,
+        "iou": 0.019
+      }
+    ]
+  },
+  {
+    "code": "690804",
+    "name": "Litoral de Barcelona",
+    "part": 0,
+    "face": 7,
+    "iou": 0.467,
+    "top": [
+      {
+        "face": 7,
+        "iou": 0.467
+      },
+      {
+        "face": 6,
+        "iou": 0.021
+      },
+      {
+        "face": 12,
+        "iou": 0.012
+      }
+    ]
+  },
+  {
+    "code": "691701",
+    "name": "Pirineo de Girona",
+    "part": 0,
+    "face": 3,
+    "iou": 0.554,
+    "top": [
+      {
+        "face": 3,
+        "iou": 0.554
+      },
+      {
+        "face": 5,
+        "iou": 0.098
+      },
+      {
+        "face": 4,
+        "iou": 0.082
+      }
+    ]
+  },
+  {
+    "code": "691702",
+    "name": "Prelitoral de Girona",
+    "part": 0,
+    "face": 5,
+    "iou": 0.488,
+    "top": [
+      {
+        "face": 5,
+        "iou": 0.488
+      },
+      {
+        "face": 4,
+        "iou": 0.191
+      },
+      {
+        "face": 6,
+        "iou": 0.162
+      }
+    ]
+  },
+  {
+    "code": "691703",
+    "name": "Ampurdán",
+    "part": 0,
+    "face": 4,
+    "iou": 0.471,
+    "top": [
+      {
+        "face": 4,
+        "iou": 0.471
+      },
+      {
+        "face": 196,
+        "iou": 0.0
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "691704",
+    "name": "Litoral sur de Girona",
+    "part": 0,
+    "face": 6,
+    "iou": 0.129,
+    "top": [
+      {
+        "face": 6,
+        "iou": 0.129
+      },
+      {
+        "face": 4,
+        "iou": 0.019
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "692501",
+    "name": "Valle de Arán",
+    "part": 0,
+    "face": 0,
+    "iou": 0.62,
+    "top": [
+      {
+        "face": 0,
+        "iou": 0.62
+      },
+      {
+        "face": 2,
+        "iou": 0.012
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "692502",
+    "name": "Pirineo de Lleida",
+    "part": 0,
+    "face": 2,
+    "iou": 0.833,
+    "top": [
+      {
+        "face": 2,
+        "iou": 0.833
+      },
+      {
+        "face": 0,
+        "iou": 0.04
+      },
+      {
+        "face": 15,
+        "iou": 0.035
+      }
+    ]
+  },
+  {
+    "code": "692503",
+    "name": "Depresión central de Lleida",
+    "part": 0,
+    "face": 11,
+    "iou": 0.867,
+    "top": [
+      {
+        "face": 11,
+        "iou": 0.867
+      },
+      {
+        "face": 15,
+        "iou": 0.027
+      },
+      {
+        "face": 14,
+        "iou": 0.025
+      }
+    ]
+  },
+  {
+    "code": "694301",
+    "name": "Depresión central de Tarragona",
+    "part": 0,
+    "face": 19,
+    "iou": 0.604,
+    "top": [
+      {
+        "face": 19,
+        "iou": 0.604
+      },
+      {
+        "face": 17,
+        "iou": 0.111
+      },
+      {
+        "face": 16,
+        "iou": 0.035
+      }
+    ]
+  },
+  {
+    "code": "694302",
+    "name": "Prelitoral norte de Tarragona",
+    "part": 0,
+    "face": 13,
+    "iou": 0.719,
+    "top": [
+      {
+        "face": 13,
+        "iou": 0.719
+      },
+      {
+        "face": 12,
+        "iou": 0.045
+      },
+      {
+        "face": 17,
+        "iou": 0.039
+      }
+    ]
+  },
+  {
+    "code": "694303",
+    "name": "Litoral norte de Tarragona",
+    "part": 0,
+    "face": 8,
+    "iou": 0.488,
+    "top": [
+      {
+        "face": 8,
+        "iou": 0.488
+      },
+      {
+        "face": 13,
+        "iou": 0.068
+      },
+      {
+        "face": 7,
+        "iou": 0.021
+      }
+    ]
+  },
+  {
+    "code": "694304",
+    "name": "Litoral sur de Tarragona",
+    "part": 0,
+    "face": 9,
+    "iou": 0.51,
+    "top": [
+      {
+        "face": 9,
+        "iou": 0.51
+      },
+      {
+        "face": 8,
+        "iou": 0.102
+      },
+      {
+        "face": 17,
+        "iou": 0.069
+      }
+    ]
+  },
+  {
+    "code": "694305",
+    "name": "Prelitoral sur de Tarragona",
+    "part": 0,
+    "face": 17,
+    "iou": 0.744,
+    "top": [
+      {
+        "face": 17,
+        "iou": 0.744
+      },
+      {
+        "face": 9,
+        "iou": 0.081
+      },
+      {
+        "face": 13,
+        "iou": 0.025
+      }
+    ]
+  },
+  {
+    "code": "700601",
+    "name": "Vegas del Guadiana",
+    "part": 0,
+    "face": 115,
+    "iou": 0.726,
+    "top": [
+      {
+        "face": 115,
+        "iou": 0.726
+      },
+      {
+        "face": 123,
+        "iou": 0.026
+      },
+      {
+        "face": 116,
+        "iou": 0.025
+      }
+    ]
+  },
+  {
+    "code": "700602",
+    "name": "La Siberia extremeña",
+    "part": 0,
+    "face": 117,
+    "iou": 0.595,
+    "top": [
+      {
+        "face": 117,
+        "iou": 0.595
+      },
+      {
+        "face": 116,
+        "iou": 0.093
+      },
+      {
+        "face": 118,
+        "iou": 0.03
+      }
+    ]
+  },
+  {
+    "code": "700603",
+    "name": "Barros y Serena",
+    "part": 0,
+    "face": 123,
+    "iou": 0.779,
+    "top": [
+      {
+        "face": 123,
+        "iou": 0.779
+      },
+      {
+        "face": 115,
+        "iou": 0.069
+      },
+      {
+        "face": 117,
+        "iou": 0.037
+      }
+    ]
+  },
+  {
+    "code": "700604",
+    "name": "Sur de Badajoz",
+    "part": 0,
+    "face": 130,
+    "iou": 0.797,
+    "top": [
+      {
+        "face": 130,
+        "iou": 0.797
+      },
+      {
+        "face": 123,
+        "iou": 0.069
+      },
+      {
+        "face": 129,
+        "iou": 0.021
+      }
+    ]
+  },
+  {
+    "code": "701001",
+    "name": "Norte de Cáceres",
+    "part": 0,
+    "face": 102,
+    "iou": 0.513,
+    "top": [
+      {
+        "face": 102,
+        "iou": 0.513
+      },
+      {
+        "face": 64,
+        "iou": 0.024
+      },
+      {
+        "face": 128,
+        "iou": 0.022
+      }
+    ]
+  },
+  {
+    "code": "701002",
+    "name": "Tajo y Alagón",
+    "part": 0,
+    "face": 125,
+    "iou": 0.524,
+    "top": [
+      {
+        "face": 125,
+        "iou": 0.524
+      },
+      {
+        "face": 102,
+        "iou": 0.198
+      },
+      {
+        "face": 114,
+        "iou": 0.036
+      }
+    ]
+  },
+  {
+    "code": "701003",
+    "name": "Meseta cacereña",
+    "part": 0,
+    "face": 114,
+    "iou": 0.755,
+    "top": [
+      {
+        "face": 114,
+        "iou": 0.755
+      },
+      {
+        "face": 115,
+        "iou": 0.048
+      },
+      {
+        "face": 125,
+        "iou": 0.015
+      }
+    ]
+  },
+  {
+    "code": "701004",
+    "name": "Villuercas y Montánchez",
+    "part": 0,
+    "face": 116,
+    "iou": 0.663,
+    "top": [
+      {
+        "face": 116,
+        "iou": 0.663
+      },
+      {
+        "face": 125,
+        "iou": 0.086
+      },
+      {
+        "face": 114,
+        "iou": 0.054
+      }
+    ]
+  },
+  {
+    "code": "711501",
+    "name": "Noroeste de A Coruña",
+    "part": 0,
+    "face": 96,
+    "iou": 0.198,
+    "top": [
+      {
+        "face": 96,
+        "iou": 0.198
+      },
+      {
+        "face": 94,
+        "iou": 0.149
+      },
+      {
+        "face": 97,
+        "iou": 0.025
+      }
+    ]
+  },
+  {
+    "code": "711502",
+    "name": "Oeste de A Coruña",
+    "part": 0,
+    "face": 89,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 94,
+        "iou": 0.009
+      },
+      {
+        "face": 196,
+        "iou": 0.0
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "711503",
+    "name": "Interior de A Coruña",
+    "part": 0,
+    "face": 95,
+    "iou": 0.192,
+    "top": [
+      {
+        "face": 94,
+        "iou": 0.214
+      },
+      {
+        "face": 95,
+        "iou": 0.192
+      },
+      {
+        "face": 175,
+        "iou": 0.149
+      }
+    ]
+  },
+  {
+    "code": "711504",
+    "name": "Suroeste de A Coruña",
+    "part": 0,
+    "face": 94,
+    "iou": 0.104,
+    "top": [
+      {
+        "face": 94,
+        "iou": 0.104
+      },
+      {
+        "face": 93,
+        "iou": 0.03
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "712701",
+    "name": "A Mariña",
+    "part": 0,
+    "face": 97,
+    "iou": 0.19,
+    "top": [
+      {
+        "face": 97,
+        "iou": 0.19
+      },
+      {
+        "face": 96,
+        "iou": 0.133
+      },
+      {
+        "face": 175,
+        "iou": 0.044
+      }
+    ]
+  },
+  {
+    "code": "712702",
+    "name": "Centro de Lugo",
+    "part": 0,
+    "face": 175,
+    "iou": 0.387,
+    "top": [
+      {
+        "face": 175,
+        "iou": 0.387
+      },
+      {
+        "face": 97,
+        "iou": 0.2
+      },
+      {
+        "face": 98,
+        "iou": 0.069
+      }
+    ]
+  },
+  {
+    "code": "712703",
+    "name": "Montaña de Lugo",
+    "part": 0,
+    "face": 98,
+    "iou": 0.49,
+    "top": [
+      {
+        "face": 98,
+        "iou": 0.49
+      },
+      {
+        "face": 100,
+        "iou": 0.062
+      },
+      {
+        "face": 87,
+        "iou": 0.029
+      }
+    ]
+  },
+  {
+    "code": "712704",
+    "name": "Sur de Lugo",
+    "part": 0,
+    "face": 87,
+    "iou": 0.306,
+    "top": [
+      {
+        "face": 87,
+        "iou": 0.306
+      },
+      {
+        "face": 176,
+        "iou": 0.215
+      },
+      {
+        "face": 100,
+        "iou": 0.156
+      }
+    ]
+  },
+  {
+    "code": "713201",
+    "name": "Noroeste de Ourense",
+    "part": 0,
+    "face": 90,
+    "iou": 0.258,
+    "top": [
+      {
+        "face": 90,
+        "iou": 0.258
+      },
+      {
+        "face": 87,
+        "iou": 0.169
+      },
+      {
+        "face": 176,
+        "iou": 0.025
+      }
+    ]
+  },
+  {
+    "code": "713202",
+    "name": "Miño de Ourense",
+    "part": 0,
+    "face": 176,
+    "iou": 0.106,
+    "top": [
+      {
+        "face": 90,
+        "iou": 0.268
+      },
+      {
+        "face": 87,
+        "iou": 0.146
+      },
+      {
+        "face": 176,
+        "iou": 0.106
+      }
+    ]
+  },
+  {
+    "code": "713203",
+    "name": "Sur de Ourense",
+    "part": 0,
+    "face": 86,
+    "iou": 0.268,
+    "top": [
+      {
+        "face": 86,
+        "iou": 0.268
+      },
+      {
+        "face": 88,
+        "iou": 0.112
+      },
+      {
+        "face": 87,
+        "iou": 0.057
+      }
+    ]
+  },
+  {
+    "code": "713204",
+    "name": "Montaña de Ourense",
+    "part": 0,
+    "face": 177,
+    "iou": 0.274,
+    "top": [
+      {
+        "face": 177,
+        "iou": 0.274
+      },
+      {
+        "face": 86,
+        "iou": 0.226
+      },
+      {
+        "face": 85,
+        "iou": 0.208
+      }
+    ]
+  },
+  {
+    "code": "713205",
+    "name": "Valdeorras",
+    "part": 0,
+    "face": 100,
+    "iou": 0.239,
+    "top": [
+      {
+        "face": 100,
+        "iou": 0.239
+      },
+      {
+        "face": 177,
+        "iou": 0.063
+      },
+      {
+        "face": 85,
+        "iou": 0.023
+      }
+    ]
+  },
+  {
+    "code": "713601",
+    "name": "Rias Baixas",
+    "part": 0,
+    "face": 93,
+    "iou": 0.203,
+    "top": [
+      {
+        "face": 91,
+        "iou": 0.215
+      },
+      {
+        "face": 93,
+        "iou": 0.203
+      },
+      {
+        "face": 94,
+        "iou": 0.015
+      }
+    ]
+  },
+  {
+    "code": "713602",
+    "name": "Interior de Pontevedra",
+    "part": 0,
+    "face": 92,
+    "iou": 0.296,
+    "top": [
+      {
+        "face": 92,
+        "iou": 0.296
+      },
+      {
+        "face": 91,
+        "iou": 0.142
+      },
+      {
+        "face": 93,
+        "iou": 0.126
+      }
+    ]
+  },
+  {
+    "code": "713603",
+    "name": "Miño de Pontevedra",
+    "part": 0,
+    "face": 91,
+    "iou": 0.325,
+    "top": [
+      {
+        "face": 91,
+        "iou": 0.325
+      },
+      {
+        "face": 90,
+        "iou": 0.062
+      },
+      {
+        "face": 89,
+        "iou": 0.009
+      }
+    ]
+  },
+  {
+    "code": "722801",
+    "name": "Sierra de Madrid",
+    "part": 0,
+    "face": 58,
+    "iou": 0.365,
+    "top": [
+      {
+        "face": 58,
+        "iou": 0.365
+      },
+      {
+        "face": 59,
+        "iou": 0.317
+      },
+      {
+        "face": 63,
+        "iou": 0.043
+      }
+    ]
+  },
+  {
+    "code": "722801",
+    "name": "Sierra de Madrid",
+    "part": 1,
+    "face": 70,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 63,
+        "iou": 0.008
+      },
+      {
+        "face": 196,
+        "iou": 0.0
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "722802",
+    "name": "Metropolitana y Henares",
+    "part": 0,
+    "face": 113,
+    "iou": 0.584,
+    "top": [
+      {
+        "face": 113,
+        "iou": 0.584
+      },
+      {
+        "face": 58,
+        "iou": 0.152
+      },
+      {
+        "face": 105,
+        "iou": 0.034
+      }
+    ]
+  },
+  {
+    "code": "722803",
+    "name": "Sur, Vegas y Oeste",
+    "part": 0,
+    "face": 105,
+    "iou": 0.386,
+    "top": [
+      {
+        "face": 105,
+        "iou": 0.386
+      },
+      {
+        "face": 113,
+        "iou": 0.092
+      },
+      {
+        "face": 58,
+        "iou": 0.071
+      }
+    ]
+  },
+  {
+    "code": "733001",
+    "name": "Altiplano de Murcia",
+    "part": 0,
+    "face": 165,
+    "iou": 0.697,
+    "top": [
+      {
+        "face": 165,
+        "iou": 0.697
+      },
+      {
+        "face": 163,
+        "iou": 0.115
+      },
+      {
+        "face": 164,
+        "iou": 0.008
+      }
+    ]
+  },
+  {
+    "code": "733002",
+    "name": "Noroeste de Murcia",
+    "part": 0,
+    "face": 137,
+    "iou": 0.714,
+    "top": [
+      {
+        "face": 137,
+        "iou": 0.714
+      },
+      {
+        "face": 135,
+        "iou": 0.04
+      },
+      {
+        "face": 136,
+        "iou": 0.027
+      }
+    ]
+  },
+  {
+    "code": "733003",
+    "name": "Vega del Segura",
+    "part": 0,
+    "face": 161,
+    "iou": 0.602,
+    "top": [
+      {
+        "face": 161,
+        "iou": 0.602
+      },
+      {
+        "face": 137,
+        "iou": 0.082
+      },
+      {
+        "face": 165,
+        "iou": 0.053
+      }
+    ]
+  },
+  {
+    "code": "733003",
+    "name": "Vega del Segura",
+    "part": 1,
+    "face": 88,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 161,
+        "iou": 0.013
+      },
+      {
+        "face": 196,
+        "iou": 0.0
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "733004",
+    "name": "Valle del Guadalentín, Lorca y Águilas",
+    "part": 0,
+    "face": 167,
+    "iou": 0.615,
+    "top": [
+      {
+        "face": 167,
+        "iou": 0.615
+      },
+      {
+        "face": 161,
+        "iou": 0.059
+      },
+      {
+        "face": 137,
+        "iou": 0.029
+      }
+    ]
+  },
+  {
+    "code": "733005",
+    "name": "Campo de Cartagena y Mazarrón",
+    "part": 0,
+    "face": 173,
+    "iou": 0.331,
+    "top": [
+      {
+        "face": 173,
+        "iou": 0.331
+      },
+      {
+        "face": 161,
+        "iou": 0.149
+      },
+      {
+        "face": 167,
+        "iou": 0.075
+      }
+    ]
+  },
+  {
+    "code": "743101",
+    "name": "Vertiente cantábrica de Navarra",
+    "part": 0,
+    "face": 37,
+    "iou": 0.285,
+    "top": [
+      {
+        "face": 37,
+        "iou": 0.285
+      },
+      {
+        "face": 38,
+        "iou": 0.252
+      },
+      {
+        "face": 40,
+        "iou": 0.024
+      }
+    ]
+  },
+  {
+    "code": "743102",
+    "name": "Centro de Navarra",
+    "part": 0,
+    "face": 35,
+    "iou": 0.516,
+    "top": [
+      {
+        "face": 35,
+        "iou": 0.516
+      },
+      {
+        "face": 40,
+        "iou": 0.128
+      },
+      {
+        "face": 41,
+        "iou": 0.092
+      }
+    ]
+  },
+  {
+    "code": "743102",
+    "name": "Centro de Navarra",
+    "part": 1,
+    "face": 68,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 34,
+        "iou": 0.016
+      },
+      {
+        "face": 35,
+        "iou": 0.009
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "743103",
+    "name": "Pirineo navarro",
+    "part": 0,
+    "face": 36,
+    "iou": 0.341,
+    "top": [
+      {
+        "face": 36,
+        "iou": 0.341
+      },
+      {
+        "face": 37,
+        "iou": 0.173
+      },
+      {
+        "face": 35,
+        "iou": 0.03
+      }
+    ]
+  },
+  {
+    "code": "743104",
+    "name": "Ribera del Ebro de Navarra",
+    "part": 0,
+    "face": 31,
+    "iou": 0.54,
+    "top": [
+      {
+        "face": 31,
+        "iou": 0.54
+      },
+      {
+        "face": 51,
+        "iou": 0.096
+      },
+      {
+        "face": 35,
+        "iou": 0.081
+      }
+    ]
+  },
+  {
+    "code": "750101",
+    "name": "Cuenca del Nervión",
+    "part": 0,
+    "face": 44,
+    "iou": 0.284,
+    "top": [
+      {
+        "face": 44,
+        "iou": 0.284
+      },
+      {
+        "face": 42,
+        "iou": 0.264
+      },
+      {
+        "face": 39,
+        "iou": 0.131
+      }
+    ]
+  },
+  {
+    "code": "750102",
+    "name": "Llanada alavesa",
+    "part": 0,
+    "face": 42,
+    "iou": 0.235,
+    "top": [
+      {
+        "face": 42,
+        "iou": 0.235
+      },
+      {
+        "face": 41,
+        "iou": 0.23
+      },
+      {
+        "face": 48,
+        "iou": 0.172
+      }
+    ]
+  },
+  {
+    "code": "750103",
+    "name": "Rioja alavesa",
+    "part": 0,
+    "face": 50,
+    "iou": 0.207,
+    "top": [
+      {
+        "face": 50,
+        "iou": 0.207
+      },
+      {
+        "face": 52,
+        "iou": 0.145
+      },
+      {
+        "face": 41,
+        "iou": 0.139
+      }
+    ]
+  },
+  {
+    "code": "752001",
+    "name": "Gipuzkoa litoral",
+    "part": 0,
+    "face": 38,
+    "iou": 0.062,
+    "top": [
+      {
+        "face": 43,
+        "iou": 0.082
+      },
+      {
+        "face": 38,
+        "iou": 0.062
+      },
+      {
+        "face": 197,
+        "iou": 0.0
+      }
+    ]
+  },
+  {
+    "code": "752002",
+    "name": "Gipuzkoa interior",
+    "part": 0,
+    "face": 40,
+    "iou": 0.178,
+    "top": [
+      {
+        "face": 38,
+        "iou": 0.239
+      },
+      {
+        "face": 39,
+        "iou": 0.236
+      },
+      {
+        "face": 43,
+        "iou": 0.182
+      }
+    ]
+  },
+  {
+    "code": "754801",
+    "name": "Bizkaia litoral",
+    "part": 0,
+    "face": 43,
+    "iou": 0.167,
+    "top": [
+      {
+        "face": 43,
+        "iou": 0.167
+      },
+      {
+        "face": 46,
+        "iou": 0.034
+      },
+      {
+        "face": 45,
+        "iou": 0.003
+      }
+    ]
+  },
+  {
+    "code": "754802",
+    "name": "Bizkaia interior",
+    "part": 0,
+    "face": 39,
+    "iou": 0.272,
+    "top": [
+      {
+        "face": 39,
+        "iou": 0.272
+      },
+      {
+        "face": 45,
+        "iou": 0.112
+      },
+      {
+        "face": 43,
+        "iou": 0.09
+      }
+    ]
+  },
+  {
+    "code": "754802",
+    "name": "Bizkaia interior",
+    "part": 1,
+    "face": 99,
+    "iou": 0.0,
+    "top": [
+      {
+        "face": 44,
+        "iou": 0.036
+      },
+      {
+        "face": 48,
+        "iou": 0.016
+      },
+      {
+        "face": 39,
+        "iou": 0.009
+      }
+    ]
+  },
+  {
+    "code": "762601",
+    "name": "Ribera del Ebro de La Rioja",
+    "part": 0,
+    "face": 51,
+    "iou": 0.441,
+    "top": [
+      {
+        "face": 51,
+        "iou": 0.441
+      },
+      {
+        "face": 48,
+        "iou": 0.141
+      },
+      {
+        "face": 50,
+        "iou": 0.138
+      }
+    ]
+  },
+  {
+    "code": "762602",
+    "name": "Ibérica riojana",
+    "part": 0,
+    "face": 30,
+    "iou": 0.429,
+    "top": [
+      {
+        "face": 30,
+        "iou": 0.429
+      },
+      {
+        "face": 51,
+        "iou": 0.159
+      },
+      {
+        "face": 53,
+        "iou": 0.114
+      }
+    ]
+  },
+  {
+    "code": "770301",
+    "name": "Litoral norte de Alicante",
+    "part": 0,
+    "face": 159,
+    "iou": 0.516,
+    "top": [
+      {
+        "face": 159,
+        "iou": 0.516
+      },
+      {
+        "face": 157,
+        "iou": 0.086
+      },
+      {
+        "face": 164,
+        "iou": 0.044
+      }
+    ]
+  },
+  {
+    "code": "770302",
+    "name": "Interior de Alicante",
+    "part": 0,
+    "face": 164,
+    "iou": 0.641,
+    "top": [
+      {
+        "face": 164,
+        "iou": 0.641
+      },
+      {
+        "face": 165,
+        "iou": 0.091
+      },
+      {
+        "face": 160,
+        "iou": 0.062
+      }
+    ]
+  },
+  {
+    "code": "770303",
+    "name": "Litoral sur de Alicante",
+    "part": 0,
+    "face": 160,
+    "iou": 0.62,
+    "top": [
+      {
+        "face": 160,
+        "iou": 0.62
+      },
+      {
+        "face": 161,
+        "iou": 0.063
+      },
+      {
+        "face": 159,
+        "iou": 0.031
+      }
+    ]
+  },
+  {
+    "code": "771201",
+    "name": "Interior norte de Castellón",
+    "part": 0,
+    "face": 18,
+    "iou": 0.631,
+    "top": [
+      {
+        "face": 18,
+        "iou": 0.631
+      },
+      {
+        "face": 66,
+        "iou": 0.065
+      },
+      {
+        "face": 16,
+        "iou": 0.032
+      }
+    ]
+  },
+  {
+    "code": "771202",
+    "name": "Litoral norte de Castellón",
+    "part": 0,
+    "face": 10,
+    "iou": 0.578,
+    "top": [
+      {
+        "face": 10,
+        "iou": 0.578
+      },
+      {
+        "face": 18,
+        "iou": 0.073
+      },
+      {
+        "face": 17,
+        "iou": 0.004
+      }
+    ]
+  },
+  {
+    "code": "771203",
+    "name": "Interior sur de Castellón",
+    "part": 0,
+    "face": 153,
+    "iou": 0.738,
+    "top": [
+      {
+        "face": 153,
+        "iou": 0.738
+      },
+      {
+        "face": 18,
+        "iou": 0.07
+      },
+      {
+        "face": 66,
+        "iou": 0.052
+      }
+    ]
+  },
+  {
+    "code": "771204",
+    "name": "Litoral sur de Castellón",
+    "part": 0,
+    "face": 154,
+    "iou": 0.541,
+    "top": [
+      {
+        "face": 154,
+        "iou": 0.541
+      },
+      {
+        "face": 153,
+        "iou": 0.079
+      },
+      {
+        "face": 18,
+        "iou": 0.061
+      }
+    ]
+  },
+  {
+    "code": "774601",
+    "name": "Interior norte de Valencia",
+    "part": 0,
+    "face": 152,
+    "iou": 0.747,
+    "top": [
+      {
+        "face": 152,
+        "iou": 0.747
+      },
+      {
+        "face": 126,
+        "iou": 0.052
+      },
+      {
+        "face": 156,
+        "iou": 0.051
+      }
+    ]
+  },
+  {
+    "code": "774601",
+    "name": "Interior norte de Valencia",
+    "part": 1,
+    "face": 155,
+    "iou": 0.429,
+    "top": [
+      {
+        "face": 155,
+        "iou": 0.429
+      },
+      {
+        "face": 67,
+        "iou": 0.023
+      },
+      {
+        "face": 66,
+        "iou": 0.018
+      }
+    ]
+  },
+  {
+    "code": "774602",
+    "name": "Litoral norte de Valencia",
+    "part": 0,
+    "face": 156,
+    "iou": 0.64,
+    "top": [
+      {
+        "face": 156,
+        "iou": 0.64
+      },
+      {
+        "face": 154,
+        "iou": 0.05
+      },
+      {
+        "face": 153,
+        "iou": 0.047
+      }
+    ]
+  },
+  {
+    "code": "774603",
+    "name": "Interior sur de Valencia",
+    "part": 0,
+    "face": 158,
+    "iou": 0.767,
+    "top": [
+      {
+        "face": 158,
+        "iou": 0.767
+      },
+      {
+        "face": 157,
+        "iou": 0.082
+      },
+      {
+        "face": 162,
+        "iou": 0.019
+      }
+    ]
+  },
+  {
+    "code": "774604",
+    "name": "Litoral sur de Valencia",
+    "part": 0,
+    "face": 157,
+    "iou": 0.587,
+    "top": [
+      {
+        "face": 157,
+        "iou": 0.587
+      },
+      {
+        "face": 158,
+        "iou": 0.061
+      },
+      {
+        "face": 156,
+        "iou": 0.046
+      }
+    ]
+  }
+]

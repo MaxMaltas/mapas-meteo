@@ -1,0 +1,53 @@
+Informe creado: 
+	25/09/2026	8:52:07
+
+Nombre del proyecto: METEO FINAL.aep
+
+Archivos de origen recopilados en: 
+	C:\Users\Aruba\Desktop\METEO FINAL carpeta
+
+Archivos de origen recopilados: Todo
+
+Comp. recopiladas:  
+	ALERTAS
+	TEMPERATURAS
+	PREVISION
+	DOBLE
+	TEMP
+	num temp 
+	pasits
+	
+Número de archivos recopilados: 14
+
+Tamaño de los archivos recopilados: 417 MB
+
+Archivos de origen recopilados: 
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\bg\ALERTAS.png
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\bg\DOBLE.png
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\bg\PREVISION.png
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\bg\TEMP.png
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\SIMBOLOS\LLUVIA.mov
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\SIMBOLOS\NIEVE.mov
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\SIMBOLOS\NUBE.mov
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\SIMBOLOS\NUBES ALTAS.mov
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\SIMBOLOS\SOL NUEBE.mov
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\SIMBOLOS\SOL.mov
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\SIMBOLOS\TORMENTA.mov
+	C:\Users\Aruba\Desktop\METEO 2026\NUEVA LINEA\SIMBOLOS\VENT.mov
+	C:\Users\Aruba\Downloads\ChatGPT Image 24 sept 2026, 11_40_12.png
+	C:\Users\Aruba\Downloads\ChatGPT Image 24 sept 2026, 11_52_15.png
+	
+Procesando plugins:
+	Classic 3D
+	
+Efectos utilizados: 2
+
+Efecto: Barrido lineal
+	
+Efecto: Transformar
+	
+
+Capa: Capa de texto
+	Dependencias externas: 
+		Familia de fuentes: “Proxima Nova”, estilo de fuente: “Extrabold”
+

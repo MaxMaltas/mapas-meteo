@@ -1,0 +1,26 @@
+[
+  {
+    "id": 28079,
+    "nombre": "Madrid",
+    "prediccion": {
+      "dia": [
+        {
+          "fecha": "2026-09-25T00:00:00",
+          "temperatura": {"maxima": 31, "minima": 17},
+          "estadoCielo": [{"value": "11", "periodo": "00-24", "descripcion": "Despejado"}]
+        },
+        {
+          "fecha": "2026-09-26T00:00:00",
+          "temperatura": {"maxima": 30, "minima": 16},
+          "estadoCielo": [{"value": "13", "periodo": "12-18", "descripcion": "Intervalos nubosos"}]
+        },
+        {
+          "fecha": "2026-09-27T00:00:00",
+          "temperatura": {"maxima": 27, "minima": 15},
+          "estadoCielo": [{"value": "45", "periodo": "12-18", "descripcion": "Lluvia"}]
+        }
+      ]
+    }
+  }
+]
+

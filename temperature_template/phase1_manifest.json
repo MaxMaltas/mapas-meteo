@@ -1,0 +1,43 @@
+{
+  "phase": 1,
+  "status": "complete",
+  "created_on": "2026-10-06",
+  "workspace": "C:/Users/Aruba IA/Documents/APPS/Meteo",
+  "backup_root": "backups/temperature_template_phase1_2026-10-06",
+  "immutable_inputs": [
+    {
+      "path": "METEO FINAL.aep",
+      "backup": "backups/temperature_template_phase1_2026-10-06/METEO FINAL.aep",
+      "size_bytes": 2953515,
+      "sha256": "FAA30A1EF1836C0CC77017A74752FD7D44F9C6F91B055D6C343CD700498C2C4F"
+    },
+    {
+      "path": "(Material de archivo)/bg/TEMPERATURAS.png",
+      "backup": "backups/temperature_template_phase1_2026-10-06/base/TEMPERATURAS.png",
+      "size_bytes": 1765588,
+      "sha256": "A0BC3D0C5D81DCD735EA8FC3AE3ADBB72F72443F9B1EDAB9700C3C5394443B6A"
+    }
+  ],
+  "protected_pipeline_files": [
+    {
+      "path": "tools/apply_daily_data.jsx",
+      "backup": "backups/temperature_template_phase1_2026-10-06/tools/apply_daily_data.jsx",
+      "sha256": "7024DBD3D743758E4EB03C24F9BF5578F1648912F687DB6C602DB82B9DD872A9"
+    },
+    {
+      "path": "scripts/generate_daily.py",
+      "backup": "backups/temperature_template_phase1_2026-10-06/scripts/generate_daily.py",
+      "sha256": "B2810CA697FCCD7E621BE02AB5B3260E47F433B970CB621B4964EB1E2BEA1EA3"
+    },
+    {
+      "path": "config/meteo.json",
+      "backup": "backups/temperature_template_phase1_2026-10-06/config/meteo.json",
+      "sha256": "850C250EB002314B00A08D1F0E3871D4BC595F3726077D4FB9FBD9FB64BCEFB8"
+    }
+  ],
+  "verification": {
+    "algorithm": "SHA-256",
+    "all_backups_match_sources": true
+  }
+}
+

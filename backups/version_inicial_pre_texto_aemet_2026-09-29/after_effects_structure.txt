@@ -1,0 +1,225 @@
+PROJECT	
+ITEMS	25
+FOLDER	bg
+FOOTAGE	ALERTAS.png	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\bg\ALERTAS.png	1672x941
+FOOTAGE	DOBLE.png	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\bg\DOBLE.png	1920x1080
+FOOTAGE	PREVISION.png	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\bg\PREVISION.png	1672x941
+FOOTAGE	TEMP.png	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\bg\TEMP.png	1672x941
+FOLDER	MATERIAL
+
+COMP	num temp 	1920x1080	duration=60.88	fps=25	layers=17
+  LAYER	1	TextLayer	34	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=405.361360721552,831.352197047151,0	scale=93,93,100	rotation=0
+    TEXT	34	font=ProximaNova-Extrabld	size=94
+  LAYER	2	TextLayer	10284	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=592.742937259638,844.385613795198,0	scale=93,93,100	rotation=0
+    TEXT	31	font=ProximaNova-Extrabld	size=94
+  LAYER	3	TextLayer	10275	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=959.005159549677,841.562981959261,0	scale=93,93,100	rotation=0
+    TEXT	37	font=ProximaNova-Extrabld	size=94
+  LAYER	4	TextLayer	10278	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1204.71209924694,869.326485987581,0	scale=93,93,100	rotation=0
+    TEXT	30	font=ProximaNova-Extrabld	size=94
+  LAYER	5	TextLayer	38	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=927.688966922724,631.948586817659,0	scale=93,93,100	rotation=0
+    TEXT	38	font=ProximaNova-Extrabld	size=94
+  LAYER	6	TextLayer	10283	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1383.01031702038,784.647820826448,0	scale=93,93,100	rotation=0
+    TEXT	30	font=ProximaNova-Extrabld	size=94
+  LAYER	7	TextLayer	10270	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1159.51416223522,694.416451807893,0	scale=93,93,100	rotation=0
+    TEXT	37	font=ProximaNova-Extrabld	size=94
+  LAYER	8	TextLayer	 27 	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1430.2082540321,595.856042261995,0	scale=93,93,100	rotation=0
+    TEXT	 27 	font=ProximaNova-Extrabld	size=94
+  LAYER	9	TextLayer	29	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1714.78409021374,509.789208765901,0	scale=93,93,100	rotation=0
+    TEXT	29	font=ProximaNova-Extrabld	size=94
+  LAYER	10	TextLayer	10271	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1645.37535303112,352.92545449344,0	scale=93,93,100	rotation=0
+    TEXT	29	font=ProximaNova-Extrabld	size=94
+  LAYER	11	TextLayer	10282	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1371.90490930554,355.701806422151,0	scale=93,93,100	rotation=0
+    TEXT	30	font=ProximaNova-Extrabld	size=94
+  LAYER	12	TextLayer	 34  	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1152.57329004284,483.413888331331,0	scale=93,93,100	rotation=0
+    TEXT	 34  	font=ProximaNova-Extrabld	size=94
+  LAYER	13	TextLayer	30	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1035.96660058972,350.92545449344,0	scale=93,93,100	rotation=0
+    TEXT	30	font=ProximaNova-Extrabld	size=94
+  LAYER	14	TextLayer	31	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1255.92122095104,217.286553736604,0	scale=93,93,100	rotation=0
+    TEXT	31	font=ProximaNova-Extrabld	size=94
+  LAYER	15	TextLayer	25	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1017.30850427624,176.627251978792,0	scale=93,93,100	rotation=0
+    TEXT	25	font=ProximaNova-Extrabld	size=94
+  LAYER	16	TextLayer	37	source=	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=790.259660892451,211.331628199495,0	scale=93,93,100	rotation=0
+    TEXT	37	font=ProximaNova-Extrabld	size=94
+  LAYER	17	AVLayer	pasits	source=pasits	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=960,540,0	scale=100,100,100	rotation=0
+    EFFECT	Transformar	match=ADBE Geometry2
+
+COMP	pasits	1920x1080	duration=60.88	fps=25	layers=16
+  LAYER	1	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=406.33415222168,796.036010742188,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+    EFFECT	Transformar	match=ADBE Geometry2
+  LAYER	2	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=594.514083862305,808.457611083984,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	3	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=957.999969482422,805.634994506836,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	4	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1203.70690917969,832.010314941406,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	5	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1382.00511169434,747.331649780273,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	6	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1160.67349243164,657.100280761719,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	7	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=928.848297119141,594.632415771484,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	8	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1035.73776245117,315.609268188477,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	9	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1152.3444519043,446.097702026367,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	10	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1431.3675994873,558.53987121582,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	11	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1713.16709899902,475.249374389648,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	12	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1646.53471374512,316.997436523438,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	13	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1371.67610168457,318.385604858398,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	14	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1253.68124389648,180.956298828125,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	15	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1016.30334472656,139.311050415039,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+  LAYER	16	AVLayer	Sólido Blanco 2	source=Sólido Blanco 2	in=0	out=60.88	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=791.419021606445,174.015426635742,0	scale=7.29575039431801,9.56431493179162,100	rotation=0
+FOOTAGE	ChatGPT Image 24 sept 2026, 11_40_12.png	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\MATERIAL\ChatGPT Image 24 sept 2026, 11_40_12.png	1672x941
+FOOTAGE	ChatGPT Image 24 sept 2026, 11_52_15.png	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\MATERIAL\ChatGPT Image 24 sept 2026, 11_52_15.png	1672x941
+FOOTAGE	Sólido Blanco 2		1920x1080
+FOLDER	SIMBOLOS
+FOOTAGE	LLUVIA.mov	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\SIMBOLOS\LLUVIA.mov	680x592
+FOOTAGE	NIEVE.mov	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\SIMBOLOS\NIEVE.mov	680x592
+FOOTAGE	NUBE.mov	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\SIMBOLOS\NUBE.mov	680x592
+FOOTAGE	NUBES ALTAS.mov	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\SIMBOLOS\NUBES ALTAS.mov	680x592
+FOOTAGE	SOL NUEBE.mov	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\SIMBOLOS\SOL NUEBE.mov	680x592
+FOOTAGE	SOL.mov	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\SIMBOLOS\SOL.mov	680x592
+FOOTAGE	TORMENTA.mov	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\SIMBOLOS\TORMENTA.mov	680x592
+FOOTAGE	VENT.mov	C:\Users\Aruba IA\Documents\APPS\Meteo\(Material de archivo)\SIMBOLOS\VENT.mov	680x592
+
+COMP	ALERTAS	1920x1080	duration=70.04	fps=25	layers=1
+  LAYER	1	AVLayer	ChatGPT Image 24 sept 2026, 11_40_12.png	source=ChatGPT Image 24 sept 2026, 11_40_12.png	in=0	out=70.04	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=974.852661132812,489.442047119141,0	scale=125.832535885167,125.765674814028,100	rotation=0
+
+COMP	DOBLE	1920x1080	duration=70.04	fps=25	layers=31
+  LAYER	1	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1209.01196015443,292.27637214059,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	2	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1389.67999895255,293.63879041099,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	3	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1435.09253523015,537.658093647417,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	4	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1092.13925447621,668.21893506143,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	5	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1641.05441099541,544.677923794373,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	6	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1816.4274591489,472.567116885957,3.21593155049085	scale=49,49,49	rotation=0
+  LAYER	7	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1554.40020352289,302.074301163103,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	8	AVLayer	LLUVIA.mov	source=LLUVIA.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1759.43831607079,320.820291173065,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	9	AVLayer	NUBES ALTAS.mov	source=NUBES ALTAS.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1468.49363692076,436.15620618313,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	10	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1325.13552350133,395.322947897978,3.2159310373785	scale=49,49,49	rotation=0
+  LAYER	11	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1254.72844159528,512.239927774187,3.21593100800766	scale=49,49,49	rotation=0
+  LAYER	12	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1507.07173335449,635.468155017653,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	13	AVLayer	NUBE.mov	source=NUBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1621.71937966171,425.599505321938,3.21593155370334	scale=41,41,41	rotation=0
+  LAYER	14	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1293.2616190126,652.120772751393,3.21593162437575	scale=49,49,49	rotation=0
+  LAYER	15	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=287.719155666797,292.27637214059,0	scale=49,49,49	rotation=0
+  LAYER	16	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=468.387194464917,293.63879041099,0	scale=49,49,49	rotation=0
+  LAYER	17	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=513.799730742514,537.658093647417,0	scale=49,49,49	rotation=0
+  LAYER	18	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=170.846449988575,668.21893506143,0	scale=49,49,49	rotation=0
+  LAYER	19	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=719.761606507774,544.677923794373,0	scale=49,49,49	rotation=0
+  LAYER	20	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=895.134654661271,472.567116885957,-7.38849010180689e-8	scale=49,49,49	rotation=0
+  LAYER	21	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=633.107399035262,302.074301163103,0	scale=49,49,49	rotation=0
+  LAYER	22	AVLayer	LLUVIA.mov	source=LLUVIA.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=838.145511583158,320.820291173065,0	scale=49,49,49	rotation=0
+  LAYER	23	AVLayer	NUBES ALTAS.mov	source=NUBES ALTAS.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=547.200832433129,436.15620618313,0	scale=49,49,49	rotation=0
+  LAYER	24	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=403.842719013695,395.322947897978,-5.86997245657944e-7	scale=49,49,49	rotation=0
+  LAYER	25	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=333.435637107651,512.239927774187,-6.16368092565267e-7	scale=49,49,49	rotation=0
+  LAYER	26	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=585.778928866857,635.468155017653,0	scale=49,49,49	rotation=0
+  LAYER	27	AVLayer	NUBE.mov	source=NUBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=700.42657517408,425.599505321938,-7.06724071412287e-8	scale=41,41,41	rotation=0
+  LAYER	28	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=371.968814524967,652.120772751393,0	scale=49,49,49	rotation=0
+  LAYER	29	TextLayer	miércoles	source=	in=0	out=70.04	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=1191.0630483438,254.932964340868,0	scale=120,120,100	rotation=0
+    TEXT	miércoles	font=ProximaNova-Extrabld	size=111
+    MASKS	1
+  LAYER	30	TextLayer	martes	source=	in=0	out=70.04	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=347.345992069387,263.420207993212,0	scale=120,120,100	rotation=0
+    TEXT	martes	font=ProximaNova-Extrabld	size=111
+    MASKS	1
+  LAYER	31	AVLayer	DOBLE.png	source=DOBLE.png	in=0	out=70.04	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=960,540,0	scale=100,100,100	rotation=0
+
+COMP	PREVISION	1920x1080	duration=70.04	fps=25	layers=15
+  LAYER	1	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=303.715641444841,841.543336788162,0	scale=76,76,76	rotation=0
+  LAYER	2	AVLayer	NUBE.mov	source=NUBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=995.587417602539,865.697418212891,0	scale=68,68,68	rotation=0
+  LAYER	3	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=743.092330932617,899.646331787109,0	scale=76,76,76	rotation=0
+  LAYER	4	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1241.7170715332,710.805465698242,0	scale=76,76,76	rotation=0
+  LAYER	5	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=972.247528076172,678.978363037109,0	scale=76,76,76	rotation=0
+  LAYER	6	AVLayer	NUBES ALTAS.mov	source=NUBES ALTAS.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=711.265213012695,700.196441650391,0	scale=76,76,76	rotation=0
+  LAYER	7	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1610.70420128731,578.743096429097,0	scale=76,76,76	rotation=0
+  LAYER	8	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1248.08248901367,483.772079467773,0	scale=76,76,76	rotation=0
+  LAYER	9	AVLayer	LLUVIA.mov	source=LLUVIA.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1006.19644165039,445.579559326172,0	scale=76,76,76	rotation=0
+  LAYER	10	AVLayer	SOL NUEBE.mov	source=SOL NUEBE.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=706.561874389648,494.381118774414,0	scale=76,76,76	rotation=0
+  LAYER	11	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1468.29071044922,372.801559448242,0	scale=76,76,76	rotation=0
+  LAYER	12	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=1211.55201721191,306.609024047852,0	scale=76,76,76	rotation=0
+  LAYER	13	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=920.864410400391,289.634567260742,0	scale=76,76,76	rotation=0
+  LAYER	14	AVLayer	SOL.mov	source=SOL.mov	in=0	out=10	start=0	3d=true	enabled=true	parent=
+    TRANSFORM	position=657.760299682617,293.878189086914,0	scale=76,76,76	rotation=0
+  LAYER	15	AVLayer	PREVISION.png	source=PREVISION.png	in=0	out=70.04	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=972.730850219727,504.294692993164,0	scale=125.832535885167,125.765674814028,100	rotation=0
+
+COMP	TEMP	1920x1080	duration=70.04	fps=25	layers=2
+  LAYER	1	AVLayer	num temp 	source=num temp 	in=-0.04	out=83.92	start=-0.04	3d=true	enabled=true	parent=
+    TRANSFORM	position=939.87154565147,614.890348228083,110.881861354607	scale=100,100,100	rotation=1
+    EFFECT	Linear Wipe	match=ADBE Linear Wipe
+    KEYFRAMES	num temp /Remapeo de tiempo	2
+    KEYFRAMES	num temp /Efectos/Linear Wipe/Finalización transición	2
+  LAYER	2	AVLayer	ChatGPT Image 24 sept 2026, 11_52_15.png	source=ChatGPT Image 24 sept 2026, 11_52_15.png	in=0	out=70.04	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=972.730850219727,504.294692993164,0	scale=125.832535885167,125.765674814028,100	rotation=0
+
+COMP	TEMPERATURAS	1920x1080	duration=70.04	fps=25	layers=1
+  LAYER	1	AVLayer	TEMP.png	source=TEMP.png	in=0	out=70.04	start=0	3d=false	enabled=true	parent=
+    TRANSFORM	position=972.730850219727,504.294692993164,0	scale=125.832535885167,125.765674814028,100	rotation=0

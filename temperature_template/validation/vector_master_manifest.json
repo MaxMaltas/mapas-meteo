@@ -1,0 +1,78 @@
+{
+  "phase": "clean_map_master",
+  "status": "ready_for_visual_review",
+  "created_on": "2026-10-06",
+  "size": [
+    1920,
+    1080
+  ],
+  "source_clean_png": "temperature_template/references/MAPA_ALERTAS_ILUSTRATOR.png",
+  "source_clean_png_sha256": "1A218C2C952A7080CC241054C592C3772F52B3DD0589E349ECF5ED4B61F667B1",
+  "source_clean_png_size": [
+    1339,
+    931
+  ],
+  "placement_offset": [
+    290,
+    74
+  ],
+  "illustrator_current_sha256": "2C02CF73B9FF75F184B0989BA2CF07150214359D675227F21FB55E3987074A7A",
+  "geometry_snapshot_source_sha256": "2C02CF73B9FF75F184B0989BA2CF07150214359D675227F21FB55E3987074A7A",
+  "illustrator_matches_geometry_snapshot": true,
+  "warning": null,
+  "validation": {
+    "land_pixels": 579935,
+    "province_pixels": 7984,
+    "community_pixels": 20805,
+    "land_bbox": [
+      291,
+      74,
+      1628,
+      1004
+    ],
+    "province_bbox": [
+      509,
+      82,
+      1505,
+      971
+    ],
+    "community_bbox": [
+      291,
+      74,
+      1629,
+      1005
+    ]
+  },
+  "outputs": {
+    "mascara_temperatura.png": {
+      "path": "temperature_template/assets/vector_master/mascara_temperatura.png",
+      "mode": "L",
+      "sha256": "90407E86FCE9D5D16A0E247771836E83A7FC4D9BEE82EF62D222110F4FF17DD9"
+    },
+    "tierra.png": {
+      "path": "temperature_template/assets/vector_master/tierra.png",
+      "mode": "RGBA",
+      "sha256": "138DB3CED69E940F9CAAF0B73A3744BEC3EE78E0E951FC59E708080559D66419"
+    },
+    "provincias.png": {
+      "path": "temperature_template/assets/vector_master/provincias.png",
+      "mode": "RGBA",
+      "sha256": "821C3A9C7B3804ABE9ED4D7E38D44CF2BD70AB82883E60A504B5A914087E760B"
+    },
+    "comunidades.png": {
+      "path": "temperature_template/assets/vector_master/comunidades.png",
+      "mode": "RGBA",
+      "sha256": "97D9F57290B92E9D932162D42CDC6FAB53BD3274FEAF0282ACEC1F318B48FB99"
+    },
+    "mapa_maestro_transparente.png": {
+      "path": "temperature_template/assets/vector_master/mapa_maestro_transparente.png",
+      "mode": "RGBA",
+      "sha256": "F4062F6C2F793029D8C6D610E8E555D34EE741C9D1ECBA9D010DE05D77A06265"
+    },
+    "mapa_maestro_preview.png": {
+      "path": "temperature_template/assets/vector_master/mapa_maestro_preview.png",
+      "mode": "RGB",
+      "sha256": "923354C880E46957DFC40DA396AE6DEAC2002ACBC36EE1613C22BE1AFDB01FA2"
+    }
+  }
+}

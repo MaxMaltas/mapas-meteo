@@ -1,0 +1,15 @@
+[
+  {
+    "id": "28079",
+    "nombre": "Madrid",
+    "prediccion": {
+      "dia": [
+        {
+          "fecha": "2026-09-26T00:00:00",
+          "estadoCielo": [{"value": "12", "periodo": "12", "descripcion": "Poco nuboso"}]
+        }
+      ]
+    }
+  }
+]
+

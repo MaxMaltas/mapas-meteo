@@ -1,0 +1,4102 @@
+[
+  {
+    "code": "645401",
+    "name": "Sierra Tramontana",
+    "form_id": "Fm225",
+    "cost": 0.23,
+    "top": [
+      [
+        0.23,
+        "Fm225"
+      ],
+      [
+        1.58,
+        "Fm227"
+      ],
+      [
+        1.68,
+        "Fm228"
+      ],
+      [
+        1.88,
+        "Fm226"
+      ]
+    ],
+    "group": "bal"
+  },
+  {
+    "code": "645402",
+    "name": "Norte y nordeste de Mallorca",
+    "form_id": "Fm226",
+    "cost": 0.14,
+    "top": [
+      [
+        0.14,
+        "Fm226"
+      ],
+      [
+        0.3,
+        "Fm227"
+      ],
+      [
+        0.43,
+        "Fm229"
+      ],
+      [
+        0.87,
+        "Fm225"
+      ]
+    ],
+    "group": "bal"
+  },
+  {
+    "code": "645403",
+    "name": "Interior de Mallorca",
+    "form_id": "Fm227",
+    "cost": 0.19,
+    "top": [
+      [
+        0.1,
+        "Fm228"
+      ],
+      [
+        0.19,
+        "Fm227"
+      ],
+      [
+        0.73,
+        "Fm229"
+      ],
+      [
+        1.29,
+        "Fm226"
+      ]
+    ],
+    "group": "bal"
+  },
+  {
+    "code": "645404",
+    "name": "Sur de Mallorca",
+    "form_id": "Fm228",
+    "cost": 0.26,
+    "top": [
+      [
+        0.26,
+        "Fm228"
+      ],
+      [
+        1.3,
+        "Fm227"
+      ],
+      [
+        2.1,
+        "Fm229"
+      ],
+      [
+        2.95,
+        "Fm225"
+      ]
+    ],
+    "group": "bal"
+  },
+  {
+    "code": "645405",
+    "name": "Levante mallorquín",
+    "form_id": "Fm229",
+    "cost": 0.17,
+    "top": [
+      [
+        0.17,
+        "Fm229"
+      ],
+      [
+        0.73,
+        "Fm227"
+      ],
+      [
+        0.96,
+        "Fm228"
+      ],
+      [
+        1.37,
+        "Fm226"
+      ]
+    ],
+    "group": "bal"
+  },
+  {
+    "code": "645501",
+    "name": "Menorca",
+    "form_id": "Fm230",
+    "cost": 0.12,
+    "top": [
+      [
+        0.12,
+        "Fm230"
+      ],
+      [
+        3.48,
+        "Fm226"
+      ],
+      [
+        4.17,
+        "Fm229"
+      ],
+      [
+        5.56,
+        "Fm227"
+      ]
+    ],
+    "group": "bal"
+  },
+  {
+    "code": "659001",
+    "name": "Norte de Gran Canaria",
+    "form_id": "Fm232",
+    "cost": 0.07,
+    "top": [
+      [
+        0.07,
+        "Fm232"
+      ],
+      [
+        1.09,
+        "Fm244"
+      ],
+      [
+        2.08,
+        "Fm234"
+      ],
+      [
+        2.41,
+        "Fm243"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659003",
+    "name": "Cumbres de Gran Canaria",
+    "form_id": "Fm233",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm233"
+      ],
+      [
+        1.86,
+        "Fm232"
+      ],
+      [
+        3.18,
+        "Fm244"
+      ],
+      [
+        6.37,
+        "Fm241"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659004",
+    "name": "Este, sur y oeste de Gran Canaria",
+    "form_id": "Fm234",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm234"
+      ],
+      [
+        1.94,
+        "Fm245"
+      ],
+      [
+        2.81,
+        "Fm232"
+      ],
+      [
+        3.02,
+        "Fm243"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659201",
+    "name": "Fuerteventura",
+    "form_id": "Fm237",
+    "cost": 0.3,
+    "top": [
+      [
+        0.3,
+        "Fm237"
+      ],
+      [
+        6.97,
+        "Fm234"
+      ],
+      [
+        11.18,
+        "Fm232"
+      ],
+      [
+        13.58,
+        "Fm245"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659302",
+    "name": "Cumbres de La Palma",
+    "form_id": "Fm238",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm238"
+      ],
+      [
+        0.9,
+        "Fm240"
+      ],
+      [
+        0.97,
+        "Fm239"
+      ],
+      [
+        2.59,
+        "Fm242"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659303",
+    "name": "Este de La Palma",
+    "form_id": "Fm239",
+    "cost": 0.05,
+    "top": [
+      [
+        0.03,
+        "Fm240"
+      ],
+      [
+        0.05,
+        "Fm239"
+      ],
+      [
+        1.62,
+        "Fm238"
+      ],
+      [
+        1.72,
+        "Fm241"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659304",
+    "name": "Oeste de La Palma",
+    "form_id": "Fm240",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm240"
+      ],
+      [
+        0.13,
+        "Fm239"
+      ],
+      [
+        1.64,
+        "Fm238"
+      ],
+      [
+        2.04,
+        "Fm241"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659401",
+    "name": "La Gomera",
+    "form_id": "Fm241",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm241"
+      ],
+      [
+        1.35,
+        "Fm243"
+      ],
+      [
+        1.64,
+        "Fm239"
+      ],
+      [
+        1.77,
+        "Fm242"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659501",
+    "name": "El Hierro",
+    "form_id": "Fm242",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm242"
+      ],
+      [
+        1.93,
+        "Fm241"
+      ],
+      [
+        2.69,
+        "Fm240"
+      ],
+      [
+        2.72,
+        "Fm239"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659601",
+    "name": "Norte de Tenerife",
+    "form_id": "Fm243",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm243"
+      ],
+      [
+        0.49,
+        "Fm245"
+      ],
+      [
+        1.06,
+        "Fm244"
+      ],
+      [
+        1.64,
+        "Fm241"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659602",
+    "name": "Área metropolitana de Tenerife",
+    "form_id": "Fm244",
+    "cost": 0.08,
+    "top": [
+      [
+        0.08,
+        "Fm244"
+      ],
+      [
+        0.59,
+        "Fm243"
+      ],
+      [
+        1.82,
+        "Fm232"
+      ],
+      [
+        1.89,
+        "Fm241"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "659603",
+    "name": "Este, sur y oeste de Tenerife",
+    "form_id": "Fm245",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm245"
+      ],
+      [
+        0.8,
+        "Fm243"
+      ],
+      [
+        2.26,
+        "Fm234"
+      ],
+      [
+        2.87,
+        "Fm244"
+      ]
+    ],
+    "group": "can"
+  },
+  {
+    "code": "610401",
+    "name": "Valle del Almanzora y Los Vélez",
+    "form_id": "Fm53",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm53"
+      ],
+      [
+        2.15,
+        "Fm54"
+      ],
+      [
+        2.4,
+        "Fm153"
+      ],
+      [
+        2.99,
+        "Fm64"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "610402",
+    "name": "Nacimiento y Campo de Tabernas",
+    "form_id": "Fm54",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm54"
+      ],
+      [
+        1.41,
+        "Fm56"
+      ],
+      [
+        1.49,
+        "Fm55"
+      ],
+      [
+        2.79,
+        "Fm53"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "610403",
+    "name": "Poniente y Almería Capital",
+    "form_id": "Fm55",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm55"
+      ],
+      [
+        1.14,
+        "Fm54"
+      ],
+      [
+        3.41,
+        "Fm65"
+      ],
+      [
+        4.29,
+        "Fm56"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "610404",
+    "name": "Levante almeriense",
+    "form_id": "Fm56",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm56"
+      ],
+      [
+        1.47,
+        "Fm54"
+      ],
+      [
+        4.16,
+        "Fm53"
+      ],
+      [
+        4.79,
+        "Fm55"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611102",
+    "name": "Campiña gaditana",
+    "form_id": "Fm200",
+    "cost": 0.16,
+    "top": [
+      [
+        0.16,
+        "Fm200"
+      ],
+      [
+        3.45,
+        "Fm59"
+      ],
+      [
+        5.35,
+        "Fm72"
+      ],
+      [
+        5.53,
+        "Fm80"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611103",
+    "name": "Litoral gaditano",
+    "form_id": "Fm59",
+    "cost": 0.38,
+    "top": [
+      [
+        0.38,
+        "Fm59"
+      ],
+      [
+        2.08,
+        "Fm200"
+      ],
+      [
+        5.02,
+        "Fm60"
+      ],
+      [
+        5.13,
+        "Fm78"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611104",
+    "name": "Estrecho",
+    "form_id": "Fm60",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm60"
+      ],
+      [
+        2.73,
+        "Fm72"
+      ],
+      [
+        2.79,
+        "Fm59"
+      ],
+      [
+        3.96,
+        "Fm200"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611401",
+    "name": "Sierra y Pedroches",
+    "form_id": "Fm75",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm75"
+      ],
+      [
+        6.06,
+        "Fm195"
+      ],
+      [
+        6.42,
+        "Fm127"
+      ],
+      [
+        7.49,
+        "Fm79"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611403",
+    "name": "Subbética cordobesa",
+    "form_id": "Fm62",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm62"
+      ],
+      [
+        2.1,
+        "Fm71"
+      ],
+      [
+        2.69,
+        "Fm63"
+      ],
+      [
+        4.38,
+        "Fm69"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611801",
+    "name": "Cuenca del Genil",
+    "form_id": "Fm63",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm63"
+      ],
+      [
+        3.49,
+        "Fm62"
+      ],
+      [
+        3.75,
+        "Fm70"
+      ],
+      [
+        4.02,
+        "Fm65"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611802",
+    "name": "Guadix y Baza",
+    "form_id": "Fm64",
+    "cost": 0.0,
+    "top": [
+      [
+        0.0,
+        "Fm64"
+      ],
+      [
+        2.83,
+        "Fm53"
+      ],
+      [
+        2.91,
+        "Fm68"
+      ],
+      [
+        5.05,
+        "Fm55"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611803",
+    "name": "Nevada y Alpujarras",
+    "form_id": "Fm65",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm65"
+      ],
+      [
+        0.93,
+        "Fm66"
+      ],
+      [
+        3.06,
+        "Fm55"
+      ],
+      [
+        3.72,
+        "Fm74"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "611804",
+    "name": "Costa granadina",
+    "form_id": "Fm66",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm66"
+      ],
+      [
+        0.84,
+        "Fm65"
+      ],
+      [
+        2.8,
+        "Fm74"
+      ],
+      [
+        5.42,
+        "Fm55"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612101",
+    "name": "Aracena",
+    "form_id": "Fm76",
+    "cost": 1.26,
+    "top": [
+      [
+        1.26,
+        "Fm76"
+      ],
+      [
+        2.53,
+        "Fm128"
+      ],
+      [
+        4.53,
+        "Fm77"
+      ],
+      [
+        6.8,
+        "Fm125"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612102",
+    "name": "Andévalo y Condado",
+    "form_id": "Fm77",
+    "cost": 1.95,
+    "top": [
+      [
+        1.94,
+        "Fm76"
+      ],
+      [
+        1.95,
+        "Fm77"
+      ],
+      [
+        6.12,
+        "Fm128"
+      ],
+      [
+        7.77,
+        "Fm78"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612103",
+    "name": "Litoral de Huelva",
+    "form_id": "Fm78",
+    "cost": 1.7,
+    "top": [
+      [
+        0.88,
+        "Fm77"
+      ],
+      [
+        1.7,
+        "Fm78"
+      ],
+      [
+        2.29,
+        "Fm76"
+      ],
+      [
+        9.91,
+        "Fm79"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612301",
+    "name": "Morena y Condado",
+    "form_id": "Fm67",
+    "cost": 0.0,
+    "top": [
+      [
+        0.0,
+        "Fm67"
+      ],
+      [
+        1.38,
+        "Fm69"
+      ],
+      [
+        3.3,
+        "Fm195"
+      ],
+      [
+        3.48,
+        "Fm68"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612302",
+    "name": "Cazorla y Segura",
+    "form_id": "Fm68",
+    "cost": 0.0,
+    "top": [
+      [
+        0.0,
+        "Fm68"
+      ],
+      [
+        2.67,
+        "Fm64"
+      ],
+      [
+        3.4,
+        "Fm67"
+      ],
+      [
+        5.26,
+        "Fm69"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612303",
+    "name": "Valle del Guadalquivir de Jaén",
+    "form_id": "Fm69",
+    "cost": 0.0,
+    "top": [
+      [
+        0.0,
+        "Fm69"
+      ],
+      [
+        1.51,
+        "Fm67"
+      ],
+      [
+        1.84,
+        "Fm70"
+      ],
+      [
+        3.94,
+        "Fm63"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612304",
+    "name": "Capital y Montes de Jaén",
+    "form_id": "Fm70",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm70"
+      ],
+      [
+        1.65,
+        "Fm69"
+      ],
+      [
+        3.04,
+        "Fm63"
+      ],
+      [
+        4.1,
+        "Fm65"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612901",
+    "name": "Antequera",
+    "form_id": "Fm71",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm71"
+      ],
+      [
+        1.14,
+        "Fm73"
+      ],
+      [
+        2.63,
+        "Fm62"
+      ],
+      [
+        2.88,
+        "Fm72"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612902",
+    "name": "Ronda",
+    "form_id": "Fm72",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm72"
+      ],
+      [
+        1.03,
+        "Fm73"
+      ],
+      [
+        2.64,
+        "Fm71"
+      ],
+      [
+        2.9,
+        "Fm60"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612903",
+    "name": "Sol y Guadalhorce",
+    "form_id": "Fm73",
+    "cost": 0.14,
+    "top": [
+      [
+        0.14,
+        "Fm73"
+      ],
+      [
+        2.2,
+        "Fm72"
+      ],
+      [
+        2.23,
+        "Fm71"
+      ],
+      [
+        5.05,
+        "Fm74"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "612904",
+    "name": "Axarquía",
+    "form_id": "Fm74",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm74"
+      ],
+      [
+        2.07,
+        "Fm66"
+      ],
+      [
+        3.06,
+        "Fm65"
+      ],
+      [
+        3.69,
+        "Fm71"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "614101",
+    "name": "Sierra norte de Sevilla",
+    "form_id": "Fm79",
+    "cost": 0.33,
+    "top": [
+      [
+        0.33,
+        "Fm79"
+      ],
+      [
+        1.8,
+        "Fm128"
+      ],
+      [
+        3.33,
+        "Fm76"
+      ],
+      [
+        4.22,
+        "Fm127"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "614102",
+    "name": "Campiña sevillana",
+    "form_id": "Fm80",
+    "cost": 0.15,
+    "top": [
+      [
+        0.15,
+        "Fm80"
+      ],
+      [
+        5.57,
+        "Fm79"
+      ],
+      [
+        9.3,
+        "Fm200"
+      ],
+      [
+        9.6,
+        "Fm128"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "622201",
+    "name": "Pirineo oscense",
+    "form_id": "Fm81",
+    "cost": 0.31,
+    "top": [
+      [
+        0.31,
+        "Fm81"
+      ],
+      [
+        4.25,
+        "Fm167"
+      ],
+      [
+        6.22,
+        "Fm175"
+      ],
+      [
+        8.11,
+        "Fm168"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "622202",
+    "name": "Centro de Huesca",
+    "form_id": "Fm167",
+    "cost": 0.16,
+    "top": [
+      [
+        0.16,
+        "Fm167"
+      ],
+      [
+        1.27,
+        "Fm81"
+      ],
+      [
+        2.76,
+        "Fm168"
+      ],
+      [
+        3.29,
+        "Fm172"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "622203",
+    "name": "Sur de Huesca",
+    "form_id": "Fm168",
+    "cost": 0.08,
+    "top": [
+      [
+        0.08,
+        "Fm168"
+      ],
+      [
+        1.68,
+        "Fm167"
+      ],
+      [
+        2.37,
+        "Fm174"
+      ],
+      [
+        4.31,
+        "Fm176"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "624401",
+    "name": "Albarracín y Jiloca",
+    "form_id": "Fm169",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm169"
+      ],
+      [
+        1.98,
+        "Fm170"
+      ],
+      [
+        4.0,
+        "Fm165"
+      ],
+      [
+        4.03,
+        "Fm120"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "624402",
+    "name": "Gúdar y Maestrazgo",
+    "form_id": "Fm170",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm170"
+      ],
+      [
+        1.63,
+        "Fm169"
+      ],
+      [
+        2.74,
+        "Fm171"
+      ],
+      [
+        3.92,
+        "Fm186"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "624403",
+    "name": "Bajo Aragón de Teruel",
+    "form_id": "Fm171",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm171"
+      ],
+      [
+        3.14,
+        "Fm174"
+      ],
+      [
+        3.44,
+        "Fm170"
+      ],
+      [
+        4.09,
+        "Fm180"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "625001",
+    "name": "Cinco Villas de Zaragoza",
+    "form_id": "Fm172",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm172"
+      ],
+      [
+        2.3,
+        "Fm197"
+      ],
+      [
+        3.38,
+        "Fm167"
+      ],
+      [
+        5.39,
+        "Fm155"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "625002",
+    "name": "Ibérica zaragozana",
+    "form_id": "Fm173",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm173"
+      ],
+      [
+        4.9,
+        "Fm174"
+      ],
+      [
+        6.87,
+        "Fm120"
+      ],
+      [
+        6.93,
+        "Fm169"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "625003",
+    "name": "Ribera del Ebro de Zaragoza",
+    "form_id": "Fm174",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm174"
+      ],
+      [
+        2.02,
+        "Fm168"
+      ],
+      [
+        3.54,
+        "Fm167"
+      ],
+      [
+        4.32,
+        "Fm171"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "633301",
+    "name": "Litoral occidental asturiano",
+    "form_id": "Fm82",
+    "cost": 1.59,
+    "top": [
+      [
+        1.57,
+        "Fm142"
+      ],
+      [
+        1.59,
+        "Fm82"
+      ],
+      [
+        3.33,
+        "Fm84"
+      ],
+      [
+        5.56,
+        "Fm85"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "633302",
+    "name": "Litoral oriental asturiano",
+    "form_id": "Fm83",
+    "cost": 0.23,
+    "top": [
+      [
+        0.23,
+        "Fm83"
+      ],
+      [
+        1.75,
+        "Fm85"
+      ],
+      [
+        2.38,
+        "Fm86"
+      ],
+      [
+        4.73,
+        "Fm82"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "633303",
+    "name": "Suroccidental asturiana",
+    "form_id": "Fm84",
+    "cost": 1.51,
+    "top": [
+      [
+        1.51,
+        "Fm84"
+      ],
+      [
+        2.44,
+        "Fm137"
+      ],
+      [
+        3.61,
+        "Fm142"
+      ],
+      [
+        3.71,
+        "Fm143"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "633304",
+    "name": "Central y Valles Mineros",
+    "form_id": "Fm85",
+    "cost": 0.54,
+    "top": [
+      [
+        0.54,
+        "Fm85"
+      ],
+      [
+        2.01,
+        "Fm84"
+      ],
+      [
+        2.24,
+        "Fm86"
+      ],
+      [
+        2.74,
+        "Fm82"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "633305",
+    "name": "Cordillera y Picos de Europa",
+    "form_id": "Fm86",
+    "cost": 0.2,
+    "top": [
+      [
+        0.2,
+        "Fm86"
+      ],
+      [
+        1.62,
+        "Fm85"
+      ],
+      [
+        3.26,
+        "Fm100"
+      ],
+      [
+        5.08,
+        "Fm83"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "663901",
+    "name": "Litoral cántabro",
+    "form_id": "Fm87",
+    "cost": 0.0,
+    "top": [
+      [
+        0.0,
+        "Fm87"
+      ],
+      [
+        2.53,
+        "Fm206"
+      ],
+      [
+        3.73,
+        "Fm90"
+      ],
+      [
+        5.36,
+        "Fm88"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "663902",
+    "name": "Liébana",
+    "form_id": "Fm88",
+    "cost": 0.09,
+    "top": [
+      [
+        0.09,
+        "Fm88"
+      ],
+      [
+        1.69,
+        "Fm90"
+      ],
+      [
+        2.75,
+        "Fm103"
+      ],
+      [
+        4.24,
+        "Fm83"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "663904",
+    "name": "Cantabria del Ebro",
+    "form_id": "Fm90",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm90"
+      ],
+      [
+        2.18,
+        "Fm206"
+      ],
+      [
+        2.86,
+        "Fm88"
+      ],
+      [
+        3.85,
+        "Fm87"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "670501",
+    "name": "Meseta de Ávila",
+    "form_id": "Fm93",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm93"
+      ],
+      [
+        4.1,
+        "Fm94"
+      ],
+      [
+        5.28,
+        "Fm109"
+      ],
+      [
+        5.79,
+        "Fm108"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "670502",
+    "name": "Sistema Central de Ávila",
+    "form_id": "Fm94",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm94"
+      ],
+      [
+        4.24,
+        "Fm112"
+      ],
+      [
+        4.25,
+        "Fm93"
+      ],
+      [
+        7.99,
+        "Fm108"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "670901",
+    "name": "Cordillera Cantábrica de Burgos",
+    "form_id": "Fm206",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm206"
+      ],
+      [
+        1.91,
+        "Fm97"
+      ],
+      [
+        2.58,
+        "Fm90"
+      ],
+      [
+        2.7,
+        "Fm87"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "670902",
+    "name": "Norte de Burgos",
+    "form_id": "Fm97",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm97"
+      ],
+      [
+        2.19,
+        "Fm206"
+      ],
+      [
+        2.86,
+        "Fm157"
+      ],
+      [
+        3.7,
+        "Fm99"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "670903",
+    "name": "Condado de Treviño",
+    "form_id": "Fm98",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm98"
+      ],
+      [
+        0.63,
+        "Fm208"
+      ],
+      [
+        3.3,
+        "Fm156"
+      ],
+      [
+        5.93,
+        "Fm160"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "670904",
+    "name": "Meseta de Burgos",
+    "form_id": "Fm203",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm203"
+      ],
+      [
+        3.12,
+        "Fm104"
+      ],
+      [
+        3.88,
+        "Fm99"
+      ],
+      [
+        6.06,
+        "Fm97"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "670905",
+    "name": "Ibérica de Burgos",
+    "form_id": "Fm99",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm99"
+      ],
+      [
+        2.53,
+        "Fm196"
+      ],
+      [
+        4.38,
+        "Fm97"
+      ],
+      [
+        4.44,
+        "Fm162"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "672401",
+    "name": "Cordillera Cantábrica de León",
+    "form_id": "Fm100",
+    "cost": 0.18,
+    "top": [
+      [
+        0.18,
+        "Fm100"
+      ],
+      [
+        2.4,
+        "Fm102"
+      ],
+      [
+        5.87,
+        "Fm86"
+      ],
+      [
+        7.88,
+        "Fm84"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "672402",
+    "name": "Bierzo de León",
+    "form_id": "Fm101",
+    "cost": 0.74,
+    "top": [
+      [
+        0.74,
+        "Fm101"
+      ],
+      [
+        0.74,
+        "Fm143"
+      ],
+      [
+        2.47,
+        "Fm84"
+      ],
+      [
+        3.07,
+        "Fm138"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "672403",
+    "name": "Meseta de León",
+    "form_id": "Fm102",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm102"
+      ],
+      [
+        1.66,
+        "Fm100"
+      ],
+      [
+        5.56,
+        "Fm104"
+      ],
+      [
+        5.59,
+        "Fm92"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "673401",
+    "name": "Cordillera Cantábrica de Palencia",
+    "form_id": "Fm103",
+    "cost": 0.12,
+    "top": [
+      [
+        0.12,
+        "Fm103"
+      ],
+      [
+        2.79,
+        "Fm206"
+      ],
+      [
+        3.78,
+        "Fm90"
+      ],
+      [
+        3.98,
+        "Fm88"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "673402",
+    "name": "Meseta de Palencia",
+    "form_id": "Fm104",
+    "cost": 0.09,
+    "top": [
+      [
+        0.09,
+        "Fm104"
+      ],
+      [
+        2.47,
+        "Fm203"
+      ],
+      [
+        7.07,
+        "Fm102"
+      ],
+      [
+        7.41,
+        "Fm103"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "673701",
+    "name": "Meseta de Salamanca",
+    "form_id": "Fm105",
+    "cost": 0.24,
+    "top": [
+      [
+        0.24,
+        "Fm105"
+      ],
+      [
+        4.89,
+        "Fm92"
+      ],
+      [
+        7.12,
+        "Fm129"
+      ],
+      [
+        10.84,
+        "Fm94"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "673703",
+    "name": "Sur de Salamanca",
+    "form_id": "Fm107",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm107"
+      ],
+      [
+        8.78,
+        "Fm129"
+      ],
+      [
+        9.25,
+        "Fm93"
+      ],
+      [
+        10.23,
+        "Fm212"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "674001",
+    "name": "Meseta de Segovia",
+    "form_id": "Fm108",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm108"
+      ],
+      [
+        1.28,
+        "Fm109"
+      ],
+      [
+        5.79,
+        "Fm93"
+      ],
+      [
+        7.65,
+        "Fm149"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "674002",
+    "name": "Sistema Central de Segovia",
+    "form_id": "Fm109",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm109"
+      ],
+      [
+        2.05,
+        "Fm108"
+      ],
+      [
+        3.71,
+        "Fm149"
+      ],
+      [
+        5.61,
+        "Fm93"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "674201",
+    "name": "Ibérica de Soria",
+    "form_id": "Fm207",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm207"
+      ],
+      [
+        0.94,
+        "Fm110"
+      ],
+      [
+        1.78,
+        "Fm196"
+      ],
+      [
+        3.07,
+        "Fm162"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "674202",
+    "name": "Meseta de Soria",
+    "form_id": "Fm110",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm110"
+      ],
+      [
+        1.28,
+        "Fm207"
+      ],
+      [
+        1.34,
+        "Fm91"
+      ],
+      [
+        2.18,
+        "Fm119"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "674203",
+    "name": "Sistema Central de Soria",
+    "form_id": "Fm91",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm91"
+      ],
+      [
+        1.65,
+        "Fm119"
+      ],
+      [
+        1.89,
+        "Fm110"
+      ],
+      [
+        4.42,
+        "Fm207"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "674902",
+    "name": "Meseta de Zamora",
+    "form_id": "Fm92",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm92"
+      ],
+      [
+        4.76,
+        "Fm102"
+      ],
+      [
+        5.72,
+        "Fm105"
+      ],
+      [
+        9.46,
+        "Fm100"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "680201",
+    "name": "La Mancha albaceteña",
+    "form_id": "Fm114",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm114"
+      ],
+      [
+        4.24,
+        "Fm166"
+      ],
+      [
+        5.12,
+        "Fm199"
+      ],
+      [
+        6.31,
+        "Fm116"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "680203",
+    "name": "Hellín y Almansa",
+    "form_id": "Fm199",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm199"
+      ],
+      [
+        1.58,
+        "Fm151"
+      ],
+      [
+        3.16,
+        "Fm191"
+      ],
+      [
+        3.61,
+        "Fm184"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681302",
+    "name": "La Mancha de Ciudad Real",
+    "form_id": "Fm116",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm116"
+      ],
+      [
+        6.0,
+        "Fm122"
+      ],
+      [
+        6.38,
+        "Fm67"
+      ],
+      [
+        7.52,
+        "Fm114"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681303",
+    "name": "Valle del Guadiana",
+    "form_id": "Fm117",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm117"
+      ],
+      [
+        0.98,
+        "Fm195"
+      ],
+      [
+        4.26,
+        "Fm113"
+      ],
+      [
+        4.51,
+        "Fm126"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681304",
+    "name": "Sierras de Alcudia y Madrona",
+    "form_id": "Fm195",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm195"
+      ],
+      [
+        1.09,
+        "Fm117"
+      ],
+      [
+        3.4,
+        "Fm67"
+      ],
+      [
+        5.4,
+        "Fm75"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681601",
+    "name": "Alcarria conquense",
+    "form_id": "Fm118",
+    "cost": 0.08,
+    "top": [
+      [
+        0.08,
+        "Fm118"
+      ],
+      [
+        3.61,
+        "Fm121"
+      ],
+      [
+        4.63,
+        "Fm120"
+      ],
+      [
+        5.36,
+        "Fm149"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681602",
+    "name": "Serranía de Cuenca",
+    "form_id": "Fm165",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm165"
+      ],
+      [
+        2.85,
+        "Fm166"
+      ],
+      [
+        4.06,
+        "Fm169"
+      ],
+      [
+        7.04,
+        "Fm118"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681603",
+    "name": "La Mancha conquense",
+    "form_id": "Fm166",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm166"
+      ],
+      [
+        3.45,
+        "Fm165"
+      ],
+      [
+        4.82,
+        "Fm114"
+      ],
+      [
+        5.72,
+        "Fm122"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681901",
+    "name": "Serranía de Guadalajara",
+    "form_id": "Fm119",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm119"
+      ],
+      [
+        1.14,
+        "Fm91"
+      ],
+      [
+        1.88,
+        "Fm110"
+      ],
+      [
+        2.51,
+        "Fm121"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681902",
+    "name": "Parameras de Molina",
+    "form_id": "Fm120",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm120"
+      ],
+      [
+        4.05,
+        "Fm169"
+      ],
+      [
+        4.61,
+        "Fm118"
+      ],
+      [
+        5.09,
+        "Fm119"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "681903",
+    "name": "Alcarria de Guadalajara",
+    "form_id": "Fm121",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm121"
+      ],
+      [
+        1.9,
+        "Fm119"
+      ],
+      [
+        4.97,
+        "Fm149"
+      ],
+      [
+        5.47,
+        "Fm118"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "684501",
+    "name": "Sierra de San Vicente",
+    "form_id": "Fm212",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm212"
+      ],
+      [
+        7.63,
+        "Fm93"
+      ],
+      [
+        8.99,
+        "Fm150"
+      ],
+      [
+        9.13,
+        "Fm113"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "684502",
+    "name": "Valle del Tajo",
+    "form_id": "Fm112",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm112"
+      ],
+      [
+        1.97,
+        "Fm113"
+      ],
+      [
+        4.23,
+        "Fm94"
+      ],
+      [
+        5.82,
+        "Fm150"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "684503",
+    "name": "Montes de Toledo",
+    "form_id": "Fm113",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm113"
+      ],
+      [
+        2.14,
+        "Fm112"
+      ],
+      [
+        4.22,
+        "Fm117"
+      ],
+      [
+        4.89,
+        "Fm126"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "684504",
+    "name": "La Mancha toledana",
+    "form_id": "Fm122",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm122"
+      ],
+      [
+        3.38,
+        "Fm150"
+      ],
+      [
+        4.55,
+        "Fm113"
+      ],
+      [
+        6.16,
+        "Fm149"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "690801",
+    "name": "Prepirineo de Barcelona",
+    "form_id": "Fm123",
+    "cost": 0.48,
+    "top": [
+      [
+        0.22,
+        "Fm194"
+      ],
+      [
+        0.48,
+        "Fm123"
+      ],
+      [
+        3.21,
+        "Fm193"
+      ],
+      [
+        10.41,
+        "Fm175"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "690802",
+    "name": "Depresión central de Barcelona",
+    "form_id": "Fm193",
+    "cost": 0.36,
+    "top": [
+      [
+        0.36,
+        "Fm193"
+      ],
+      [
+        1.7,
+        "Fm194"
+      ],
+      [
+        2.45,
+        "Fm123"
+      ],
+      [
+        6.7,
+        "Fm175"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "690803",
+    "name": "Prelitoral de Barcelona",
+    "form_id": null,
+    "cost": 7.5,
+    "top": [
+      [
+        0.49,
+        "Fm193"
+      ],
+      [
+        4.25,
+        "Fm123"
+      ],
+      [
+        4.46,
+        "Fm194"
+      ],
+      [
+        5.9,
+        "Fm178"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "690804",
+    "name": "Litoral de Barcelona",
+    "form_id": null,
+    "cost": 7.5,
+    "top": [
+      [
+        2.65,
+        "Fm193"
+      ],
+      [
+        3.73,
+        "Fm123"
+      ],
+      [
+        5.35,
+        "Fm178"
+      ],
+      [
+        5.37,
+        "Fm194"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "691701",
+    "name": "Pirineo de Girona",
+    "form_id": "Fm194",
+    "cost": 0.65,
+    "top": [
+      [
+        0.65,
+        "Fm194"
+      ],
+      [
+        3.19,
+        "Fm123"
+      ],
+      [
+        5.41,
+        "Fm193"
+      ],
+      [
+        11.83,
+        "Fm175"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "691702",
+    "name": "Prelitoral de Girona",
+    "form_id": null,
+    "cost": 7.5,
+    "top": [
+      [
+        2.34,
+        "Fm194"
+      ],
+      [
+        5.26,
+        "Fm123"
+      ],
+      [
+        5.65,
+        "Fm193"
+      ],
+      [
+        17.31,
+        "Fm175"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "691703",
+    "name": "Ampurdán",
+    "form_id": null,
+    "cost": 7.5,
+    "top": [
+      [
+        5.37,
+        "Fm194"
+      ],
+      [
+        9.61,
+        "Fm123"
+      ],
+      [
+        11.78,
+        "Fm193"
+      ],
+      [
+        25.35,
+        "Fm175"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "691704",
+    "name": "Litoral sur de Girona",
+    "form_id": null,
+    "cost": 7.5,
+    "top": [
+      [
+        10.44,
+        "Fm123"
+      ],
+      [
+        11.3,
+        "Fm194"
+      ],
+      [
+        17.45,
+        "Fm193"
+      ],
+      [
+        21.61,
+        "Fm179"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "692501",
+    "name": "Valle de Arán",
+    "form_id": "Fm124",
+    "cost": 0.71,
+    "top": [
+      [
+        0.71,
+        "Fm124"
+      ],
+      [
+        10.5,
+        "Fm123"
+      ],
+      [
+        11.94,
+        "Fm175"
+      ],
+      [
+        12.9,
+        "Fm194"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "692502",
+    "name": "Pirineo de Lleida",
+    "form_id": "Fm175",
+    "cost": 0.35,
+    "top": [
+      [
+        0.35,
+        "Fm175"
+      ],
+      [
+        6.18,
+        "Fm176"
+      ],
+      [
+        6.63,
+        "Fm193"
+      ],
+      [
+        7.72,
+        "Fm194"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "692503",
+    "name": "Depresión central de Lleida",
+    "form_id": "Fm176",
+    "cost": 0.12,
+    "top": [
+      [
+        0.12,
+        "Fm176"
+      ],
+      [
+        3.32,
+        "Fm175"
+      ],
+      [
+        5.61,
+        "Fm168"
+      ],
+      [
+        6.28,
+        "Fm193"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "694301",
+    "name": "Depresión central de Tarragona",
+    "form_id": "Fm177",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm177"
+      ],
+      [
+        1.22,
+        "Fm52"
+      ],
+      [
+        4.1,
+        "Fm178"
+      ],
+      [
+        4.38,
+        "Fm164"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "694302",
+    "name": "Prelitoral norte de Tarragona",
+    "form_id": "Fm178",
+    "cost": 0.14,
+    "top": [
+      [
+        0.14,
+        "Fm178"
+      ],
+      [
+        2.79,
+        "Fm179"
+      ],
+      [
+        4.02,
+        "Fm193"
+      ],
+      [
+        4.35,
+        "Fm52"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "694303",
+    "name": "Litoral norte de Tarragona",
+    "form_id": "Fm179",
+    "cost": 0.14,
+    "top": [
+      [
+        0.14,
+        "Fm179"
+      ],
+      [
+        1.1,
+        "Fm178"
+      ],
+      [
+        5.59,
+        "Fm177"
+      ],
+      [
+        6.54,
+        "Fm52"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "694305",
+    "name": "Prelitoral sur de Tarragona",
+    "form_id": "Fm52",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm52"
+      ],
+      [
+        1.82,
+        "Fm177"
+      ],
+      [
+        3.72,
+        "Fm178"
+      ],
+      [
+        4.8,
+        "Fm171"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "700601",
+    "name": "Vegas del Guadiana",
+    "form_id": "Fm125",
+    "cost": 0.92,
+    "top": [
+      [
+        0.92,
+        "Fm125"
+      ],
+      [
+        1.26,
+        "Fm130"
+      ],
+      [
+        6.46,
+        "Fm127"
+      ],
+      [
+        7.62,
+        "Fm132"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "700602",
+    "name": "La Siberia extremeña",
+    "form_id": "Fm126",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm126"
+      ],
+      [
+        2.23,
+        "Fm131"
+      ],
+      [
+        4.71,
+        "Fm117"
+      ],
+      [
+        4.88,
+        "Fm113"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "700603",
+    "name": "Barros y Serena",
+    "form_id": "Fm127",
+    "cost": 0.28,
+    "top": [
+      [
+        0.28,
+        "Fm127"
+      ],
+      [
+        1.43,
+        "Fm125"
+      ],
+      [
+        3.12,
+        "Fm128"
+      ],
+      [
+        4.57,
+        "Fm131"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "700604",
+    "name": "Sur de Badajoz",
+    "form_id": "Fm128",
+    "cost": 0.65,
+    "top": [
+      [
+        0.65,
+        "Fm128"
+      ],
+      [
+        1.83,
+        "Fm125"
+      ],
+      [
+        1.96,
+        "Fm127"
+      ],
+      [
+        4.64,
+        "Fm76"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "701001",
+    "name": "Norte de Cáceres",
+    "form_id": "Fm129",
+    "cost": 0.09,
+    "top": [
+      [
+        0.09,
+        "Fm129"
+      ],
+      [
+        1.68,
+        "Fm132"
+      ],
+      [
+        4.72,
+        "Fm105"
+      ],
+      [
+        6.7,
+        "Fm130"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "701002",
+    "name": "Tajo y Alagón",
+    "form_id": "Fm132",
+    "cost": 0.17,
+    "top": [
+      [
+        0.17,
+        "Fm132"
+      ],
+      [
+        0.53,
+        "Fm129"
+      ],
+      [
+        3.14,
+        "Fm130"
+      ],
+      [
+        5.58,
+        "Fm131"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "701003",
+    "name": "Meseta cacereña",
+    "form_id": "Fm130",
+    "cost": 0.67,
+    "top": [
+      [
+        0.67,
+        "Fm130"
+      ],
+      [
+        2.84,
+        "Fm132"
+      ],
+      [
+        4.73,
+        "Fm129"
+      ],
+      [
+        5.52,
+        "Fm125"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "701004",
+    "name": "Villuercas y Montánchez",
+    "form_id": "Fm131",
+    "cost": 0.09,
+    "top": [
+      [
+        0.09,
+        "Fm131"
+      ],
+      [
+        2.75,
+        "Fm132"
+      ],
+      [
+        3.61,
+        "Fm126"
+      ],
+      [
+        4.48,
+        "Fm130"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "711501",
+    "name": "Noroeste de A Coruña",
+    "form_id": "Fm133",
+    "cost": 5.69,
+    "top": [
+      [
+        5.69,
+        "Fm133"
+      ],
+      [
+        9.44,
+        "Fm135"
+      ],
+      [
+        11.29,
+        "Fm134"
+      ],
+      [
+        16.73,
+        "Fm137"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "711502",
+    "name": "Oeste de A Coruña",
+    "form_id": "Fm134",
+    "cost": 6.5,
+    "top": [
+      [
+        6.5,
+        "Fm134"
+      ],
+      [
+        11.51,
+        "Fm136"
+      ],
+      [
+        14.49,
+        "Fm133"
+      ],
+      [
+        17.81,
+        "Fm135"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "711503",
+    "name": "Interior de A Coruña",
+    "form_id": "Fm135",
+    "cost": 5.07,
+    "top": [
+      [
+        3.58,
+        "Fm133"
+      ],
+      [
+        5.07,
+        "Fm135"
+      ],
+      [
+        8.93,
+        "Fm134"
+      ],
+      [
+        11.86,
+        "Fm137"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "711504",
+    "name": "Suroeste de A Coruña",
+    "form_id": "Fm136",
+    "cost": 5.9,
+    "top": [
+      [
+        2.67,
+        "Fm134"
+      ],
+      [
+        5.9,
+        "Fm136"
+      ],
+      [
+        11.74,
+        "Fm133"
+      ],
+      [
+        11.91,
+        "Fm141"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "712701",
+    "name": "A Mariña",
+    "form_id": "Fm142",
+    "cost": 4.13,
+    "top": [
+      [
+        3.86,
+        "Fm133"
+      ],
+      [
+        4.13,
+        "Fm142"
+      ],
+      [
+        8.62,
+        "Fm135"
+      ],
+      [
+        9.19,
+        "Fm137"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "712702",
+    "name": "Centro de Lugo",
+    "form_id": "Fm137",
+    "cost": 3.69,
+    "top": [
+      [
+        1.86,
+        "Fm133"
+      ],
+      [
+        2.66,
+        "Fm135"
+      ],
+      [
+        3.69,
+        "Fm137"
+      ],
+      [
+        8.74,
+        "Fm142"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "712703",
+    "name": "Montaña de Lugo",
+    "form_id": "Fm143",
+    "cost": 1.94,
+    "top": [
+      [
+        0.17,
+        "Fm137"
+      ],
+      [
+        1.94,
+        "Fm143"
+      ],
+      [
+        2.7,
+        "Fm135"
+      ],
+      [
+        3.15,
+        "Fm133"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "712704",
+    "name": "Sur de Lugo",
+    "form_id": "Fm138",
+    "cost": 2.41,
+    "top": [
+      [
+        0.8,
+        "Fm135"
+      ],
+      [
+        1.34,
+        "Fm146"
+      ],
+      [
+        1.96,
+        "Fm137"
+      ],
+      [
+        2.26,
+        "Fm133"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "713201",
+    "name": "Noroeste de Ourense",
+    "form_id": "Fm139",
+    "cost": 3.93,
+    "top": [
+      [
+        0.52,
+        "Fm134"
+      ],
+      [
+        0.57,
+        "Fm136"
+      ],
+      [
+        2.97,
+        "Fm141"
+      ],
+      [
+        3.39,
+        "Fm146"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "713202",
+    "name": "Miño de Ourense",
+    "form_id": "Fm140",
+    "cost": 3.54,
+    "top": [
+      [
+        0.67,
+        "Fm136"
+      ],
+      [
+        1.39,
+        "Fm141"
+      ],
+      [
+        1.5,
+        "Fm134"
+      ],
+      [
+        1.7,
+        "Fm146"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "713203",
+    "name": "Sur de Ourense",
+    "form_id": "Fm144",
+    "cost": 2.43,
+    "top": [
+      [
+        1.01,
+        "Fm146"
+      ],
+      [
+        2.43,
+        "Fm144"
+      ],
+      [
+        3.63,
+        "Fm138"
+      ],
+      [
+        3.72,
+        "Fm141"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "713204",
+    "name": "Montaña de Ourense",
+    "form_id": "Fm145",
+    "cost": 1.25,
+    "top": [
+      [
+        1.25,
+        "Fm145"
+      ],
+      [
+        1.46,
+        "Fm138"
+      ],
+      [
+        2.05,
+        "Fm144"
+      ],
+      [
+        3.34,
+        "Fm143"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "713205",
+    "name": "Valdeorras",
+    "form_id": "Fm205",
+    "cost": 1.04,
+    "top": [
+      [
+        1.04,
+        "Fm205"
+      ],
+      [
+        3.33,
+        "Fm138"
+      ],
+      [
+        3.42,
+        "Fm139"
+      ],
+      [
+        3.87,
+        "Fm140"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "713601",
+    "name": "Rias Baixas",
+    "form_id": "Fm141",
+    "cost": 4.86,
+    "top": [
+      [
+        1.84,
+        "Fm134"
+      ],
+      [
+        3.25,
+        "Fm136"
+      ],
+      [
+        4.86,
+        "Fm141"
+      ],
+      [
+        7.04,
+        "Fm146"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "713602",
+    "name": "Interior de Pontevedra",
+    "form_id": "Fm146",
+    "cost": 4.36,
+    "top": [
+      [
+        2.47,
+        "Fm135"
+      ],
+      [
+        2.96,
+        "Fm134"
+      ],
+      [
+        3.13,
+        "Fm133"
+      ],
+      [
+        4.36,
+        "Fm146"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "713603",
+    "name": "Miño de Pontevedra",
+    "form_id": "Fm147",
+    "cost": 4.15,
+    "top": [
+      [
+        0.96,
+        "Fm136"
+      ],
+      [
+        1.59,
+        "Fm134"
+      ],
+      [
+        2.19,
+        "Fm141"
+      ],
+      [
+        4.15,
+        "Fm147"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "722802",
+    "name": "Metropolitana y Henares",
+    "form_id": "Fm149",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm149"
+      ],
+      [
+        0.82,
+        "Fm150"
+      ],
+      [
+        3.19,
+        "Fm109"
+      ],
+      [
+        6.03,
+        "Fm121"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "722803",
+    "name": "Sur, Vegas y Oeste",
+    "form_id": "Fm150",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm150"
+      ],
+      [
+        0.57,
+        "Fm149"
+      ],
+      [
+        4.64,
+        "Fm122"
+      ],
+      [
+        5.48,
+        "Fm109"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "733001",
+    "name": "Altiplano de Murcia",
+    "form_id": "Fm151",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm151"
+      ],
+      [
+        1.12,
+        "Fm199"
+      ],
+      [
+        1.54,
+        "Fm184"
+      ],
+      [
+        2.96,
+        "Fm185"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "733002",
+    "name": "Noroeste de Murcia",
+    "form_id": "Fm182",
+    "cost": 0.0,
+    "top": [
+      [
+        0.0,
+        "Fm182"
+      ],
+      [
+        1.91,
+        "Fm153"
+      ],
+      [
+        4.36,
+        "Fm53"
+      ],
+      [
+        4.57,
+        "Fm151"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "733004",
+    "name": "Valle del Guadalentín, Lorca y Águilas",
+    "form_id": "Fm153",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm153"
+      ],
+      [
+        1.88,
+        "Fm182"
+      ],
+      [
+        2.18,
+        "Fm53"
+      ],
+      [
+        2.79,
+        "Fm152"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "733005",
+    "name": "Campo de Cartagena y Mazarrón",
+    "form_id": "Fm152",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm152"
+      ],
+      [
+        2.45,
+        "Fm153"
+      ],
+      [
+        4.61,
+        "Fm185"
+      ],
+      [
+        5.53,
+        "Fm182"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "743101",
+    "name": "Vertiente cantábrica de Navarra",
+    "form_id": "Fm154",
+    "cost": 0.08,
+    "top": [
+      [
+        0.08,
+        "Fm154"
+      ],
+      [
+        1.52,
+        "Fm158"
+      ],
+      [
+        1.83,
+        "Fm159"
+      ],
+      [
+        2.39,
+        "Fm155"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "743103",
+    "name": "Pirineo navarro",
+    "form_id": "Fm155",
+    "cost": 0.16,
+    "top": [
+      [
+        0.16,
+        "Fm155"
+      ],
+      [
+        1.76,
+        "Fm154"
+      ],
+      [
+        5.76,
+        "Fm159"
+      ],
+      [
+        5.99,
+        "Fm172"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "743104",
+    "name": "Ribera del Ebro de Navarra",
+    "form_id": "Fm197",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm197"
+      ],
+      [
+        2.01,
+        "Fm162"
+      ],
+      [
+        2.67,
+        "Fm172"
+      ],
+      [
+        3.09,
+        "Fm196"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "750101",
+    "name": "Cuenca del Nervión",
+    "form_id": "Fm156",
+    "cost": 0.0,
+    "top": [
+      [
+        0.0,
+        "Fm156"
+      ],
+      [
+        0.85,
+        "Fm160"
+      ],
+      [
+        2.51,
+        "Fm157"
+      ],
+      [
+        2.76,
+        "Fm159"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "750102",
+    "name": "Llanada alavesa",
+    "form_id": "Fm157",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm157"
+      ],
+      [
+        1.77,
+        "Fm159"
+      ],
+      [
+        2.01,
+        "Fm162"
+      ],
+      [
+        2.47,
+        "Fm97"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "750103",
+    "name": "Rioja alavesa",
+    "form_id": "Fm208",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm208"
+      ],
+      [
+        1.17,
+        "Fm98"
+      ],
+      [
+        2.74,
+        "Fm156"
+      ],
+      [
+        4.97,
+        "Fm157"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "752001",
+    "name": "Gipuzkoa litoral",
+    "form_id": "Fm158",
+    "cost": 0.09,
+    "top": [
+      [
+        0.09,
+        "Fm158"
+      ],
+      [
+        1.64,
+        "Fm154"
+      ],
+      [
+        1.8,
+        "Fm159"
+      ],
+      [
+        2.21,
+        "Fm160"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "752002",
+    "name": "Gipuzkoa interior",
+    "form_id": "Fm159",
+    "cost": 0.06,
+    "top": [
+      [
+        0.06,
+        "Fm159"
+      ],
+      [
+        1.53,
+        "Fm157"
+      ],
+      [
+        2.28,
+        "Fm160"
+      ],
+      [
+        2.4,
+        "Fm154"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "754801",
+    "name": "Bizkaia litoral",
+    "form_id": "Fm160",
+    "cost": 0.05,
+    "top": [
+      [
+        0.05,
+        "Fm160"
+      ],
+      [
+        1.12,
+        "Fm156"
+      ],
+      [
+        2.16,
+        "Fm159"
+      ],
+      [
+        3.04,
+        "Fm158"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "762601",
+    "name": "Ribera del Ebro de La Rioja",
+    "form_id": "Fm162",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm162"
+      ],
+      [
+        0.28,
+        "Fm196"
+      ],
+      [
+        2.31,
+        "Fm157"
+      ],
+      [
+        2.46,
+        "Fm197"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "762602",
+    "name": "Ibérica riojana",
+    "form_id": "Fm196",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm196"
+      ],
+      [
+        0.61,
+        "Fm162"
+      ],
+      [
+        1.75,
+        "Fm207"
+      ],
+      [
+        1.97,
+        "Fm99"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "770301",
+    "name": "Litoral norte de Alicante",
+    "form_id": "Fm163",
+    "cost": 0.04,
+    "top": [
+      [
+        0.04,
+        "Fm163"
+      ],
+      [
+        1.48,
+        "Fm192"
+      ],
+      [
+        2.4,
+        "Fm184"
+      ],
+      [
+        4.07,
+        "Fm191"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "770302",
+    "name": "Interior de Alicante",
+    "form_id": "Fm184",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm184"
+      ],
+      [
+        1.16,
+        "Fm185"
+      ],
+      [
+        1.31,
+        "Fm151"
+      ],
+      [
+        2.1,
+        "Fm191"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "770303",
+    "name": "Litoral sur de Alicante",
+    "form_id": "Fm185",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm185"
+      ],
+      [
+        0.96,
+        "Fm184"
+      ],
+      [
+        2.65,
+        "Fm151"
+      ],
+      [
+        4.27,
+        "Fm163"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "771201",
+    "name": "Interior norte de Castellón",
+    "form_id": "Fm180",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm180"
+      ],
+      [
+        1.33,
+        "Fm164"
+      ],
+      [
+        2.3,
+        "Fm187"
+      ],
+      [
+        3.74,
+        "Fm177"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "771202",
+    "name": "Litoral norte de Castellón",
+    "form_id": "Fm164",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm164"
+      ],
+      [
+        1.89,
+        "Fm180"
+      ],
+      [
+        3.44,
+        "Fm187"
+      ],
+      [
+        3.91,
+        "Fm177"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "771203",
+    "name": "Interior sur de Castellón",
+    "form_id": "Fm186",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm186"
+      ],
+      [
+        0.99,
+        "Fm187"
+      ],
+      [
+        2.79,
+        "Fm180"
+      ],
+      [
+        2.83,
+        "Fm190"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "771204",
+    "name": "Litoral sur de Castellón",
+    "form_id": "Fm187",
+    "cost": 0.03,
+    "top": [
+      [
+        0.03,
+        "Fm187"
+      ],
+      [
+        1.24,
+        "Fm186"
+      ],
+      [
+        1.56,
+        "Fm180"
+      ],
+      [
+        2.4,
+        "Fm164"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "774602",
+    "name": "Litoral norte de Valencia",
+    "form_id": "Fm190",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm190"
+      ],
+      [
+        1.94,
+        "Fm186"
+      ],
+      [
+        2.11,
+        "Fm192"
+      ],
+      [
+        3.1,
+        "Fm191"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "774603",
+    "name": "Interior sur de Valencia",
+    "form_id": "Fm191",
+    "cost": 0.01,
+    "top": [
+      [
+        0.01,
+        "Fm191"
+      ],
+      [
+        1.86,
+        "Fm192"
+      ],
+      [
+        2.54,
+        "Fm184"
+      ],
+      [
+        2.7,
+        "Fm190"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "774604",
+    "name": "Litoral sur de Valencia",
+    "form_id": "Fm192",
+    "cost": 0.02,
+    "top": [
+      [
+        0.02,
+        "Fm192"
+      ],
+      [
+        1.38,
+        "Fm190"
+      ],
+      [
+        1.7,
+        "Fm191"
+      ],
+      [
+        2.27,
+        "Fm163"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "785101",
+    "name": "Ceuta",
+    "form_id": "Fm198",
+    "cost": 30.69,
+    "top": [
+      [
+        30.69,
+        "Fm198"
+      ],
+      [
+        51.27,
+        "Fm60"
+      ],
+      [
+        61.3,
+        "Fm59"
+      ],
+      [
+        61.44,
+        "Fm72"
+      ]
+    ],
+    "group": "main"
+  },
+  {
+    "code": "795201",
+    "name": "Melilla",
+    "form_id": "Fm231",
+    "cost": 41.81,
+    "top": [
+      [
+        41.81,
+        "Fm231"
+      ],
+      [
+        59.78,
+        "Fm66"
+      ],
+      [
+        64.71,
+        "Fm198"
+      ],
+      [
+        68.58,
+        "Fm74"
+      ]
+    ],
+    "group": "main"
+  }
+]

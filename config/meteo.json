@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "timezone": "Europe/Madrid",
+  "scope": "peninsula_canarias_baleares",
+  "forecast_selection": {
+    "mode": "hour_12",
+    "hour": 12,
+    "fallback_periods": [
+      "12-18",
+      "12-24",
+      "00-24"
+    ]
+  },
+  "temperatures": [
+    {
+      "slot": "TEMP_01",
+      "label": "Santa Cruz de Tenerife",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "38038",
+          "name": "Santa Cruz de Tenerife"
+        }
+      ],
+      "ae_layer_index": 1
+    },
+    {
+      "slot": "TEMP_02",
+      "label": "Las Palmas",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "35016",
+          "name": "Las Palmas de Gran Canaria"
+        }
+      ],
+      "ae_layer_index": 2
+    },
+    {
+      "slot": "TEMP_03",
+      "label": "Cádiz, Málaga, Huelva y Sevilla",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "11012",
+          "name": "Cádiz"
+        },
+        {
+          "id": "29067",
+          "name": "Málaga"
+        },
+        {
+          "id": "21041",
+          "name": "Huelva"
+        },
+        {
+          "id": "41091",
+          "name": "Sevilla"
+        }
+      ],
+      "ae_layer_index": 3
+    },
+    {
+      "slot": "TEMP_04",
+      "label": "Granada y Almería",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "18087",
+          "name": "Granada"
+        },
+        {
+          "id": "04013",
+          "name": "Almería"
+        }
+      ],
+      "ae_layer_index": 4
+    },
+    {
+      "slot": "TEMP_05",
+      "label": "Cáceres y Badajoz",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "10037",
+          "name": "Cáceres"
+        },
+        {
+          "id": "06015",
+          "name": "Badajoz"
+        }
+      ],
+      "ae_layer_index": 5
+    },
+    {
+      "slot": "TEMP_06",
+      "label": "Murcia",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "30030",
+          "name": "Murcia"
+        }
+      ],
+      "ae_layer_index": 6
+    },
+    {
+      "slot": "TEMP_07",
+      "label": "Ciudad Real y Jaén",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "13034",
+          "name": "Ciudad Real"
+        },
+        {
+          "id": "23050",
+          "name": "Jaén"
+        }
+      ],
+      "ae_layer_index": 7
+    },
+    {
+      "slot": "TEMP_08",
+      "label": "Valencia",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "46250",
+          "name": "Valencia"
+        }
+      ],
+      "ae_layer_index": 8
+    },
+    {
+      "slot": "TEMP_09",
+      "label": "Baleares",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "07040",
+          "name": "Palma de Mallorca"
+        }
+      ],
+      "ae_layer_index": 9
+    },
+    {
+      "slot": "TEMP_10",
+      "label": "Cataluña",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "08019",
+          "name": "Barcelona"
+        }
+      ],
+      "ae_layer_index": 10
+    },
+    {
+      "slot": "TEMP_11",
+      "label": "Aragón",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "22125",
+          "name": "Huesca"
+        },
+        {
+          "id": "44216",
+          "name": "Teruel"
+        },
+        {
+          "id": "50297",
+          "name": "Zaragoza"
+        }
+      ],
+      "ae_layer_index": 11
+    },
+    {
+      "slot": "TEMP_12",
+      "label": "Madrid y Guadalajara",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "28079",
+          "name": "Madrid"
+        },
+        {
+          "id": "19130",
+          "name": "Guadalajara"
+        }
+      ],
+      "ae_layer_index": 12
+    },
+    {
+      "slot": "TEMP_13",
+      "label": "Valladolid y Ávila",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "47186",
+          "name": "Valladolid"
+        },
+        {
+          "id": "05019",
+          "name": "Ávila"
+        }
+      ],
+      "ae_layer_index": 13
+    },
+    {
+      "slot": "TEMP_14",
+      "label": "Navarra y País Vasco",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "31201",
+          "name": "Pamplona/Iruña"
+        },
+        {
+          "id": "01059",
+          "name": "Vitoria-Gasteiz"
+        },
+        {
+          "id": "48020",
+          "name": "Bilbao"
+        },
+        {
+          "id": "20069",
+          "name": "Donostia/San Sebastián"
+        }
+      ],
+      "ae_layer_index": 14
+    },
+    {
+      "slot": "TEMP_15",
+      "label": "Cantabria",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "39075",
+          "name": "Santander"
+        }
+      ],
+      "ae_layer_index": 15
+    },
+    {
+      "slot": "TEMP_16",
+      "label": "Galicia",
+      "aggregation": "maximum",
+      "municipalities": [
+        {
+          "id": "15030",
+          "name": "A Coruña"
+        },
+        {
+          "id": "27028",
+          "name": "Lugo"
+        },
+        {
+          "id": "32054",
+          "name": "Ourense"
+        },
+        {
+          "id": "36038",
+          "name": "Pontevedra"
+        }
+      ],
+      "ae_layer_index": 16
+    }
+  ],
+  "forecast_zones": [
+    {
+      "slot": "ZONA_01",
+      "label": "Islas Canarias",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "38038",
+          "name": "Santa Cruz de Tenerife"
+        },
+        {
+          "id": "35016",
+          "name": "Las Palmas de Gran Canaria"
+        }
+      ],
+      "prevision_layer_index": 1,
+      "doble_day_1_layer_index": 15,
+      "doble_day_2_layer_index": 1
+    },
+    {
+      "slot": "ZONA_02",
+      "label": "Almería",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "04013",
+          "name": "Almería"
+        }
+      ],
+      "prevision_layer_index": 2,
+      "doble_day_1_layer_index": 16,
+      "doble_day_2_layer_index": 2
+    },
+    {
+      "slot": "ZONA_03",
+      "label": "Cádiz y Málaga",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "11012",
+          "name": "Cádiz"
+        },
+        {
+          "id": "29067",
+          "name": "Málaga"
+        }
+      ],
+      "prevision_layer_index": 3,
+      "doble_day_1_layer_index": 17,
+      "doble_day_2_layer_index": 3
+    },
+    {
+      "slot": "ZONA_04",
+      "label": "Murcia y Alicante",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "30030",
+          "name": "Murcia"
+        },
+        {
+          "id": "03014",
+          "name": "Alicante/Alacant"
+        }
+      ],
+      "prevision_layer_index": 4,
+      "doble_day_1_layer_index": 18,
+      "doble_day_2_layer_index": 4
+    },
+    {
+      "slot": "ZONA_05",
+      "label": "Ciudad Real, Jaén y Albacete",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "13034",
+          "name": "Ciudad Real"
+        },
+        {
+          "id": "23050",
+          "name": "Jaén"
+        },
+        {
+          "id": "02003",
+          "name": "Albacete"
+        }
+      ],
+      "prevision_layer_index": 5,
+      "doble_day_1_layer_index": 19,
+      "doble_day_2_layer_index": 5
+    },
+    {
+      "slot": "ZONA_06",
+      "label": "Badajoz, Sevilla y Huelva",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "06015",
+          "name": "Badajoz"
+        },
+        {
+          "id": "41091",
+          "name": "Sevilla"
+        },
+        {
+          "id": "21041",
+          "name": "Huelva"
+        }
+      ],
+      "prevision_layer_index": 6,
+      "doble_day_1_layer_index": 20,
+      "doble_day_2_layer_index": 6
+    },
+    {
+      "slot": "ZONA_07",
+      "label": "Baleares",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "07040",
+          "name": "Palma de Mallorca"
+        }
+      ],
+      "prevision_layer_index": 7,
+      "doble_day_1_layer_index": 21,
+      "doble_day_2_layer_index": 7
+    },
+    {
+      "slot": "ZONA_08",
+      "label": "Teruel y Castellón",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "44216",
+          "name": "Teruel"
+        },
+        {
+          "id": "12040",
+          "name": "Castelló de la Plana"
+        }
+      ],
+      "prevision_layer_index": 8,
+      "doble_day_1_layer_index": 22,
+      "doble_day_2_layer_index": 8
+    },
+    {
+      "slot": "ZONA_09",
+      "label": "Madrid",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "28079",
+          "name": "Madrid"
+        }
+      ],
+      "prevision_layer_index": 9,
+      "doble_day_1_layer_index": 23,
+      "doble_day_2_layer_index": 9
+    },
+    {
+      "slot": "ZONA_10",
+      "label": "Cáceres y Salamanca",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "10037",
+          "name": "Cáceres"
+        },
+        {
+          "id": "37274",
+          "name": "Salamanca"
+        }
+      ],
+      "prevision_layer_index": 10,
+      "doble_day_1_layer_index": 24,
+      "doble_day_2_layer_index": 10
+    },
+    {
+      "slot": "ZONA_11",
+      "label": "Cataluña",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "08019",
+          "name": "Barcelona"
+        },
+        {
+          "id": "17079",
+          "name": "Girona"
+        }
+      ],
+      "prevision_layer_index": 11,
+      "doble_day_1_layer_index": 25,
+      "doble_day_2_layer_index": 11
+    },
+    {
+      "slot": "ZONA_12",
+      "label": "Navarra",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "31201",
+          "name": "Pamplona/Iruña"
+        }
+      ],
+      "prevision_layer_index": 12,
+      "doble_day_1_layer_index": 26,
+      "doble_day_2_layer_index": 12
+    },
+    {
+      "slot": "ZONA_13",
+      "label": "Cantabria y Palencia",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "39075",
+          "name": "Santander"
+        },
+        {
+          "id": "34120",
+          "name": "Palencia"
+        }
+      ],
+      "prevision_layer_index": 13,
+      "doble_day_1_layer_index": 27,
+      "doble_day_2_layer_index": 13
+    },
+    {
+      "slot": "ZONA_14",
+      "label": "Galicia",
+      "aggregation": "most_significant",
+      "municipalities": [
+        {
+          "id": "15030",
+          "name": "A Coruña"
+        },
+        {
+          "id": "27028",
+          "name": "Lugo"
+        },
+        {
+          "id": "32054",
+          "name": "Ourense"
+        },
+        {
+          "id": "36038",
+          "name": "Pontevedra"
+        }
+      ],
+      "prevision_layer_index": 14,
+      "doble_day_1_layer_index": 28,
+      "doble_day_2_layer_index": 14
+    }
+  ],
+  "symbol_files": {
+    "SOL": "SOL.mov",
+    "SOL_NUBE": "SOL NUEBE.mov",
+    "SOL_LLUVIA": "SOL LLUVIA.mov",
+    "NUBE": "NUBE.mov",
+    "NUBES_ALTAS": "NUBES ALTAS.mov",
+    "LLUVIA": "LLUVIA.mov",
+    "NIEVE": "NIEVE.mov",
+    "TORMENTA": "TORMENTA.mov",
+    "VIENTO": "VENT.mov"
+  },
+  "symbol_map": {
+    "11": "SOL",
+    "12": "SOL_NUBE",
+    "13": "SOL_NUBE",
+    "14": "NUBE",
+    "15": "NUBE",
+    "16": "NUBE",
+    "17": "NUBES_ALTAS",
+    "23": "SOL_LLUVIA",
+    "24": "LLUVIA",
+    "25": "LLUVIA",
+    "26": "LLUVIA",
+    "33": "NIEVE",
+    "34": "NIEVE",
+    "35": "NIEVE",
+    "36": "NIEVE",
+    "43": "SOL_LLUVIA",
+    "44": "LLUVIA",
+    "45": "LLUVIA",
+    "46": "LLUVIA",
+    "51": "TORMENTA",
+    "52": "TORMENTA",
+    "53": "TORMENTA",
+    "54": "TORMENTA",
+    "61": "TORMENTA",
+    "62": "TORMENTA",
+    "63": "TORMENTA",
+    "64": "TORMENTA",
+    "71": "NIEVE",
+    "72": "NIEVE",
+    "73": "NIEVE",
+    "74": "NIEVE"
+  },
+  "symbol_priority": {
+    "SOL": 10,
+    "SOL_NUBE": 20,
+    "NUBES_ALTAS": 25,
+    "NUBE": 30,
+    "VIENTO": 50,
+    "SOL_LLUVIA": 55,
+    "LLUVIA": 60,
+    "NIEVE": 70,
+    "TORMENTA": 80
+  },
+  "after_effects": {
+    "project": "METEO FINAL.aep",
+    "temperature_comp": "num temp ",
+    "prevision_comp": "PREVISION",
+    "double_comp": "DOBLE",
+    "double_day_1_text_layer": 30,
+    "double_day_2_text_layer": 29
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "container": "mp4",
+    "codec": "h264"
+  }
+}
