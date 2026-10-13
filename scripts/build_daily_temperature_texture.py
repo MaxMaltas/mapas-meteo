@@ -604,6 +604,10 @@ def main() -> int:
     pen_clean = nearest_palette_image(peninsula, pen_palette, pen_valid)
     can_clean = nearest_palette_image(canaries, can_palette, can_valid)
     provinces = Image.open(provinces_path).convert("RGBA")
+    # La capa de comunidades se conserva solo como guia geometrica interna para
+    # detectar las 47 provincias durante el registro. No debe renderizarse en
+    # temperatura_con_limites.png: la textura termica ya separa las comunidades
+    # y superponerla produciria contornos dobles.
     communities = Image.open(communities_path).convert("RGBA")
 
     # Registro inicial. Los archipielagos se tratan de forma independiente porque
@@ -728,9 +732,7 @@ def main() -> int:
         raise ValueError(
             f"La cobertura termica es insuficiente: {coverage_percent:.3f}%"
         )
-    with_boundaries = Image.alpha_composite(
-        Image.alpha_composite(temperature, provinces), communities
-    )
+    with_boundaries = Image.alpha_composite(temperature, provinces)
     preview = Image.alpha_composite(
         Image.new("RGBA", CANVAS_SIZE, (226, 239, 248, 255)), with_boundaries
     ).convert("RGB")
@@ -764,6 +766,10 @@ def main() -> int:
             "colour_grading": False,
             "output_unique_colours": len(output_colours),
             "invented_colours": 0,
+        },
+        "boundaries": {
+            "rendered_layers": ["provincias.png"],
+            "registration_only_layers": ["comunidades.png"],
         },
         "coverage": {
             "land_pixels": land_pixels,
