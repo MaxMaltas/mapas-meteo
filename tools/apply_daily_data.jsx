@@ -65,6 +65,41 @@
         layer.replaceSource(importGeneratedImage(path), false);
     }
 
+    function hasActiveAlerts(alerts) {
+        if (!alerts) return false;
+        var collections = [alerts.provinces, alerts.zones];
+        for (var c = 0; c < collections.length; c++) {
+            var entries = collections[c];
+            if (!entries) continue;
+            for (var i = 0; i < entries.length; i++) {
+                var entry = entries[i];
+                if (entry.level && String(entry.level).toLowerCase() !== "green") {
+                    return true;
+                }
+                if (entry.alerts && entry.alerts.length > 0) return true;
+            }
+        }
+        return false;
+    }
+
+    function applyAlertsImage(path, alerts) {
+        var comp = findComp("ALERTAS");
+        var layer = comp.layer(1);
+        var sourceFile = new File(path);
+
+        if (!sourceFile.exists) {
+            if (hasActiveAlerts(alerts)) {
+                throw new Error("Hay alertas activas pero no se encuentra la imagen generada: " + path);
+            }
+            // Evita que quede visible el mapa de alertas de una ejecución anterior.
+            layer.enabled = false;
+            return;
+        }
+
+        replaceGeneratedImage("ALERTAS", 1, path);
+        layer.enabled = true;
+    }
+
     function setText(layer, value) {
         var property = layer.property("ADBE Text Properties").property("ADBE Text Document");
         var document = property.value;
@@ -87,11 +122,11 @@
         var config = readJson(configPath);
         app.beginUndoGroup("Aplicar datos AEMET");
 
-        if (!data.alerts || !data.alerts.date) {
-            throw new Error("El JSON diario no contiene la fecha de los mapas generados.");
+        if (!data.clips || !data.clips.TEMPERATURAS || !data.clips.TEMPERATURAS.date) {
+            throw new Error("El JSON diario no contiene la fecha del mapa de temperaturas.");
         }
-        var generatedPath = rootPath + "/data/generated/" + data.alerts.date;
-        replaceGeneratedImage("ALERTAS", 1, generatedPath + "/alertas_final.png");
+        var generatedPath = rootPath + "/data/generated/" + data.clips.TEMPERATURAS.date;
+        applyAlertsImage(generatedPath + "/alertas_final.png", data.alerts);
         replaceGeneratedImage("TEMP", 2, generatedPath + "/temperaturas_final.png");
 
         var tempComp = findComp(config.after_effects.temperature_comp);

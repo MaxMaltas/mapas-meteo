@@ -49,11 +49,18 @@
         var doubleComp = findComp(config.after_effects.double_comp);
         var alertsComp = findComp("ALERTAS");
         var temperatureMapComp = findComp("TEMP");
-        assertEqual(
-            alertsComp.layer(1).source.name,
-            "alertas_final.png",
-            "Imagen de ALERTAS"
-        );
+        var generatedPath = rootPath + "/data/generated/" + data.clips.TEMPERATURAS.date;
+        var alertsFile = new File(generatedPath + "/alertas_final.png");
+        if (alertsFile.exists) {
+            assertEqual(
+                alertsComp.layer(1).source.name,
+                "alertas_final.png",
+                "Imagen de ALERTAS"
+            );
+            assertEqual(alertsComp.layer(1).enabled, true, "Capa de ALERTAS activa");
+        } else {
+            assertEqual(alertsComp.layer(1).enabled, false, "Capa de ALERTAS inactiva");
+        }
         assertEqual(
             temperatureMapComp.layer(2).source.name,
             "temperaturas_final.png",
@@ -114,7 +121,7 @@
         lines.push("Previsión verificada: " + prevision.length);
         lines.push("Doble día 1 verificado: " + day1.length);
         lines.push("Doble día 2 verificado: " + day2.length);
-        lines.push("Imágenes de TEMP y ALERTAS verificadas");
+        lines.push(alertsFile.exists ? "Imágenes de TEMP y ALERTAS verificadas" : "Imagen de TEMP verificada; ALERTAS omitida");
     } catch (error) {
         lines.push("ERROR");
         lines.push(error.toString());

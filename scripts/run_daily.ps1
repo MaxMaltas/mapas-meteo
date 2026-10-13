@@ -96,6 +96,25 @@ function Assert-DailyData {
     }
 }
 
+function Test-HasActiveAlerts {
+    param([object]$DailyData)
+
+    if ($null -eq $DailyData.alerts) { return $false }
+    foreach ($collectionName in @("provinces", "zones")) {
+        $collection = $DailyData.alerts.$collectionName
+        if ($null -eq $collection) { continue }
+        foreach ($entry in $collection) {
+            if ($entry.level -and $entry.level.ToString().ToLowerInvariant() -ne "green") {
+                return $true
+            }
+            if ($null -ne $entry.alerts -and $entry.alerts.Count -gt 0) {
+                return $true
+            }
+        }
+    }
+    return $false
+}
+
 function Invoke-DataPreparation {
     $generator = Join-Path $ProjectRoot "scripts\generate_daily.py"
     Assert-File -Path $generator
@@ -141,11 +160,20 @@ function Invoke-AfterEffectsApply {
     Assert-DailyData
     $datedDirectory = Join-Path $ProjectRoot ("data\generated\{0}" -f $Date)
     Assert-PngSize -Path (Join-Path $datedDirectory "temperaturas_final.png") -Width 1672 -Height 941
-    Assert-PngSize -Path (Join-Path $datedDirectory "alertas_final.png") -Width 1672 -Height 941
+    $alertsFinalPath = Join-Path $datedDirectory "alertas_final.png"
+    if (Test-Path -LiteralPath $alertsFinalPath -PathType Leaf) {
+        Assert-PngSize -Path $alertsFinalPath -Width 1672 -Height 941
+        Write-DailyLog "Los mapas finales de temperaturas y alertas de $Date han superado las comprobaciones."
+    } else {
+        $dailyData = Get-Content -LiteralPath (Join-Path $datedDirectory "meteo.json") -Raw -Encoding UTF8 | ConvertFrom-Json
+        if (Test-HasActiveAlerts -DailyData $dailyData) {
+            throw "Hay alertas activas, pero falta el archivo obligatorio: $alertsFinalPath"
+        }
+        Write-DailyLog "No hay alertas activas: se aplicara solo el mapa final de temperaturas de $Date."
+    }
 
     $wrapper = Join-Path $ProjectRoot "tools\open_and_apply_daily_data.jsx"
     Assert-File -Path $wrapper
-    Write-DailyLog "Las dos imagenes finales de $Date han superado las comprobaciones."
 
     if ($NoLaunch) {
         Write-DailyLog "NoLaunch activo: no se abre After Effects."

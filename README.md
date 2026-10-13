@@ -84,8 +84,10 @@ la fecha ya existen. El script local no sustituye la tarea de Codex, porque la c
 y la inspeccion visual de los compuestos finales requieren sus skills de imagen. El
 script nunca reutiliza silenciosamente imagenes de otro dia:
 comprueba la fecha del JSON, la presencia de todas las fuentes y que `alertas.png`,
-el mapa tecnico, mida 1920x1080. Tambien comprueba que `alertas_final.png` y
-`temperaturas_final.png` conserven los 1672x941 pixeles de las bases 3D. Los registros
+el mapa tecnico, mida 1920x1080. `temperaturas_final.png` es obligatorio y debe
+conservar los 1672x941 pixeles de la base 3D. `alertas_final.png` se valida con esas
+mismas dimensiones cuando existe; si no hay avisos activos puede omitirse y After
+Effects desactiva la capa de `ALERTAS` para no mostrar un mapa anterior. Los registros
 quedan en `logs/daily-AAAA-MM-DD.log`.
 
 ### Compuesto de temperaturas vigente
