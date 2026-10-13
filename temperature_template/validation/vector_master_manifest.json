@@ -16,10 +16,15 @@
     290,
     74
   ],
-  "illustrator_current_sha256": "2C02CF73B9FF75F184B0989BA2CF07150214359D675227F21FB55E3987074A7A",
+  "styles": {
+    "province_colour": "#020200",
+    "community_colour": "#202122",
+    "source": "measured from the production Illustrator PDF appearance"
+  },
+  "illustrator_current_sha256": "EA6FF11D279DA52D6CCB75B0FF3A6D210229505584C0024CE35226437BCB5B4A",
   "geometry_snapshot_source_sha256": "2C02CF73B9FF75F184B0989BA2CF07150214359D675227F21FB55E3987074A7A",
-  "illustrator_matches_geometry_snapshot": true,
-  "warning": null,
+  "illustrator_matches_geometry_snapshot": false,
+  "warning": "El Illustrator actual no coincide con la geometría validada de producción.",
   "validation": {
     "land_pixels": 579935,
     "province_pixels": 7984,

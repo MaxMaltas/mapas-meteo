@@ -76,8 +76,10 @@ El lanzador:
 
 1. utiliza las fuentes AEMET existentes de esa fecha;
 2. si la fecha es hoy y faltan, ejecuta la descarga diaria;
-3. genera `assets/daily/FECHA/temperatura_rellenada.png`;
-4. exige al menos 99 % de cobertura y cero colores inventados;
+3. genera `assets/daily/FECHA/temperatura_rellenada.png` y
+   `assets/daily/FECHA/temperatura_con_limites.png`;
+4. exige al menos 99 % de cobertura y cero colores inventados, y copia ambas
+   texturas a `data/generated/FECHA/` para dejar una referencia fechada auditable;
 5. abre una instancia independiente de After Effects;
 6. sustituye solo `TEMPERATURA_DIARIA_REEMPLAZAR` y guarda el proyecto;
 7. renderiza el primer fotograma de `TEMP_MAPA_MASTER`;
@@ -85,6 +87,13 @@ El lanzador:
 
 Nunca descarga mapas actuales para completar una fecha histórica. Si After Effects
 ya está abierto, se detiene para evitar que dos instancias guarden el mismo `.aep`.
+
+En el flujo híbrido de producción actual, la composición asistida usa únicamente
+`data/generated/FECHA/temperatura_con_limites.png` como referencia térmica. Esta
+imagen ya contiene el registro geográfico aprobado, las provincias en casi negro
+`#020200` y las comunidades/costa en gris carbón `#202122`. No debe sustituirse por
+`temperatura_rellenada.png` ni por las capturas AEMET originales, porque se perdería
+la red de límites o se reintroducirían errores de encaje.
 
 Para generar y validar el PNG sin abrir After Effects:
 
@@ -107,10 +116,13 @@ El proyecto principal no se utilizó en las pruebas de sustitución.
 El publicador independiente es `scripts/publish_temperature_template.ps1`. El
 lanzador diario lo ejecuta automáticamente después de actualizar After Effects.
 
-La salida de la nueva plantilla mide `1920 x 1080`. No debe utilizarse todavía con
-el antiguo paso `scripts/run_daily.ps1 -Stage Apply`, que continúa esperando el
-compuesto 3D anterior de `1672 x 941`. Esa conexión se hará solamente cuando se
-apruebe la sustitución del flujo de producción.
+La salida de la nueva plantilla mide `1920 x 1080`. Mientras `METEO FINAL.aep`
+continúe esperando el compuesto 3D anterior de `1672 x 941`, el proceso de producción
+debe detenerse tras `Stage Prepare`, crear el compuesto asistido a partir de
+`temperatura_con_limites.png`, guardarlo como
+`data/generated/FECHA/temperaturas_final.png` a `1672 x 941` y ejecutar después el
+preflight `scripts/run_daily.ps1 -Stage Apply -NoLaunch`. El publicador completo de
+la plantilla no sustituye todavía ese paso.
 
 Para actualizar el `.aep` sin publicar un render:
 

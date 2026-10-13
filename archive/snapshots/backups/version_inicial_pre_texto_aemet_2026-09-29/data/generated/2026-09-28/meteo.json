@@ -1,0 +1,3660 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-29T08:11:50+02:00",
+  "provider": "AEMET OpenData",
+  "scope": "peninsula_canarias_baleares",
+  "settings": {
+    "mode": "hour_12",
+    "hour": 12,
+    "fallback_periods": [
+      "12-18",
+      "12-24",
+      "00-24"
+    ]
+  },
+  "alerts": {
+    "date": "2026-09-28",
+    "criterion": "maximum_active_level_in_any_aemet_zone_per_province",
+    "parsed_cap_files": 368,
+    "provinces": [
+      {
+        "code": "01",
+        "name": "Álava",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "02",
+        "name": "Albacete",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "03",
+        "name": "Alicante",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "04",
+        "name": "Almería",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "05",
+        "name": "Ávila",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Sur de Ávila",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Sur de Ávila",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Sur de Ávila",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Sur de Ávila",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "06",
+        "name": "Badajoz",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Vegas del Guadiana",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Vegas del Guadiana",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Barros y Serena",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Barros y Serena",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Sur de Badajoz",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Sur de Badajoz",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Vegas del Guadiana",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Vegas del Guadiana",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Barros y Serena",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Barros y Serena",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Sur de Badajoz",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Sur de Badajoz",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "07",
+        "name": "Illes Balears",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "08",
+        "name": "Barcelona",
+        "level": "orange",
+        "alerts": [
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Prepirineo de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Prepirineo de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Depresión central de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Depresión central de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Prelitoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Prelitoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Litoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Litoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Prepirineo de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Prepirineo de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Depresión central de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Depresión central de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Prelitoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Prelitoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Litoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Litoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Prepirineo de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Prepirineo de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Depresión central de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Depresión central de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Prelitoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Prelitoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Litoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Litoral de Barcelona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "09",
+        "name": "Burgos",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Cordillera Cantábrica de Burgos",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Cordillera Cantábrica de Burgos",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Norte de Burgos",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Norte de Burgos",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Cordillera Cantábrica de Burgos",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Cordillera Cantábrica de Burgos",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Norte de Burgos",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Norte de Burgos",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "10",
+        "name": "Cáceres",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Norte de Cáceres",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Norte de Cáceres",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Tajo y Alagón",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Tajo y Alagón",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Meseta cacereña",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Meseta cacereña",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Norte de Cáceres",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Norte de Cáceres",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Tajo y Alagón",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Tajo y Alagón",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Meseta cacereña",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Meseta cacereña",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "11",
+        "name": "Cádiz",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Grazalema",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Grazalema",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Estrecho",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Estrecho",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "12",
+        "name": "Castellón",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Interior sur de Castellón",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Interior sur de Castellón",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "13",
+        "name": "Ciudad Real",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "14",
+        "name": "Córdoba",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "15",
+        "name": "A Coruña",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "16",
+        "name": "Cuenca",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Serranía de Cuenca",
+            "onset": "2026-09-28T20:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Serranía de Cuenca",
+            "onset": "2026-09-28T20:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Serranía de Cuenca",
+            "onset": "2026-09-28T20:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Serranía de Cuenca",
+            "onset": "2026-09-28T20:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Serranía de Cuenca",
+            "onset": "2026-09-28T20:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Serranía de Cuenca",
+            "onset": "2026-09-28T20:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "17",
+        "name": "Girona",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "18",
+        "name": "Granada",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "19",
+        "name": "Guadalajara",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "20",
+        "name": "Gipuzkoa",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "21",
+        "name": "Huelva",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Aracena",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Aracena",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Aracena",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Aracena",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "22",
+        "name": "Huesca",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Pirineo oscense",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Pirineo oscense",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Centro de Huesca",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Centro de Huesca",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Pirineo oscense",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Pirineo oscense",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "23",
+        "name": "Jaén",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "24",
+        "name": "León",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "25",
+        "name": "Lleida",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Depresión central de Lleida",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Depresión central de Lleida",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Depresión central de Lleida",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Depresión central de Lleida",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Depresión central de Lleida",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Depresión central de Lleida",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "26",
+        "name": "La Rioja",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "27",
+        "name": "Lugo",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Montaña de Lugo",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Montaña de Lugo",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "28",
+        "name": "Madrid",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "29",
+        "name": "Málaga",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Antequera",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Antequera",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Ronda",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Ronda",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Sol y Guadalhorce",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Sol y Guadalhorce",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Axarquía",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Axarquía",
+            "onset": "2026-09-28T07:00:00+02:00",
+            "expires": "2026-09-28T19:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "30",
+        "name": "Murcia",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "31",
+        "name": "Navarra",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Centro de Navarra",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Centro de Navarra",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Pirineo navarro",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Pirineo navarro",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Centro de Navarra",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Centro de Navarra",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Pirineo navarro",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Pirineo navarro",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "32",
+        "name": "Ourense",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "33",
+        "name": "Asturias",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Litoral occidental asturiano",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Litoral occidental asturiano",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Suroccidental asturiana",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Suroccidental asturiana",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "34",
+        "name": "Palencia",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "35",
+        "name": "Las Palmas",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "36",
+        "name": "Pontevedra",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "37",
+        "name": "Salamanca",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Meseta de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Meseta de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Sistema Central de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Sistema Central de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Sur de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Sur de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Meseta de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Meseta de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Sistema Central de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Sistema Central de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Sur de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Sur de Salamanca",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "38",
+        "name": "Santa Cruz de Tenerife",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "39",
+        "name": "Cantabria",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Litoral cántabro",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Litoral cántabro",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Centro y valle de Villaverde",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Centro y valle de Villaverde",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Litoral cántabro",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Litoral cántabro",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Centro y valle de Villaverde",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Centro y valle de Villaverde",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "40",
+        "name": "Segovia",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "41",
+        "name": "Sevilla",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "42",
+        "name": "Soria",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "43",
+        "name": "Tarragona",
+        "level": "orange",
+        "alerts": [
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Prelitoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Prelitoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Litoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Litoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Litoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Litoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Prelitoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Prelitoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Prelitoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Prelitoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Litoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Litoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Litoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Litoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Aviso de lluvias de nivel naranja",
+            "area": "Prelitoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "orange",
+            "event": "Severe rain warning",
+            "area": "Prelitoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Depresión central de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Depresión central de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Depresión central de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Depresión central de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Depresión central de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Depresión central de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Prelitoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Prelitoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Litoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Litoral norte de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Litoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Litoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Prelitoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Prelitoral sur de Tarragona",
+            "onset": "2026-09-28T21:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "44",
+        "name": "Teruel",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Albarracín y Jiloca",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Albarracín y Jiloca",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Gúdar y Maestrazgo",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Gúdar y Maestrazgo",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "45",
+        "name": "Toledo",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "46",
+        "name": "Valencia",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Interior norte de Valencia",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Interior norte de Valencia",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Interior sur de Valencia",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Interior sur de Valencia",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "47",
+        "name": "Valladolid",
+        "level": "green",
+        "alerts": []
+      },
+      {
+        "code": "48",
+        "name": "Bizkaia",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Bizkaia litoral",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Bizkaia litoral",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Bizkaia interior",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Bizkaia interior",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Bizkaia litoral",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Bizkaia litoral",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Bizkaia interior",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Bizkaia interior",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T20:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "49",
+        "name": "Zamora",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Meseta de Zamora",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Meseta de Zamora",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Meseta de Zamora",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Meseta de Zamora",
+            "onset": "2026-09-28T14:00:00+02:00",
+            "expires": "2026-09-28T21:59:59+02:00"
+          }
+        ]
+      },
+      {
+        "code": "50",
+        "name": "Zaragoza",
+        "level": "yellow",
+        "alerts": [
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Ibérica zaragozana",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Ibérica zaragozana",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Ribera del Ebro de Zaragoza",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Ribera del Ebro de Zaragoza",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Ibérica zaragozana",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Ibérica zaragozana",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Ribera del Ebro de Zaragoza",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Ribera del Ebro de Zaragoza",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Ibérica zaragozana",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Ibérica zaragozana",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Ribera del Ebro de Zaragoza",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Ribera del Ebro de Zaragoza",
+            "onset": "2026-09-28T15:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de tormentas de nivel amarillo",
+            "area": "Cinco Villas de Zaragoza",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate thunderstorm warning",
+            "area": "Cinco Villas de Zaragoza",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Cinco Villas de Zaragoza",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Cinco Villas de Zaragoza",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Aviso de lluvias de nivel amarillo",
+            "area": "Cinco Villas de Zaragoza",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          },
+          {
+            "level": "yellow",
+            "event": "Moderate rain warning",
+            "area": "Cinco Villas de Zaragoza",
+            "onset": "2026-09-28T18:00:00+02:00",
+            "expires": "2026-09-28T23:59:59+02:00"
+          }
+        ]
+      }
+    ],
+    "raw_source": "data/raw/2026-09-28/avisos_cap.data.tar",
+    "map_status": "pending_renderer"
+  },
+  "clips": {
+    "TEMPERATURAS": {
+      "date": "2026-09-28",
+      "values": [
+        {
+          "slot": "TEMP_01",
+          "enabled": true,
+          "label": "Santa Cruz de Tenerife",
+          "municipality_ids": [
+            "38038"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "38038",
+              "name": "Santa Cruz de Tenerife",
+              "max_c": 30
+            }
+          ],
+          "max_c": 30,
+          "ae_layer_index": 1
+        },
+        {
+          "slot": "TEMP_02",
+          "enabled": true,
+          "label": "Las Palmas",
+          "municipality_ids": [
+            "35016"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "35016",
+              "name": "Las Palmas de Gran Canaria",
+              "max_c": 28
+            }
+          ],
+          "max_c": 28,
+          "ae_layer_index": 2
+        },
+        {
+          "slot": "TEMP_03",
+          "enabled": true,
+          "label": "Cádiz, Málaga, Huelva y Sevilla",
+          "municipality_ids": [
+            "11012",
+            "29067",
+            "21041",
+            "41091"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "11012",
+              "name": "Cádiz",
+              "max_c": 26
+            },
+            {
+              "municipality_id": "29067",
+              "name": "Málaga",
+              "max_c": 24
+            },
+            {
+              "municipality_id": "21041",
+              "name": "Huelva",
+              "max_c": 28
+            },
+            {
+              "municipality_id": "41091",
+              "name": "Sevilla",
+              "max_c": 26
+            }
+          ],
+          "max_c": 28,
+          "ae_layer_index": 3
+        },
+        {
+          "slot": "TEMP_04",
+          "enabled": true,
+          "label": "Granada y Almería",
+          "municipality_ids": [
+            "18087",
+            "04013"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "18087",
+              "name": "Granada",
+              "max_c": 23
+            },
+            {
+              "municipality_id": "04013",
+              "name": "Almería",
+              "max_c": 28
+            }
+          ],
+          "max_c": 28,
+          "ae_layer_index": 4
+        },
+        {
+          "slot": "TEMP_05",
+          "enabled": true,
+          "label": "Cáceres y Badajoz",
+          "municipality_ids": [
+            "10037",
+            "06015"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "10037",
+              "name": "Cáceres",
+              "max_c": 27
+            },
+            {
+              "municipality_id": "06015",
+              "name": "Badajoz",
+              "max_c": 29
+            }
+          ],
+          "max_c": 29,
+          "ae_layer_index": 5
+        },
+        {
+          "slot": "TEMP_06",
+          "enabled": true,
+          "label": "Murcia",
+          "municipality_ids": [
+            "30030"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "30030",
+              "name": "Murcia",
+              "max_c": 31
+            }
+          ],
+          "max_c": 31,
+          "ae_layer_index": 6
+        },
+        {
+          "slot": "TEMP_07",
+          "enabled": true,
+          "label": "Ciudad Real y Jaén",
+          "municipality_ids": [
+            "13034",
+            "23050"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "13034",
+              "name": "Ciudad Real",
+              "max_c": 23
+            },
+            {
+              "municipality_id": "23050",
+              "name": "Jaén",
+              "max_c": 25
+            }
+          ],
+          "max_c": 25,
+          "ae_layer_index": 7
+        },
+        {
+          "slot": "TEMP_08",
+          "enabled": true,
+          "label": "Valencia",
+          "municipality_ids": [
+            "46250"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "46250",
+              "name": "Valencia",
+              "max_c": 27
+            }
+          ],
+          "max_c": 27,
+          "ae_layer_index": 8
+        },
+        {
+          "slot": "TEMP_09",
+          "enabled": true,
+          "label": "Baleares",
+          "municipality_ids": [
+            "07040"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "07040",
+              "name": "Palma de Mallorca",
+              "max_c": 30
+            }
+          ],
+          "max_c": 30,
+          "ae_layer_index": 9
+        },
+        {
+          "slot": "TEMP_10",
+          "enabled": true,
+          "label": "Cataluña",
+          "municipality_ids": [
+            "08019",
+            "17079",
+            "25120",
+            "43148"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "08019",
+              "name": "Barcelona",
+              "max_c": 28
+            },
+            {
+              "municipality_id": "17079",
+              "name": "Girona",
+              "max_c": 29
+            },
+            {
+              "municipality_id": "25120",
+              "name": "Lleida",
+              "max_c": 30
+            },
+            {
+              "municipality_id": "43148",
+              "name": "Tarragona",
+              "max_c": 28
+            }
+          ],
+          "max_c": 30,
+          "ae_layer_index": 10
+        },
+        {
+          "slot": "TEMP_11",
+          "enabled": true,
+          "label": "Aragón",
+          "municipality_ids": [
+            "22125",
+            "44216",
+            "50297"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "22125",
+              "name": "Huesca",
+              "max_c": 27
+            },
+            {
+              "municipality_id": "44216",
+              "name": "Teruel",
+              "max_c": 27
+            },
+            {
+              "municipality_id": "50297",
+              "name": "Zaragoza",
+              "max_c": 31
+            }
+          ],
+          "max_c": 31,
+          "ae_layer_index": 11
+        },
+        {
+          "slot": "TEMP_12",
+          "enabled": true,
+          "label": "Madrid y Guadalajara",
+          "municipality_ids": [
+            "28079",
+            "19130"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "28079",
+              "name": "Madrid",
+              "max_c": 23
+            },
+            {
+              "municipality_id": "19130",
+              "name": "Guadalajara",
+              "max_c": 24
+            }
+          ],
+          "max_c": 24,
+          "ae_layer_index": 12
+        },
+        {
+          "slot": "TEMP_13",
+          "enabled": true,
+          "label": "Valladolid y Ávila",
+          "municipality_ids": [
+            "47186",
+            "05019"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "47186",
+              "name": "Valladolid",
+              "max_c": 27
+            },
+            {
+              "municipality_id": "05019",
+              "name": "Ávila",
+              "max_c": 21
+            }
+          ],
+          "max_c": 27,
+          "ae_layer_index": 13
+        },
+        {
+          "slot": "TEMP_14",
+          "enabled": true,
+          "label": "Navarra y País Vasco",
+          "municipality_ids": [
+            "31201",
+            "01059",
+            "48020",
+            "20069"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "31201",
+              "name": "Pamplona/Iruña",
+              "max_c": 29
+            },
+            {
+              "municipality_id": "01059",
+              "name": "Vitoria-Gasteiz",
+              "max_c": 27
+            },
+            {
+              "municipality_id": "48020",
+              "name": "Bilbao",
+              "max_c": 29
+            },
+            {
+              "municipality_id": "20069",
+              "name": "Donostia/San Sebastián",
+              "max_c": 27
+            }
+          ],
+          "max_c": 29,
+          "ae_layer_index": 14
+        },
+        {
+          "slot": "TEMP_15",
+          "enabled": true,
+          "label": "Cantabria",
+          "municipality_ids": [
+            "39075"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "39075",
+              "name": "Santander",
+              "max_c": 23
+            }
+          ],
+          "max_c": 23,
+          "ae_layer_index": 15
+        },
+        {
+          "slot": "TEMP_16",
+          "enabled": true,
+          "label": "Galicia",
+          "municipality_ids": [
+            "15030",
+            "27028",
+            "32054",
+            "36038"
+          ],
+          "aggregation": "maximum",
+          "components": [
+            {
+              "municipality_id": "15030",
+              "name": "A Coruña",
+              "max_c": 22
+            },
+            {
+              "municipality_id": "27028",
+              "name": "Lugo",
+              "max_c": 24
+            },
+            {
+              "municipality_id": "32054",
+              "name": "Ourense",
+              "max_c": 28
+            },
+            {
+              "municipality_id": "36038",
+              "name": "Pontevedra",
+              "max_c": 24
+            }
+          ],
+          "max_c": 28,
+          "ae_layer_index": 16
+        }
+      ]
+    },
+    "PREVISION": {
+      "date": "2026-09-29",
+      "weekday": "martes",
+      "zones": [
+        {
+          "slot": "ZONA_01",
+          "enabled": true,
+          "label": "Islas Canarias",
+          "municipality_ids": [
+            "38038",
+            "35016"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "38038",
+              "name": "Santa Cruz de Tenerife",
+              "aemet_code": "12",
+              "description": "Poco nuboso",
+              "symbol": "SOL_NUBE",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "35016",
+              "name": "Las Palmas de Gran Canaria",
+              "aemet_code": "13",
+              "description": "Intervalos nubosos",
+              "symbol": "SOL_NUBE",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "12",
+          "description": "Poco nuboso",
+          "symbol": "SOL_NUBE",
+          "source": "hourly",
+          "prevision_layer_index": 1,
+          "doble_day_1_layer_index": 15,
+          "doble_day_2_layer_index": 1
+        },
+        {
+          "slot": "ZONA_02",
+          "enabled": true,
+          "label": "Granada y Almería",
+          "municipality_ids": [
+            "18087",
+            "04013"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "18087",
+              "name": "Granada",
+              "aemet_code": "17",
+              "description": "Nubes altas",
+              "symbol": "NUBES_ALTAS",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "04013",
+              "name": "Almería",
+              "aemet_code": "11",
+              "description": "Despejado",
+              "symbol": "SOL",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "17",
+          "description": "Nubes altas",
+          "symbol": "NUBES_ALTAS",
+          "source": "hourly",
+          "prevision_layer_index": 2,
+          "doble_day_1_layer_index": 16,
+          "doble_day_2_layer_index": 2
+        },
+        {
+          "slot": "ZONA_03",
+          "enabled": true,
+          "label": "Cádiz y Málaga",
+          "municipality_ids": [
+            "11012",
+            "29067"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "11012",
+              "name": "Cádiz",
+              "aemet_code": "11",
+              "description": "Despejado",
+              "symbol": "SOL",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "29067",
+              "name": "Málaga",
+              "aemet_code": "17",
+              "description": "Nubes altas",
+              "symbol": "NUBES_ALTAS",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "17",
+          "description": "Nubes altas",
+          "symbol": "NUBES_ALTAS",
+          "source": "hourly",
+          "prevision_layer_index": 3,
+          "doble_day_1_layer_index": 17,
+          "doble_day_2_layer_index": 3
+        },
+        {
+          "slot": "ZONA_04",
+          "enabled": true,
+          "label": "Murcia y Alicante",
+          "municipality_ids": [
+            "30030",
+            "03014"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "30030",
+              "name": "Murcia",
+              "aemet_code": "13",
+              "description": "Intervalos nubosos",
+              "symbol": "SOL_NUBE",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "03014",
+              "name": "Alicante/Alacant",
+              "aemet_code": "12",
+              "description": "Poco nuboso",
+              "symbol": "SOL_NUBE",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "13",
+          "description": "Intervalos nubosos",
+          "symbol": "SOL_NUBE",
+          "source": "hourly",
+          "prevision_layer_index": 4,
+          "doble_day_1_layer_index": 18,
+          "doble_day_2_layer_index": 4
+        },
+        {
+          "slot": "ZONA_05",
+          "enabled": true,
+          "label": "Ciudad Real, Jaén y Albacete",
+          "municipality_ids": [
+            "13034",
+            "23050",
+            "02003"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "13034",
+              "name": "Ciudad Real",
+              "aemet_code": "12",
+              "description": "Poco nuboso",
+              "symbol": "SOL_NUBE",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "23050",
+              "name": "Jaén",
+              "aemet_code": "17",
+              "description": "Nubes altas",
+              "symbol": "NUBES_ALTAS",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "02003",
+              "name": "Albacete",
+              "aemet_code": "11",
+              "description": "Despejado",
+              "symbol": "SOL",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "17",
+          "description": "Nubes altas",
+          "symbol": "NUBES_ALTAS",
+          "source": "hourly",
+          "prevision_layer_index": 5,
+          "doble_day_1_layer_index": 19,
+          "doble_day_2_layer_index": 5
+        },
+        {
+          "slot": "ZONA_06",
+          "enabled": true,
+          "label": "Badajoz, Sevilla y Huelva",
+          "municipality_ids": [
+            "06015",
+            "41091",
+            "21041"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "06015",
+              "name": "Badajoz",
+              "aemet_code": "16",
+              "description": "Cubierto",
+              "symbol": "NUBE",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "41091",
+              "name": "Sevilla",
+              "aemet_code": "12",
+              "description": "Poco nuboso",
+              "symbol": "SOL_NUBE",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "21041",
+              "name": "Huelva",
+              "aemet_code": "17",
+              "description": "Nubes altas",
+              "symbol": "NUBES_ALTAS",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "16",
+          "description": "Cubierto",
+          "symbol": "NUBE",
+          "source": "hourly",
+          "prevision_layer_index": 6,
+          "doble_day_1_layer_index": 20,
+          "doble_day_2_layer_index": 6
+        },
+        {
+          "slot": "ZONA_07",
+          "enabled": true,
+          "label": "Baleares",
+          "municipality_ids": [
+            "07040"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "07040",
+              "name": "Palma de Mallorca",
+              "aemet_code": "17",
+              "description": "Nubes altas",
+              "symbol": "NUBES_ALTAS",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "17",
+          "description": "Nubes altas",
+          "symbol": "NUBES_ALTAS",
+          "source": "hourly",
+          "prevision_layer_index": 7,
+          "doble_day_1_layer_index": 21,
+          "doble_day_2_layer_index": 7
+        },
+        {
+          "slot": "ZONA_08",
+          "enabled": true,
+          "label": "Teruel y Castellón",
+          "municipality_ids": [
+            "44216",
+            "12040"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "44216",
+              "name": "Teruel",
+              "aemet_code": "12",
+              "description": "Poco nuboso",
+              "symbol": "SOL_NUBE",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "12040",
+              "name": "Castelló de la Plana",
+              "aemet_code": "43",
+              "description": "Intervalos nubosos con lluvia escasa",
+              "symbol": "SOL_LLUVIA",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "43",
+          "description": "Intervalos nubosos con lluvia escasa",
+          "symbol": "SOL_LLUVIA",
+          "source": "hourly",
+          "prevision_layer_index": 8,
+          "doble_day_1_layer_index": 22,
+          "doble_day_2_layer_index": 8
+        },
+        {
+          "slot": "ZONA_09",
+          "enabled": true,
+          "label": "Madrid",
+          "municipality_ids": [
+            "28079"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "28079",
+              "name": "Madrid",
+              "aemet_code": "16",
+              "description": "Cubierto",
+              "symbol": "NUBE",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "16",
+          "description": "Cubierto",
+          "symbol": "NUBE",
+          "source": "hourly",
+          "prevision_layer_index": 9,
+          "doble_day_1_layer_index": 23,
+          "doble_day_2_layer_index": 9
+        },
+        {
+          "slot": "ZONA_10",
+          "enabled": true,
+          "label": "Cáceres y Salamanca",
+          "municipality_ids": [
+            "10037",
+            "37274"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "10037",
+              "name": "Cáceres",
+              "aemet_code": "16",
+              "description": "Cubierto",
+              "symbol": "NUBE",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "37274",
+              "name": "Salamanca",
+              "aemet_code": "16",
+              "description": "Cubierto",
+              "symbol": "NUBE",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "16",
+          "description": "Cubierto",
+          "symbol": "NUBE",
+          "source": "hourly",
+          "prevision_layer_index": 10,
+          "doble_day_1_layer_index": 24,
+          "doble_day_2_layer_index": 10
+        },
+        {
+          "slot": "ZONA_11",
+          "enabled": true,
+          "label": "Cataluña",
+          "municipality_ids": [
+            "08019",
+            "17079"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "08019",
+              "name": "Barcelona",
+              "aemet_code": "17",
+              "description": "Nubes altas",
+              "symbol": "NUBES_ALTAS",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "17079",
+              "name": "Girona",
+              "aemet_code": "46",
+              "description": "Cubierto con lluvia escasa",
+              "symbol": "LLUVIA",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "46",
+          "description": "Cubierto con lluvia escasa",
+          "symbol": "SOL_LLUVIA",
+          "source": "hourly",
+          "prevision_layer_index": 11,
+          "doble_day_1_layer_index": 25,
+          "doble_day_2_layer_index": 11
+        },
+        {
+          "slot": "ZONA_12",
+          "enabled": true,
+          "label": "Navarra",
+          "municipality_ids": [
+            "31201"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "31201",
+              "name": "Pamplona/Iruña",
+              "aemet_code": "15",
+              "description": "Muy nuboso",
+              "symbol": "NUBE",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "15",
+          "description": "Muy nuboso",
+          "symbol": "NUBE",
+          "source": "hourly",
+          "prevision_layer_index": 12,
+          "doble_day_1_layer_index": 26,
+          "doble_day_2_layer_index": 12
+        },
+        {
+          "slot": "ZONA_13",
+          "enabled": true,
+          "label": "Cantabria y Palencia",
+          "municipality_ids": [
+            "39075",
+            "34120"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "39075",
+              "name": "Santander",
+              "aemet_code": "17",
+              "description": "Nubes altas",
+              "symbol": "NUBES_ALTAS",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "34120",
+              "name": "Palencia",
+              "aemet_code": "14",
+              "description": "Nuboso",
+              "symbol": "NUBE",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "14",
+          "description": "Nuboso",
+          "symbol": "NUBE",
+          "source": "hourly",
+          "prevision_layer_index": 13,
+          "doble_day_1_layer_index": 27,
+          "doble_day_2_layer_index": 13
+        },
+        {
+          "slot": "ZONA_14",
+          "enabled": true,
+          "label": "Galicia",
+          "municipality_ids": [
+            "15030",
+            "27028",
+            "32054",
+            "36038"
+          ],
+          "aggregation": "most_significant",
+          "components": [
+            {
+              "municipality_id": "15030",
+              "name": "A Coruña",
+              "aemet_code": "43",
+              "description": "Intervalos nubosos con lluvia escasa",
+              "symbol": "SOL_LLUVIA",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "27028",
+              "name": "Lugo",
+              "aemet_code": "17",
+              "description": "Nubes altas",
+              "symbol": "NUBES_ALTAS",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "32054",
+              "name": "Ourense",
+              "aemet_code": "46",
+              "description": "Cubierto con lluvia escasa",
+              "symbol": "LLUVIA",
+              "source": "hourly"
+            },
+            {
+              "municipality_id": "36038",
+              "name": "Pontevedra",
+              "aemet_code": "46",
+              "description": "Cubierto con lluvia escasa",
+              "symbol": "LLUVIA",
+              "source": "hourly"
+            }
+          ],
+          "aemet_code": "46",
+          "description": "Cubierto con lluvia escasa",
+          "symbol": "SOL_LLUVIA",
+          "source": "hourly",
+          "prevision_layer_index": 14,
+          "doble_day_1_layer_index": 28,
+          "doble_day_2_layer_index": 14
+        }
+      ]
+    },
+    "DOBLE": {
+      "day_1": {
+        "date": "2026-09-29",
+        "weekday": "martes",
+        "zones": [
+          {
+            "slot": "ZONA_01",
+            "enabled": true,
+            "label": "Islas Canarias",
+            "municipality_ids": [
+              "38038",
+              "35016"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "38038",
+                "name": "Santa Cruz de Tenerife",
+                "aemet_code": "12",
+                "description": "Poco nuboso",
+                "symbol": "SOL_NUBE",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "35016",
+                "name": "Las Palmas de Gran Canaria",
+                "aemet_code": "13",
+                "description": "Intervalos nubosos",
+                "symbol": "SOL_NUBE",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "12",
+            "description": "Poco nuboso",
+            "symbol": "SOL_NUBE",
+            "source": "hourly",
+            "prevision_layer_index": 1,
+            "doble_day_1_layer_index": 15,
+            "doble_day_2_layer_index": 1
+          },
+          {
+            "slot": "ZONA_02",
+            "enabled": true,
+            "label": "Granada y Almería",
+            "municipality_ids": [
+              "18087",
+              "04013"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "18087",
+                "name": "Granada",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "04013",
+                "name": "Almería",
+                "aemet_code": "11",
+                "description": "Despejado",
+                "symbol": "SOL",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "17",
+            "description": "Nubes altas",
+            "symbol": "NUBES_ALTAS",
+            "source": "hourly",
+            "prevision_layer_index": 2,
+            "doble_day_1_layer_index": 16,
+            "doble_day_2_layer_index": 2
+          },
+          {
+            "slot": "ZONA_03",
+            "enabled": true,
+            "label": "Cádiz y Málaga",
+            "municipality_ids": [
+              "11012",
+              "29067"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "11012",
+                "name": "Cádiz",
+                "aemet_code": "11",
+                "description": "Despejado",
+                "symbol": "SOL",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "29067",
+                "name": "Málaga",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "17",
+            "description": "Nubes altas",
+            "symbol": "NUBES_ALTAS",
+            "source": "hourly",
+            "prevision_layer_index": 3,
+            "doble_day_1_layer_index": 17,
+            "doble_day_2_layer_index": 3
+          },
+          {
+            "slot": "ZONA_04",
+            "enabled": true,
+            "label": "Murcia y Alicante",
+            "municipality_ids": [
+              "30030",
+              "03014"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "30030",
+                "name": "Murcia",
+                "aemet_code": "13",
+                "description": "Intervalos nubosos",
+                "symbol": "SOL_NUBE",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "03014",
+                "name": "Alicante/Alacant",
+                "aemet_code": "12",
+                "description": "Poco nuboso",
+                "symbol": "SOL_NUBE",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "13",
+            "description": "Intervalos nubosos",
+            "symbol": "SOL_NUBE",
+            "source": "hourly",
+            "prevision_layer_index": 4,
+            "doble_day_1_layer_index": 18,
+            "doble_day_2_layer_index": 4
+          },
+          {
+            "slot": "ZONA_05",
+            "enabled": true,
+            "label": "Ciudad Real, Jaén y Albacete",
+            "municipality_ids": [
+              "13034",
+              "23050",
+              "02003"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "13034",
+                "name": "Ciudad Real",
+                "aemet_code": "12",
+                "description": "Poco nuboso",
+                "symbol": "SOL_NUBE",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "23050",
+                "name": "Jaén",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "02003",
+                "name": "Albacete",
+                "aemet_code": "11",
+                "description": "Despejado",
+                "symbol": "SOL",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "17",
+            "description": "Nubes altas",
+            "symbol": "NUBES_ALTAS",
+            "source": "hourly",
+            "prevision_layer_index": 5,
+            "doble_day_1_layer_index": 19,
+            "doble_day_2_layer_index": 5
+          },
+          {
+            "slot": "ZONA_06",
+            "enabled": true,
+            "label": "Badajoz, Sevilla y Huelva",
+            "municipality_ids": [
+              "06015",
+              "41091",
+              "21041"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "06015",
+                "name": "Badajoz",
+                "aemet_code": "16",
+                "description": "Cubierto",
+                "symbol": "NUBE",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "41091",
+                "name": "Sevilla",
+                "aemet_code": "12",
+                "description": "Poco nuboso",
+                "symbol": "SOL_NUBE",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "21041",
+                "name": "Huelva",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "16",
+            "description": "Cubierto",
+            "symbol": "NUBE",
+            "source": "hourly",
+            "prevision_layer_index": 6,
+            "doble_day_1_layer_index": 20,
+            "doble_day_2_layer_index": 6
+          },
+          {
+            "slot": "ZONA_07",
+            "enabled": true,
+            "label": "Baleares",
+            "municipality_ids": [
+              "07040"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "07040",
+                "name": "Palma de Mallorca",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "17",
+            "description": "Nubes altas",
+            "symbol": "NUBES_ALTAS",
+            "source": "hourly",
+            "prevision_layer_index": 7,
+            "doble_day_1_layer_index": 21,
+            "doble_day_2_layer_index": 7
+          },
+          {
+            "slot": "ZONA_08",
+            "enabled": true,
+            "label": "Teruel y Castellón",
+            "municipality_ids": [
+              "44216",
+              "12040"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "44216",
+                "name": "Teruel",
+                "aemet_code": "12",
+                "description": "Poco nuboso",
+                "symbol": "SOL_NUBE",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "12040",
+                "name": "Castelló de la Plana",
+                "aemet_code": "43",
+                "description": "Intervalos nubosos con lluvia escasa",
+                "symbol": "SOL_LLUVIA",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "43",
+            "description": "Intervalos nubosos con lluvia escasa",
+            "symbol": "SOL_LLUVIA",
+            "source": "hourly",
+            "prevision_layer_index": 8,
+            "doble_day_1_layer_index": 22,
+            "doble_day_2_layer_index": 8
+          },
+          {
+            "slot": "ZONA_09",
+            "enabled": true,
+            "label": "Madrid",
+            "municipality_ids": [
+              "28079"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "28079",
+                "name": "Madrid",
+                "aemet_code": "16",
+                "description": "Cubierto",
+                "symbol": "NUBE",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "16",
+            "description": "Cubierto",
+            "symbol": "NUBE",
+            "source": "hourly",
+            "prevision_layer_index": 9,
+            "doble_day_1_layer_index": 23,
+            "doble_day_2_layer_index": 9
+          },
+          {
+            "slot": "ZONA_10",
+            "enabled": true,
+            "label": "Cáceres y Salamanca",
+            "municipality_ids": [
+              "10037",
+              "37274"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "10037",
+                "name": "Cáceres",
+                "aemet_code": "16",
+                "description": "Cubierto",
+                "symbol": "NUBE",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "37274",
+                "name": "Salamanca",
+                "aemet_code": "16",
+                "description": "Cubierto",
+                "symbol": "NUBE",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "16",
+            "description": "Cubierto",
+            "symbol": "NUBE",
+            "source": "hourly",
+            "prevision_layer_index": 10,
+            "doble_day_1_layer_index": 24,
+            "doble_day_2_layer_index": 10
+          },
+          {
+            "slot": "ZONA_11",
+            "enabled": true,
+            "label": "Cataluña",
+            "municipality_ids": [
+              "08019",
+              "17079"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "08019",
+                "name": "Barcelona",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "17079",
+                "name": "Girona",
+                "aemet_code": "46",
+                "description": "Cubierto con lluvia escasa",
+                "symbol": "LLUVIA",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "46",
+            "description": "Cubierto con lluvia escasa",
+            "symbol": "SOL_LLUVIA",
+            "source": "hourly",
+            "prevision_layer_index": 11,
+            "doble_day_1_layer_index": 25,
+            "doble_day_2_layer_index": 11
+          },
+          {
+            "slot": "ZONA_12",
+            "enabled": true,
+            "label": "Navarra",
+            "municipality_ids": [
+              "31201"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "31201",
+                "name": "Pamplona/Iruña",
+                "aemet_code": "15",
+                "description": "Muy nuboso",
+                "symbol": "NUBE",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "15",
+            "description": "Muy nuboso",
+            "symbol": "NUBE",
+            "source": "hourly",
+            "prevision_layer_index": 12,
+            "doble_day_1_layer_index": 26,
+            "doble_day_2_layer_index": 12
+          },
+          {
+            "slot": "ZONA_13",
+            "enabled": true,
+            "label": "Cantabria y Palencia",
+            "municipality_ids": [
+              "39075",
+              "34120"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "39075",
+                "name": "Santander",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "34120",
+                "name": "Palencia",
+                "aemet_code": "14",
+                "description": "Nuboso",
+                "symbol": "NUBE",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "14",
+            "description": "Nuboso",
+            "symbol": "NUBE",
+            "source": "hourly",
+            "prevision_layer_index": 13,
+            "doble_day_1_layer_index": 27,
+            "doble_day_2_layer_index": 13
+          },
+          {
+            "slot": "ZONA_14",
+            "enabled": true,
+            "label": "Galicia",
+            "municipality_ids": [
+              "15030",
+              "27028",
+              "32054",
+              "36038"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "15030",
+                "name": "A Coruña",
+                "aemet_code": "43",
+                "description": "Intervalos nubosos con lluvia escasa",
+                "symbol": "SOL_LLUVIA",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "27028",
+                "name": "Lugo",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "32054",
+                "name": "Ourense",
+                "aemet_code": "46",
+                "description": "Cubierto con lluvia escasa",
+                "symbol": "LLUVIA",
+                "source": "hourly"
+              },
+              {
+                "municipality_id": "36038",
+                "name": "Pontevedra",
+                "aemet_code": "46",
+                "description": "Cubierto con lluvia escasa",
+                "symbol": "LLUVIA",
+                "source": "hourly"
+              }
+            ],
+            "aemet_code": "46",
+            "description": "Cubierto con lluvia escasa",
+            "symbol": "SOL_LLUVIA",
+            "source": "hourly",
+            "prevision_layer_index": 14,
+            "doble_day_1_layer_index": 28,
+            "doble_day_2_layer_index": 14
+          }
+        ]
+      },
+      "day_2": {
+        "date": "2026-09-30",
+        "weekday": "miércoles",
+        "zones": [
+          {
+            "slot": "ZONA_01",
+            "enabled": true,
+            "label": "Islas Canarias",
+            "municipality_ids": [
+              "38038",
+              "35016"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "38038",
+                "name": "Santa Cruz de Tenerife",
+                "aemet_code": "11",
+                "description": "Despejado",
+                "symbol": "SOL",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "35016",
+                "name": "Las Palmas de Gran Canaria",
+                "aemet_code": "13",
+                "description": "Intervalos nubosos",
+                "symbol": "SOL_NUBE",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "13",
+            "description": "Intervalos nubosos",
+            "symbol": "SOL_NUBE",
+            "source": "daily_fallback",
+            "prevision_layer_index": 1,
+            "doble_day_1_layer_index": 15,
+            "doble_day_2_layer_index": 1
+          },
+          {
+            "slot": "ZONA_02",
+            "enabled": true,
+            "label": "Granada y Almería",
+            "municipality_ids": [
+              "18087",
+              "04013"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "18087",
+                "name": "Granada",
+                "aemet_code": "14",
+                "description": "Nuboso",
+                "symbol": "NUBE",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "04013",
+                "name": "Almería",
+                "aemet_code": "12",
+                "description": "Poco nuboso",
+                "symbol": "SOL_NUBE",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "14",
+            "description": "Nuboso",
+            "symbol": "NUBE",
+            "source": "daily_fallback",
+            "prevision_layer_index": 2,
+            "doble_day_1_layer_index": 16,
+            "doble_day_2_layer_index": 2
+          },
+          {
+            "slot": "ZONA_03",
+            "enabled": true,
+            "label": "Cádiz y Málaga",
+            "municipality_ids": [
+              "11012",
+              "29067"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "11012",
+                "name": "Cádiz",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "29067",
+                "name": "Málaga",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "17",
+            "description": "Nubes altas",
+            "symbol": "NUBES_ALTAS",
+            "source": "daily_fallback",
+            "prevision_layer_index": 3,
+            "doble_day_1_layer_index": 17,
+            "doble_day_2_layer_index": 3
+          },
+          {
+            "slot": "ZONA_04",
+            "enabled": true,
+            "label": "Murcia y Alicante",
+            "municipality_ids": [
+              "30030",
+              "03014"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "30030",
+                "name": "Murcia",
+                "aemet_code": "17",
+                "description": "Nubes altas",
+                "symbol": "NUBES_ALTAS",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "03014",
+                "name": "Alicante/Alacant",
+                "aemet_code": "15",
+                "description": "Muy nuboso",
+                "symbol": "NUBE",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "15",
+            "description": "Muy nuboso",
+            "symbol": "NUBE",
+            "source": "daily_fallback",
+            "prevision_layer_index": 4,
+            "doble_day_1_layer_index": 18,
+            "doble_day_2_layer_index": 4
+          },
+          {
+            "slot": "ZONA_05",
+            "enabled": true,
+            "label": "Ciudad Real, Jaén y Albacete",
+            "municipality_ids": [
+              "13034",
+              "23050",
+              "02003"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "13034",
+                "name": "Ciudad Real",
+                "aemet_code": "13",
+                "description": "Intervalos nubosos",
+                "symbol": "SOL_NUBE",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "23050",
+                "name": "Jaén",
+                "aemet_code": "15",
+                "description": "Muy nuboso",
+                "symbol": "NUBE",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "02003",
+                "name": "Albacete",
+                "aemet_code": "15",
+                "description": "Muy nuboso",
+                "symbol": "NUBE",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "15",
+            "description": "Muy nuboso",
+            "symbol": "NUBE",
+            "source": "daily_fallback",
+            "prevision_layer_index": 5,
+            "doble_day_1_layer_index": 19,
+            "doble_day_2_layer_index": 5
+          },
+          {
+            "slot": "ZONA_06",
+            "enabled": true,
+            "label": "Badajoz, Sevilla y Huelva",
+            "municipality_ids": [
+              "06015",
+              "41091",
+              "21041"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "06015",
+                "name": "Badajoz",
+                "aemet_code": "43",
+                "description": "Intervalos nubosos con lluvia escasa",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "41091",
+                "name": "Sevilla",
+                "aemet_code": "13",
+                "description": "Intervalos nubosos",
+                "symbol": "SOL_NUBE",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "21041",
+                "name": "Huelva",
+                "aemet_code": "13",
+                "description": "Intervalos nubosos",
+                "symbol": "SOL_NUBE",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "43",
+            "description": "Intervalos nubosos con lluvia escasa",
+            "symbol": "SOL_LLUVIA",
+            "source": "daily_fallback",
+            "prevision_layer_index": 6,
+            "doble_day_1_layer_index": 20,
+            "doble_day_2_layer_index": 6
+          },
+          {
+            "slot": "ZONA_07",
+            "enabled": true,
+            "label": "Baleares",
+            "municipality_ids": [
+              "07040"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "07040",
+                "name": "Palma de Mallorca",
+                "aemet_code": "14",
+                "description": "Nuboso",
+                "symbol": "NUBE",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "14",
+            "description": "Nuboso",
+            "symbol": "NUBE",
+            "source": "daily_fallback",
+            "prevision_layer_index": 7,
+            "doble_day_1_layer_index": 21,
+            "doble_day_2_layer_index": 7
+          },
+          {
+            "slot": "ZONA_08",
+            "enabled": true,
+            "label": "Teruel y Castellón",
+            "municipality_ids": [
+              "44216",
+              "12040"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "44216",
+                "name": "Teruel",
+                "aemet_code": "45",
+                "description": "Muy nuboso con lluvia escasa",
+                "symbol": "LLUVIA",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "12040",
+                "name": "Castelló de la Plana",
+                "aemet_code": "16",
+                "description": "Cubierto",
+                "symbol": "NUBE",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "45",
+            "description": "Muy nuboso con lluvia escasa",
+            "symbol": "LLUVIA",
+            "source": "daily_fallback",
+            "prevision_layer_index": 8,
+            "doble_day_1_layer_index": 22,
+            "doble_day_2_layer_index": 8
+          },
+          {
+            "slot": "ZONA_09",
+            "enabled": true,
+            "label": "Madrid",
+            "municipality_ids": [
+              "28079"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "28079",
+                "name": "Madrid",
+                "aemet_code": "43",
+                "description": "Intervalos nubosos con lluvia escasa",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "43",
+            "description": "Intervalos nubosos con lluvia escasa",
+            "symbol": "SOL_LLUVIA",
+            "source": "daily_fallback",
+            "prevision_layer_index": 9,
+            "doble_day_1_layer_index": 23,
+            "doble_day_2_layer_index": 9
+          },
+          {
+            "slot": "ZONA_10",
+            "enabled": true,
+            "label": "Cáceres y Salamanca",
+            "municipality_ids": [
+              "10037",
+              "37274"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "10037",
+                "name": "Cáceres",
+                "aemet_code": "43",
+                "description": "Intervalos nubosos con lluvia escasa",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "37274",
+                "name": "Salamanca",
+                "aemet_code": "23",
+                "description": "Intervalos nubosos con lluvia",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "43",
+            "description": "Intervalos nubosos con lluvia escasa",
+            "symbol": "SOL_LLUVIA",
+            "source": "daily_fallback",
+            "prevision_layer_index": 10,
+            "doble_day_1_layer_index": 24,
+            "doble_day_2_layer_index": 10
+          },
+          {
+            "slot": "ZONA_11",
+            "enabled": true,
+            "label": "Cataluña",
+            "municipality_ids": [
+              "08019",
+              "17079"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "08019",
+                "name": "Barcelona",
+                "aemet_code": "45",
+                "description": "Muy nuboso con lluvia escasa",
+                "symbol": "LLUVIA",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "17079",
+                "name": "Girona",
+                "aemet_code": "44",
+                "description": "Nuboso con lluvia escasa",
+                "symbol": "LLUVIA",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "45",
+            "description": "Muy nuboso con lluvia escasa",
+            "symbol": "LLUVIA",
+            "source": "daily_fallback",
+            "prevision_layer_index": 11,
+            "doble_day_1_layer_index": 25,
+            "doble_day_2_layer_index": 11
+          },
+          {
+            "slot": "ZONA_12",
+            "enabled": true,
+            "label": "Navarra",
+            "municipality_ids": [
+              "31201"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "31201",
+                "name": "Pamplona/Iruña",
+                "aemet_code": "23",
+                "description": "Intervalos nubosos con lluvia",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "23",
+            "description": "Intervalos nubosos con lluvia",
+            "symbol": "SOL_LLUVIA",
+            "source": "daily_fallback",
+            "prevision_layer_index": 12,
+            "doble_day_1_layer_index": 26,
+            "doble_day_2_layer_index": 12
+          },
+          {
+            "slot": "ZONA_13",
+            "enabled": true,
+            "label": "Cantabria y Palencia",
+            "municipality_ids": [
+              "39075",
+              "34120"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "39075",
+                "name": "Santander",
+                "aemet_code": "25",
+                "description": "Muy nuboso con lluvia",
+                "symbol": "LLUVIA",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "34120",
+                "name": "Palencia",
+                "aemet_code": "23",
+                "description": "Intervalos nubosos con lluvia",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "25",
+            "description": "Muy nuboso con lluvia",
+            "symbol": "LLUVIA",
+            "source": "daily_fallback",
+            "prevision_layer_index": 13,
+            "doble_day_1_layer_index": 27,
+            "doble_day_2_layer_index": 13
+          },
+          {
+            "slot": "ZONA_14",
+            "enabled": true,
+            "label": "Galicia",
+            "municipality_ids": [
+              "15030",
+              "27028",
+              "32054",
+              "36038"
+            ],
+            "aggregation": "most_significant",
+            "components": [
+              {
+                "municipality_id": "15030",
+                "name": "A Coruña",
+                "aemet_code": "43",
+                "description": "Intervalos nubosos con lluvia escasa",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "27028",
+                "name": "Lugo",
+                "aemet_code": "13",
+                "description": "Intervalos nubosos",
+                "symbol": "SOL_NUBE",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "32054",
+                "name": "Ourense",
+                "aemet_code": "23",
+                "description": "Intervalos nubosos con lluvia",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              },
+              {
+                "municipality_id": "36038",
+                "name": "Pontevedra",
+                "aemet_code": "23",
+                "description": "Intervalos nubosos con lluvia",
+                "symbol": "SOL_LLUVIA",
+                "source": "daily_fallback"
+              }
+            ],
+            "aemet_code": "43",
+            "description": "Intervalos nubosos con lluvia escasa",
+            "symbol": "SOL_LLUVIA",
+            "source": "daily_fallback",
+            "prevision_layer_index": 14,
+            "doble_day_1_layer_index": 28,
+            "doble_day_2_layer_index": 14
+          }
+        ]
+      }
+    }
+  },
+  "warnings": []
+}

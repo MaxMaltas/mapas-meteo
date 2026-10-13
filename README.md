@@ -88,6 +88,27 @@ el mapa tecnico, mida 1920x1080. Tambien comprueba que `alertas_final.png` y
 `temperaturas_final.png` conserven los 1672x941 pixeles de las bases 3D. Los registros
 quedan en `logs/daily-AAAA-MM-DD.log`.
 
+### Compuesto de temperaturas vigente
+
+Antes de crear el mapa final se prepara la textura registrada de la fecha:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/update_temperature_template.ps1 -Stage Prepare -Date AAAA-MM-DD -NoLaunch
+```
+
+Este paso valida la cobertura y la paleta, y publica en `data/generated/AAAA-MM-DD/`
+dos texturas. Para la composición asistida debe utilizarse exclusivamente
+`temperatura_con_limites.png`: contiene la temperatura registrada, las provincias en
+casi negro `#020200` y las comunidades/costa en gris carbón `#202122`. No se deben
+usar como referencia visual ni `temperatura_rellenada.png`, que no contiene esa red,
+ni los mapas AEMET originales, cuya proyección no coincide con la perspectiva 3D.
+
+El resultado aprobado se guarda como `temperaturas_final.png` a `1672 x 941`, que es
+el tamaño que aún espera `METEO FINAL.aep`. Después se ejecuta `run_daily.ps1 -Stage
+Apply -NoLaunch` para comprobarlo antes de abrir After Effects. El publicador de la
+plantilla nueva a `1920 x 1080` no debe reemplazar este flujo hasta adaptar el proyecto
+principal.
+
 After Effects 2026 se detecta automaticamente. El envoltorio
 `tools/open_and_apply_daily_data.jsx` abre el proyecto, ejecuta el JSX diario y deja el
 proyecto abierto para revision. Si After Effects ya contiene otro proyecto, se detiene

@@ -178,6 +178,11 @@ def main() -> int:
         "source_clean_png_sha256": sha256(source_path),
         "source_clean_png_size": list(source.size),
         "placement_offset": list(offset),
+        "styles": {
+            "province_colour": "#020200",
+            "community_colour": "#202122",
+            "source": "measured from the production Illustrator PDF appearance",
+        },
         "illustrator_current_sha256": current_ai_hash,
         "geometry_snapshot_source_sha256": snapshot_ai_hash,
         "illustrator_matches_geometry_snapshot": current_ai_hash == snapshot_ai_hash,

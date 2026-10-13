@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
   "source": "MAPA_ALERTAS_ILUSTRATOR.ai",
-  "source_sha256": "2c02cf73b9ff75f184b0989ba2cf07150214359d675227f21fb55e3987074a7a",
-  "source_cap": "data/raw/2026-10-08/avisos_cap.data.tar",
-  "source_cap_snapshot": "2026-10-07T21:50:01-00:00",
+  "source_sha256": "ea6ff11d279da52d6ccb75b0ff3a6d210229505584c0024ce35226437bcb5b4a",
+  "source_cap": "data/raw/2026-10-09/avisos_cap.data.tar",
+  "source_cap_snapshot": "2026-10-08T21:50:01-00:00",
   "assignment_method": "Illustrator object UID; two documented adjacent-code corrections; marine affine matching",
   "source_label_corrections": {
     "_x36_11802_Guadix_y_Baza_00000082334587163038902110000011541571474244539308_": "611801",

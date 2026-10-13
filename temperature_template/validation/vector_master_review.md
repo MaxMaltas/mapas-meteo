@@ -2,22 +2,22 @@
 
 Fecha: 2026-10-06
 
-Estado: generado; pendiente de aprobación visual.
+Estado: geometría registrada y estilo de límites aprobados visualmente.
 
 ## Fuente utilizada
 
 El maestro se ha separado desde
 `temperature_template/references/MAPA_ALERTAS_ILUSTRATOR.png`, exportación limpia
-aprobada por el usuario. El PNG contiene fondo transparente, tierra blanca,
-comunidades oscuras y provincias grises, por lo que la separación por luminosidad
-no requiere reconstruir geometría ni limpiar texturas.
+aprobada por el usuario. Se conserva su geometría ya registrada para impedir nuevos
+desplazamientos y se aplican los colores medidos en la apariencia PDF del Illustrator
+de producción: provincias `#020200` y comunidades/costa `#202122`.
 
 ## Salidas
 
 - `mascara_temperatura.png`: máscara terrestre binaria.
 - `tierra.png`: relleno blanco con transparencia exterior.
-- `provincias.png`: límites provinciales grises con transparencia.
-- `comunidades.png`: costa y límites autonómicos oscuros con transparencia.
+- `provincias.png`: límites provinciales casi negros `#020200` con transparencia.
+- `comunidades.png`: costa y límites autonómicos gris carbón `#202122` con transparencia.
 - `mapa_maestro_transparente.png`: composición de las capas anteriores.
 - `mapa_maestro_preview.png`: revisión sobre fondo azul claro.
 
@@ -34,14 +34,15 @@ las capas.
 - Todos los hashes registrados en `vector_master_manifest.json` coinciden.
 - No se incluyen formas marítimas ni muestras de color.
 
-## Advertencia sobre el Illustrator
+## Relación con el Illustrator
 
-El archivo actual `MAPA_ALERTAS_ILUSTRATOR.ai` no coincide con el hash de la
-geometría validada de producción. Durante la comprobación, la lectura del archivo
-actual devolvió 0 formas `ZONAS AEMET`, 62 de las 66 provincias y 27 de las 31
-comunidades. No se ha modificado ni restaurado automáticamente porque podría
-sobrescribir cambios del usuario.
+`MAPA_ALERTAS_ILUSTRATOR.ai` se conserva intacto como referencia editorial. Sus
+últimos tonos de línea se midieron en la apariencia PDF y se aplicaron al maestro
+térmico, pero no se sustituyó la geometría registrada por la rasterización directa
+del `.ai`, ya que esa ruta alteraba el encaje aprobado.
 
-El maestro térmico generado no depende del `.ai` actual: utiliza la exportación PNG
-limpia conservada en `temperature_template/references/`.
+El maestro térmico utiliza por tanto la exportación limpia registrada de
+`temperature_template/references/` para la forma y el emplazamiento, y el Illustrator
+actual solo como referencia de estilo. Esta separación permite oscurecer las líneas
+sin desplazar provincias, costa ni campo térmico.
 

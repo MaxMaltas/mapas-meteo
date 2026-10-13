@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-09",
+  "clearance_pixels": 2,
+  "province_pixels_original": 7984,
+  "province_pixels_retained": 7962,
+  "province_pixels_removed": 22,
+  "method": "province_alpha_minus_dilated_community_and_coast_alpha",
+  "temperature_source": "temperature_template/assets/daily/2026-10-09/temperatura_rellenada.png",
+  "province_source": "temperature_template/assets/vector_master/provincias.png",
+  "community_source": "temperature_template/assets/vector_master/comunidades.png",
+  "output": "temperature_template/assets/daily/2026-10-09/temperatura_limites_sin_duplicados.png"
+}

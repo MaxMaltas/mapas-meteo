@@ -32,6 +32,8 @@ $ProjectPath = [IO.Path]::GetFullPath($ProjectPath)
 $TemplateRoot = Join-Path $ProjectRoot "temperature_template"
 $DailyDirectory = Join-Path $TemplateRoot ("assets\daily\{0}" -f $Date)
 $TexturePath = Join-Path $DailyDirectory "temperatura_rellenada.png"
+$TextureWithBoundariesPath = Join-Path $DailyDirectory "temperatura_con_limites.png"
+$GeneratedDailyDirectory = Join-Path $ProjectRoot ("data\generated\{0}" -f $Date)
 $ManifestPath = Join-Path $TemplateRoot ("validation\registration_{0}.json" -f $Date)
 $RequestPath = Join-Path $TemplateRoot "project\update_request.json"
 $LogPath = Join-Path $TemplateRoot ("validation\phase6_daily_{0}.log" -f $Date)
@@ -134,6 +136,7 @@ function Invoke-Prepare {
         throw "build_daily_temperature_texture.py termino con codigo $LASTEXITCODE."
     }
     Assert-PngSize -Path $TexturePath
+    Assert-PngSize -Path $TextureWithBoundariesPath
     Assert-File -Path $ManifestPath -MinimumBytes 100
     $manifest = Get-Content -Raw -LiteralPath $ManifestPath | ConvertFrom-Json
     if ($manifest.coverage.coverage_percent -lt 99.0) {
@@ -142,8 +145,18 @@ function Invoke-Prepare {
     if ($manifest.palette.invented_colours -ne 0) {
         throw "La textura contiene colores no autorizados."
     }
+    New-Item -ItemType Directory -Path $GeneratedDailyDirectory -Force | Out-Null
+    Copy-Item -LiteralPath $TexturePath -Destination (
+        Join-Path $GeneratedDailyDirectory "temperatura_rellenada.png"
+    ) -Force
+    Copy-Item -LiteralPath $TextureWithBoundariesPath -Destination (
+        Join-Path $GeneratedDailyDirectory "temperatura_con_limites.png"
+    ) -Force
     Write-UpdateRequest
-    Write-TemplateLog "Textura validada y solicitud de reemplazo preparada."
+    Write-TemplateLog (
+        "Texturas validadas y publicadas para composicion: " +
+        "temperatura_rellenada.png y temperatura_con_limites.png."
+    )
 }
 
 function Invoke-Apply {
