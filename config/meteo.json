@@ -38,21 +38,9 @@
     },
     {
       "slot": "TEMP_03",
-      "label": "Cádiz, Málaga, Huelva y Sevilla",
+      "label": "Sevilla",
       "aggregation": "maximum",
       "municipalities": [
-        {
-          "id": "11012",
-          "name": "Cádiz"
-        },
-        {
-          "id": "29067",
-          "name": "Málaga"
-        },
-        {
-          "id": "21041",
-          "name": "Huelva"
-        },
         {
           "id": "41091",
           "name": "Sevilla"
@@ -62,13 +50,9 @@
     },
     {
       "slot": "TEMP_04",
-      "label": "Granada y Almería",
+      "label": "Almería",
       "aggregation": "maximum",
       "municipalities": [
-        {
-          "id": "18087",
-          "name": "Granada"
-        },
         {
           "id": "04013",
           "name": "Almería"
@@ -78,13 +62,9 @@
     },
     {
       "slot": "TEMP_05",
-      "label": "Cáceres y Badajoz",
+      "label": "Badajoz",
       "aggregation": "maximum",
       "municipalities": [
-        {
-          "id": "10037",
-          "name": "Cáceres"
-        },
         {
           "id": "06015",
           "name": "Badajoz"
@@ -106,28 +86,24 @@
     },
     {
       "slot": "TEMP_07",
-      "label": "Ciudad Real y Jaén",
+      "label": "Córdoba",
       "aggregation": "maximum",
       "municipalities": [
         {
-          "id": "13034",
-          "name": "Ciudad Real"
-        },
-        {
-          "id": "23050",
-          "name": "Jaén"
+            "id": "14021",
+            "name": "Córdoba"
         }
       ],
       "ae_layer_index": 7
     },
     {
       "slot": "TEMP_08",
-      "label": "Valencia",
+      "label": "Castellón/Castelló",
       "aggregation": "maximum",
       "municipalities": [
         {
-          "id": "46250",
-          "name": "Valencia"
+          "id": "12040",
+          "name": "Castelló de la Plana"
         }
       ],
       "ae_layer_index": 8
@@ -158,17 +134,9 @@
     },
     {
       "slot": "TEMP_11",
-      "label": "Aragón",
+      "label": "Zaragoza",
       "aggregation": "maximum",
       "municipalities": [
-        {
-          "id": "22125",
-          "name": "Huesca"
-        },
-        {
-          "id": "44216",
-          "name": "Teruel"
-        },
         {
           "id": "50297",
           "name": "Zaragoza"
@@ -178,32 +146,24 @@
     },
     {
       "slot": "TEMP_12",
-      "label": "Madrid y Guadalajara",
+      "label": "Madrid",
       "aggregation": "maximum",
       "municipalities": [
         {
           "id": "28079",
           "name": "Madrid"
-        },
-        {
-          "id": "19130",
-          "name": "Guadalajara"
         }
       ],
       "ae_layer_index": 12
     },
     {
       "slot": "TEMP_13",
-      "label": "Valladolid y Ávila",
+      "label": "Valladolid",
       "aggregation": "maximum",
       "municipalities": [
         {
           "id": "47186",
           "name": "Valladolid"
-        },
-        {
-          "id": "05019",
-          "name": "Ávila"
         }
       ],
       "ae_layer_index": 13
@@ -234,12 +194,12 @@
     },
     {
       "slot": "TEMP_15",
-      "label": "Cantabria",
+      "label": "Asturias",
       "aggregation": "maximum",
       "municipalities": [
         {
-          "id": "39075",
-          "name": "Santander"
+          "id": "33024",
+          "name": "Gijón/Xixón"
         }
       ],
       "ae_layer_index": 15
